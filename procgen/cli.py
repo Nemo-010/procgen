@@ -1,4 +1,4 @@
-"""Command-line interface for actparse."""
+"""Command-line interface for procgen."""
 
 from __future__ import annotations
 
@@ -39,7 +39,7 @@ def _autodetect(start: Path) -> list[Path]:
 
 def build_parser() -> argparse.ArgumentParser:
     p = argparse.ArgumentParser(
-        prog="actparse",
+        prog="procgen",
         description="Extract what fakeact/genact generate into wordlists, raw text and JSON.",
     )
     p.add_argument(
@@ -82,7 +82,7 @@ def build_parser() -> argparse.ArgumentParser:
         "--dry-run", action="store_true", help="compute and report, write nothing"
     )
     p.add_argument("--quiet", action="store_true", help="only print the summary")
-    p.add_argument("--version", action="version", version=f"actparse {VERSION}")
+    p.add_argument("--version", action="version", version=f"procgen {VERSION}")
     return p
 
 
@@ -93,7 +93,7 @@ def main(argv: list[str] | None = None) -> int:
     if not roots:
         roots = _autodetect(Path.cwd())
     if not roots:
-        print("actparse: no repositories given and none auto-detected", file=sys.stderr)
+        print("procgen: no repositories given and none auto-detected", file=sys.stderr)
         return 3
 
     out_root = Path(args.out)
@@ -110,7 +110,7 @@ def main(argv: list[str] | None = None) -> int:
 
     for root in roots:
         if not root.is_dir():
-            print(f"actparse: not a directory: {root}", file=sys.stderr)
+            print(f"procgen: not a directory: {root}", file=sys.stderr)
             return 3
         result = extract_repo(root)
         if args.no_literals:
@@ -167,7 +167,7 @@ def main(argv: list[str] | None = None) -> int:
 
     global_manifest = {
         "schema": 1,
-        "tool": "actparse",
+        "tool": "procgen",
         "version": VERSION,
         "repos": index_entries,
         "summary": {

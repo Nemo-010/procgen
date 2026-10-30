@@ -1,4 +1,4 @@
-# actparse
+# procgen
 
 Extract everything [genact](https://github.com/svenstaro/genact) and
 [fakeact](https://github.com/CH563/fakeact) can generate — the wordlists, the
@@ -7,7 +7,7 @@ text and JSON. It is built to keep working when upstream reshuffles its tree,
 renames a variable or fixes (or introduces) a bug in a module.
 
 ```
-python3 -m actparse --repo ../genact --repo ../fakeact --out extracted
+python3 -m procgen --repo ../genact --repo ../fakeact --out extracted
 ```
 
 ## What it produces
@@ -91,6 +91,9 @@ shrink/empty guards, additive wordlists, and the absence of network imports.
 
 ## Keeping it current
 
-`.github/workflows/update.yml` runs the extractor on a schedule against fresh
-checkouts of both upstreams and commits only when the output actually changed
-and every parse passed validation.
+`.github/workflows/update.yml` polls the HEAD revision of both upstreams
+hourly. When either has moved it re-extracts, re-runs the test suite, and
+commits only if the corpus actually changed and every parse passed validation.
+Upstream repositories cannot push events to us, so polling is the honest
+mechanism; `workflow_dispatch` (or a `repository_dispatch` of type
+`upstream-changed`) triggers an immediate run when you do not want to wait.

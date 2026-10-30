@@ -1,4 +1,4 @@
-"""actparse: structure-agnostic extractor for fakeact/genact generated content."""
+"""procgen: structure-agnostic extractor for fakeact/genact generated content."""
 
 from .extract import extract_repo
 from .store import Policy, emit_repo

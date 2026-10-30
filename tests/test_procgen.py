@@ -1,4 +1,4 @@
-"""Tests for actparse: idempotency, structure-agnosticism, healing, safety."""
+"""Tests for procgen: idempotency, structure-agnosticism, healing, safety."""
 
 from __future__ import annotations
 
@@ -9,8 +9,8 @@ import tempfile
 import unittest
 from pathlib import Path
 
-from actparse.extract import extract_repo
-from actparse.store import Policy, emit_repo
+from procgen.extract import extract_repo
+from procgen.store import Policy, emit_repo
 
 
 def write(path: Path, text: str) -> None:
@@ -58,7 +58,7 @@ export default pip;
 
 class Base(unittest.TestCase):
     def setUp(self) -> None:
-        self.tmp = Path(tempfile.mkdtemp(prefix="actparse-test-"))
+        self.tmp = Path(tempfile.mkdtemp(prefix="procgen-test-"))
 
     def tearDown(self) -> None:
         shutil.rmtree(self.tmp, ignore_errors=True)
@@ -277,7 +277,7 @@ class TestIdentity(Base):
         make_rust_repo(repo)
         write(repo / "src" / "broken.rs", "impl Module for Broken {\n")
 
-        import actparse.extract as ex
+        import procgen.extract as ex
         from unittest import mock
 
         real = ex.read_text
@@ -296,7 +296,7 @@ class TestIdentity(Base):
 
 class TestHermetic(unittest.TestCase):
     def test_no_network_imports(self) -> None:
-        pkg = Path(__file__).resolve().parent.parent / "actparse"
+        pkg = Path(__file__).resolve().parent.parent / "procgen"
         forbidden = ("socket", "urllib", "http.client", "requests", "httpx", "aiohttp")
         for path in pkg.glob("*.py"):
             text = path.read_text(encoding="utf-8")

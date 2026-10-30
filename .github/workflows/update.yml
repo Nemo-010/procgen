@@ -1,50 +1,92 @@
-name: update-corpus
+name: refresh
 
+# Upstream repositories cannot notify us, so we poll their HEAD revisions and
+# re-extract only when one of them has moved. Hourly is the practical floor for
+# GitHub's scheduler; use workflow_dispatch for an immediate run.
 on:
   schedule:
-    - cron: "0 6 * * 1"   # weekly, Monday 06:00 UTC
+    - cron: "0 * * * *"
   workflow_dispatch:
+  repository_dispatch:
+    types: [upstream-changed]
 
 permissions:
   contents: write
 
+concurrency:
+  group: refresh
+  cancel-in-progress: false
+
 jobs:
-  update:
+  refresh:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
 
-      - uses: actions/setup-python@v5
+      - name: Check upstream revisions
+        id: check
+        run: |
+          python3 - <<'PY'
+          import json, os, subprocess
+
+          def head(url):
+              out = subprocess.check_output(["git", "ls-remote", url, "HEAD"])
+              return out.split()[0].decode()
+
+          upstream = {
+              "genact": head("https://github.com/svenstaro/genact"),
+              "fakeact": head("https://github.com/CH563/fakeact"),
+          }
+          try:
+              current = json.load(open("extracted/index.json"))["repos"]
+          except Exception:
+              current = {}
+
+          changed = any(
+              (current.get(name) or {}).get("commit") != rev
+              for name, rev in upstream.items()
+          )
+          print("upstream:", upstream)
+          print("changed:", changed)
+          with open(os.environ["GITHUB_OUTPUT"], "a") as fh:
+              fh.write(f"changed={'true' if changed else 'false'}\n")
+          PY
+
+      - name: Set up Python
+        if: steps.check.outputs.changed == 'true'
+        uses: actions/setup-python@v5
         with:
           python-version: "3.12"
 
       - name: Fetch upstreams
+        if: steps.check.outputs.changed == 'true'
         run: |
           mkdir -p upstream
           git clone --depth 1 https://github.com/svenstaro/genact upstream/genact
           git clone --depth 1 https://github.com/CH563/fakeact upstream/fakeact
 
       - name: Verify the extractor
+        if: steps.check.outputs.changed == 'true'
         run: python -m unittest discover -s tests
 
       - name: Extract
-        id: run
+        if: steps.check.outputs.changed == 'true'
         run: |
-          python -m actparse \
+          python -m procgen \
             --repo upstream/genact \
             --repo upstream/fakeact \
-            --out extracted | tee run.log
-          echo "rejected=$(grep -c 'kept-prior' run.log || true)" >> "$GITHUB_OUTPUT"
+            --out extracted
 
       - name: Commit if the corpus changed
+        if: steps.check.outputs.changed == 'true'
         run: |
-          rm -rf upstream run.log
-          git config user.name "actparse"
-          git config user.email "actparse@users.noreply.github.com"
-          if [ -z "$(git status --porcelain extracted)" ]; then
-            echo "no change"
+          rm -rf upstream
+          git config user.name "procgen"
+          git config user.email "procgen@users.noreply.github.com"
+          git add extracted
+          if git diff --cached --quiet; then
+            echo "corpus unchanged despite new upstream commit"
             exit 0
           fi
-          git add extracted
-          git commit -m "chore: refresh extracted corpus"
+          git commit -m "chore: refresh corpus for new upstream revision"
           git push
