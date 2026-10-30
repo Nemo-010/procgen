@@ -1,0 +1,6 @@
+.wat
+/s
+Terminal too small to display download progress\n
+download
+wget -i downloads.txt
+{file_name:<file_name_width$} {percent:>4.0}%{progress_bar} {bytes_downloaded:<10} {download_speed:<12} eta {eta:<10}

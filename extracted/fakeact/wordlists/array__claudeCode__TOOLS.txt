@@ -1,0 +1,4 @@
+read_file
+run_terminal_cmd
+search_replace
+write_file

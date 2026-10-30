@@ -1,0 +1,58 @@
+legacy-mb-japanese
+legacy-mb-korean
+legacy-mb-schinese
+legacy-mb-tchinese
+wpt
+wpt run -f --browser-version="1.0" --processes=16
+Running {num_tests} tests in web-platform-tests\r\n
+[A[K
+    ▶ 
+    │ 
+    └ 
+PASS
+FAIL
+FAIL
+PASS
+TIMEOUT
+FAIL
+TIMEOUT
+TIMEOUT
+assert
+assert
+
+approx_equals: expected {} +/- {} but got {}
+array_equals: expected property {} to be {} but got {}
+equals: expected {} but got {}
+throws_dom: function "() => test()" threw object "TypeError: undefined is not a function" that is not a DOMException
+true: expected true but got false
+{}{}Timed out in {}
+{}{}Unexpected subtest result in {}:
+{}ERROR [expected {}] {} test_{} assert_{}
+{}[{}/{}] No tests running.
+{}[{}/{}] 
+{} 
+[A[KRan {}/{} tests with {} failed subtests of {}.\r\n
+/css/css-{}/test-{}.html
+/html/{}/test-{}.html
+eucjp-decode
+eucjp-encode-form
+big5-decode
+shift-jis-decode
+/encoding/{}/{}-{}.html?{}-{}
+{}/test-{}.html
+/{}/test-{}.html
+testGetBoundingClientRect
+test
+assert
+verify
+check
+  at <unknown>
+  at {} (http://web-platform.test:8000/{}:{}:{})
+  at http://web-platform.test:8000/{}:{}:{}
+  at <unknown>
+  at assert_wrapper (http://web-platform.test:8000/resources/testharness.js:{}:35)
+  at test (http://web-platform.test:8000/resources/testharness.js:{}:34)
+  at http://web-platform.test:8000/resources/testharness.js:{}:{}
+  at {} (http://web-platform.test:8000/{}:{}:{})
+  at http://web-platform.test:8000/{}:{}:{}
+{}{}\r\n

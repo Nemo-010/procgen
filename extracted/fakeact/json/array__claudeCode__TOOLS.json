@@ -1,0 +1,22 @@
+{
+  "count": 4,
+  "id": "array__claudeCode__TOOLS",
+  "items": [
+    "read_file",
+    "search_replace",
+    "write_file",
+    "run_terminal_cmd"
+  ],
+  "kind": "array",
+  "meta": {
+    "file": "claudeCode",
+    "value_kind": "str"
+  },
+  "name": "TOOLS",
+  "schema": 1,
+  "sha256": "a96548167523febea2448514f22ad272663971a38d8dfb4bc290576edede6d40",
+  "source": "src/modules/claudeCode.ts",
+  "unique": 4,
+  "wordlist_count": 4,
+  "wordlist_sha256": "bafa08b049fa267a133e504d8d8dc93ed0fbcaca3bd0934e48200eec751dacde"
+}

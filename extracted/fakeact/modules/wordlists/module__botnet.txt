@@ -1,0 +1,15 @@
+\rEstablishing connections: ${connected.toString().padStart(4)}/${size.toString().padStart(4)}
+  Cluster #${i.toString().padStart(2, '0')} (${clusters[i].toString().padStart(3)} nodes)
+  Cluster #${i.toString().padStart(2, '0')} (${clusters[i].toString().padStart(3)} nodes) [${status}]
++ ${task} 
+../utils/environment.js
+../utils/helpers.js
+./botnet.sh
+>> Botnet update complete.
+Sending command...
+Sending login information...
+Synchronizing clocks...
+[done]
+booting
+chalk
+online

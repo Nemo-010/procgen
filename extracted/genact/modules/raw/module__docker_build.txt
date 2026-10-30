@@ -1,0 +1,12 @@
+docker_build
+docker build -t image .
+\rSending build context to Docker daemon  {current_size:>4.2}MB
+docker
+\rStep {current_step}/{total_steps} : {instruction}
+RUN
+ 
+ ---> Using cache
+ ---> Running in {step_hash}
+ ---> {step_hash}
+Successfully built {hash}
+Successfully tagged {image}:{image_tag}

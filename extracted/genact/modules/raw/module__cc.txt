@@ -1,0 +1,46 @@
+-I
+ 
+-l
+ 
+cc
+gcc app.c
+gcc
+clang
+-O0
+-O1
+-O2
+-O3
+-Og
+-Os
+-Wall
+-Wall -Wextra
+-Wno-unused-variable
+-Wno-sign-compare
+-Wno-unknown-pragmas
+-Wno-parentheses
+-Wundef
+-Wwrite-strings
+-Wold-style-definition
+-fsigned-char
+-funroll-loops
+-fgnu89-inline
+-fPIC
+-march=x86-64
+-mtune=generic
+-pipe
+-DDEBUG
+-DNDEBUG
+-D_REENTRANT
+-DMATH_LOOP
+-D_LIBS_REENTRANT
+-DNAMESPACE=lib
+-DMODULE_NAME=lib
+-DPIC
+-DSHARED
+{compiler} -c {opt} {warn}{f}{arch} {includes}{defs} -o {output_file}
+.c
+.o
+.c
+.o
+ 
+{compiler} -o {package} {object_files}{linker_flags}

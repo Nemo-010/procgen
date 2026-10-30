@@ -1,0 +1,29 @@
+{
+  "count": 11,
+  "id": "array__npm__names",
+  "items": [
+    "util",
+    "core",
+    "plugin",
+    "helper",
+    "tool",
+    "lib",
+    "common",
+    "config",
+    "preset",
+    "loader",
+    "parser"
+  ],
+  "kind": "array",
+  "meta": {
+    "file": "npm",
+    "value_kind": "str"
+  },
+  "name": "names",
+  "schema": 1,
+  "sha256": "5d37ce0ae7aa55f8d6d358622cf2444acad8dd7e96817757c3571f3b1b3f4535",
+  "source": "src/modules/npm.ts",
+  "unique": 11,
+  "wordlist_count": 11,
+  "wordlist_sha256": "2666f52f20acd85716fdafa14a244f0799eb73e5e510f5131546d969b946c863"
+}

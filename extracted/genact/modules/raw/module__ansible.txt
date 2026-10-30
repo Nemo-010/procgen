@@ -1,0 +1,18 @@
+ok: [{host}]
+skipping: [{host}]
+failed: [{host}]
+changed: [{host}]
+skipping: [{host}]
+failed: [{host}]
+changed: [{host}]
+ok: [{host}]
+ansible
+ansible-playbook
+PLAY [setup {server}] 
+{play_text:*<term_width$}
+TASK [Gathering Facts] 
+{gathering_text:*<term_width$}
+unknown
+unknown
+TASK [{role} : {task}] 
+{task_text:*<term_width$}

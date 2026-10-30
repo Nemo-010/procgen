@@ -1,0 +1,6 @@
+page
+layout
+template
+view
+screen
+container

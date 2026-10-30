@@ -1,0 +1,28 @@
+${prefixes[Math.floor(Math.random() * prefixes.length)]}${numbers}${suffixes[Math.floor(Math.random() * suffixes.length)]}
+../utils/dataLoader.js
+../utils/environment.js
+../utils/helpers.js
+Error during ansible execution:
+PLAY [setup ${username}] 
+TASK [${role} : ${task}] 
+TASK [Gathering Facts] 
+ansible-playbook
+ansible_roles
+ansible_tasks
+chalk
+changed: [${host}]
+cyan
+dev
+failed: [${host}]
+green
+host
+node
+ok: [${host}]
+prod
+red
+server
+skipping: [${host}]
+staging
+test
+web
+yellow

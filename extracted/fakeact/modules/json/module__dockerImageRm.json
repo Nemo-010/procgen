@@ -1,0 +1,26 @@
+{
+  "count": 9,
+  "id": "module__dockerImageRm",
+  "items": [
+    "chalk",
+    "../utils/helpers.js",
+    "../utils/dataLoader.js",
+    "docker_packages",
+    "docker_tags",
+    "Untagged: ${packageName}:${packageTag}",
+    "Untagged: ${packageName}:${packageTag}@sha256:${hash}",
+    "Deleted: sha256:${deleteHash}",
+    "docker image rm 04880416f1bf"
+  ],
+  "kind": "literal",
+  "meta": {
+    "declared_name": "dockerImageRm"
+  },
+  "name": "dockerImageRm",
+  "schema": 1,
+  "sha256": "79c162ff499d14741e5e3dfcb060200a66589ec4e5e0ca33de8d6ddbc516989f",
+  "source": "src/modules/dockerImageRm.ts",
+  "unique": 9,
+  "wordlist_count": 9,
+  "wordlist_sha256": "9c69e2f51b4670c2fbe7ecfd0307af7e4eeb7c16937c053710da00521616ccce"
+}

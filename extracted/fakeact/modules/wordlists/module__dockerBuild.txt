@@ -1,0 +1,25 @@
+\nStep ${currentStep}/${totalSteps} : RUN ${instruction}
+\nSuccessfully built ${finalHash}
+\rSending build context to Docker daemon  ${currentSize.toFixed(2)}MB
+ ---> ${generateHexString(12)}
+ ---> Running in ${stepHash}
+ ---> Using cache
+../utils/dataLoader.js
+../utils/helpers.js
+./index.js
+Build failed:
+COPY . /app/
+ENV NODE_ENV=production
+RUN adduser --system --group app
+Successfully tagged ${imageName}:${imageTag}
+WORKDIR /app
+apt-get update && apt-get install -y
+chalk
+chmod +x /entrypoint.sh
+docker
+docker build -t image .
+docker_packages
+docker_tags
+mkdir -p /app/data
+npm install --production
+pip install -r requirements.txt

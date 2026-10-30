@@ -1,0 +1,9 @@
+COPY . /app/
+ENV NODE_ENV=production
+RUN adduser --system --group app
+WORKDIR /app
+apt-get update && apt-get install -y
+chmod +x /entrypoint.sh
+mkdir -p /app/data
+npm install --production
+pip install -r requirements.txt

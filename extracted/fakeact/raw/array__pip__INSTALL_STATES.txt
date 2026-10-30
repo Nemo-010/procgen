@@ -1,0 +1,4 @@
+Collecting {package}
+Downloading {package}-{version}.whl ({size})
+Installing collected packages: {package}
+Successfully installed {package}-{version}

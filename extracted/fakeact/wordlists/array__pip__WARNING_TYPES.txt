@@ -1,0 +1,6 @@
+WARNING: Directory {package}-0.0.0.dist-info is not owned by current user
+WARNING: Ignoring invalid distribution -ip ({package})
+WARNING: Package {package} requires Python >=3.7, but you have Python 3.6.9
+WARNING: Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken
+WARNING: You are using pip version 21.2.4; however, version 23.3.1 is available.
+WARNING: {package} was installed using pip from legacy index

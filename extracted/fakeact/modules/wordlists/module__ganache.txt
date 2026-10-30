@@ -1,0 +1,38 @@
+\n${getRandomItem(methods)}
+\nAvailable Accounts
+\nBlockchain Started
+\nForking from ${this.config.fork} at block number ${Math.floor(Math.random() * 1000000)}
+\nGanache CLI stopped after ${duration}s
+\nGanache CLI v2.13.2 (ganache-core: 2.13.2)
+\nGas Limit
+\nGas Price
+\nHD Wallet
+\nListening on
+\nPrivate Keys
+  From:       ${fromAccount.address}
+  Gas used:   ${Math.floor(Math.random() * 50000 + 21000)}
+  To:         ${toAccount.address}
+  Transaction: ${txHash}
+  Value:      ${value} ETH
+${this.config.defaultBalanceEther} ETH
+${this.config.gasLimit}
+${this.config.gasPrice} wei
+(${index}) ${account.address} (${account.balance})
+(${index}) ${account.privateKey}
+../utils/environment.js
+../utils/helpers.js
+0x
+Base HD Path:   m/44'/60'/0'/0/{account_index}
+Block Number: ${this.currentBlock} 
+Generated ${this.currentBlock} blocks
+Mnemonic:       surround taste account animal auto dumb label impact fork wild lawsuit dumb
+Processed ${this.txCount} transactions
+Timestamp: ${timestamp}
+chalk
+eth_call
+eth_getBalance
+eth_getCode
+eth_getTransactionCount
+eth_sendTransaction
+ganache-cli
+http://127.0.0.1:${this.config.port}

@@ -1,0 +1,39 @@
+{
+  "count": 22,
+  "id": "module__simcity",
+  "items": [
+    "mkinitcpio",
+    "./start-sumcity.sh",
+    "/",
+    "-",
+    "\\",
+    "|",
+    "",
+    "",
+    "",
+    "FAIL",
+    "YES",
+    "SUCCESS",
+    "OK",
+    "[ ] ",
+    "[o] ",
+    "{simcity}... {spinner}",
+    "\r",
+    "ABORTED",
+    "FAIL",
+    "ABORTED",
+    "{simcity}... {resolution}",
+    "\nALL DONE\n"
+  ],
+  "kind": "literal",
+  "meta": {
+    "declared_name": "mkinitcpio"
+  },
+  "name": "simcity",
+  "schema": 1,
+  "sha256": "d177accb29b4739e3182aa8729d6e9cad408be481530b6f0a48f517431b4c786",
+  "source": "src/modules/simcity.rs",
+  "unique": 17,
+  "wordlist_count": 11,
+  "wordlist_sha256": "697c973041aab8d8f8eed2f743a893e819c353559e00d44d9a8c9345c5171469"
+}

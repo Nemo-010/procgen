@@ -1,0 +1,23 @@
+{
+  "count": 6,
+  "id": "module__memdump",
+  "items": [
+    "memdump",
+    "memdump -k -v",
+    "{current_loc:016x}  ",
+    " ",
+    "{val} ",
+    " |{ascii_repr}|"
+  ],
+  "kind": "literal",
+  "meta": {
+    "declared_name": "memdump"
+  },
+  "name": "memdump",
+  "schema": 1,
+  "sha256": "d71d480ff5c707ed84150bd86ddf88371a27a115c84665f1b94580f1880f9c85",
+  "source": "src/modules/memdump.rs",
+  "unique": 6,
+  "wordlist_count": 3,
+  "wordlist_sha256": "3e9fcd030a5b39c63b32df69b4cf1993dee9bc76f1840dac4c6dbfcce3891450"
+}

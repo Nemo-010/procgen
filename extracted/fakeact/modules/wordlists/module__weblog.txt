@@ -1,0 +1,11 @@
+${ip} - - [${date}] "${method} ${path} HTTP/1.0" ${httpCode} ${size} "${referrer}" "${userAgent}"
+../utils/dataLoader.js
+../utils/environment.js
+../utils/helpers.js
+/${dirs.join('/')}/${pkg}${extension}
+@faker-js/faker
+D/MMM/YYYY:HH:mm:ss ZZ
+GET
+dayjs
+packages
+tail -f /var/log/nginx/access.log

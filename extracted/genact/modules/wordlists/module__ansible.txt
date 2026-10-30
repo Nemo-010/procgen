@@ -1,0 +1,10 @@
+PLAY [setup {server}] 
+TASK [Gathering Facts] 
+TASK [{role} : {task}] 
+ansible
+ansible-playbook
+changed: [{host}]
+failed: [{host}]
+ok: [{host}]
+skipping: [{host}]
+unknown

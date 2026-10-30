@@ -1,0 +1,43 @@
+{
+  "count": 26,
+  "id": "module__dockerBuild",
+  "items": [
+    "chalk",
+    "../utils/helpers.js",
+    "../utils/dataLoader.js",
+    "./index.js",
+    "",
+    "apt-get update && apt-get install -y",
+    "npm install --production",
+    "pip install -r requirements.txt",
+    "mkdir -p /app/data",
+    "COPY . /app/",
+    "chmod +x /entrypoint.sh",
+    "RUN adduser --system --group app",
+    "WORKDIR /app",
+    "ENV NODE_ENV=production",
+    "docker_packages",
+    "docker_tags",
+    "\rSending build context to Docker daemon  ${currentSize.toFixed(2)}MB",
+    "docker",
+    "\nStep ${currentStep}/${totalSteps} : RUN ${instruction}",
+    " ---> Using cache",
+    " ---> Running in ${stepHash}",
+    " ---> ${generateHexString(12)}",
+    "\nSuccessfully built ${finalHash}",
+    "Successfully tagged ${imageName}:${imageTag}",
+    "Build failed:",
+    "docker build -t image ."
+  ],
+  "kind": "literal",
+  "meta": {
+    "declared_name": "dockerBuild"
+  },
+  "name": "dockerBuild",
+  "schema": 1,
+  "sha256": "de025ae7582064f4711a87a27e158c8673e57e3fe3327d613513773f42191ae9",
+  "source": "src/modules/dockerBuild.ts",
+  "unique": 25,
+  "wordlist_count": 25,
+  "wordlist_sha256": "348414b93448a3e1c949c8da4a0dd40bd5382d16efdf19c75221bed8ba67ea03"
+}

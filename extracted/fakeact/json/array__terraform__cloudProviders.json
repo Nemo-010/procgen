@@ -1,0 +1,21 @@
+{
+  "count": 3,
+  "id": "array__terraform__cloudProviders",
+  "items": [
+    "AWS",
+    "AZURE",
+    "GCP"
+  ],
+  "kind": "array",
+  "meta": {
+    "file": "terraform",
+    "value_kind": "str"
+  },
+  "name": "cloudProviders",
+  "schema": 1,
+  "sha256": "7d2118d1201cc980aaed99ed53346af5c7d1da70b9c26892d640a7f26bb9b2b5",
+  "source": "src/modules/terraform.ts",
+  "unique": 3,
+  "wordlist_count": 3,
+  "wordlist_sha256": "7d2118d1201cc980aaed99ed53346af5c7d1da70b9c26892d640a7f26bb9b2b5"
+}

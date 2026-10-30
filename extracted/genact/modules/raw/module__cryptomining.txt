@@ -1,0 +1,27 @@
+cryptomining
+./cryptominer.sh --gpu all --provider stratum
+%H:%M:%S
+ℹ
+{info:>3}  {time}{separator}{source:<13}Received new job #{jobhex}  seed: #{seedhex}  target: #{targethex}
+|
+stratum
+ℹ
+{info:>3}  {time}{separator}{source:<13}Solution found; Submitted to stratum.buttcoin.org
+|
+CUDA0
+{info:>3}  {time}{separator}{source:<13}Nonce: 0x{noncehex}
+|
+CUDA0
+{info:>3}  {time}{separator}{source:<13}{accepted}
+|
+stratum
+Accepted.
+m
+
+gpu/{gpu} {mhs:.2} 
+Speed {mhs:>6.2} Mh/s
+Couldn't make chrono::Duration from std::time::Duration!
+{hours:02}:{minutes:02}
+{info:>3}  {time}{separator}{source:<13}{speed}    {gpus}  [A{solutions}+0:R0+0:F0] Time: {elapsed}
+|
+cryptominer

@@ -1,0 +1,38 @@
+{
+  "count": 21,
+  "id": "module__bruteforce",
+  "items": [
+    "bruteforce",
+    "./bruteforce.sh ./hashes.txt",
+    "=> Hashes to decrypt",
+    "  {hash}",
+    "=> Extracting Rainbow Table",
+    "=",
+    "|",
+    "/",
+    "-",
+    "\\",
+    " ",
+    "{progress}{spinner}{spaces}",
+    "\r{message} [{progress_content}]",
+    "=> Begin matching",
+    "\r :: {a_guesser} ::",
+    "=> Match found",
+    "  {hash}:{}",
+    "{}",
+    "{}{:02}",
+    "",
+    "{done}{undone}"
+  ],
+  "kind": "literal",
+  "meta": {
+    "declared_name": "bruteforce"
+  },
+  "name": "bruteforce",
+  "schema": 1,
+  "sha256": "43d158364e771e9f824e443c76b8f4cb503bc54a56270f37b5a01bddc12d05dc",
+  "source": "src/modules/bruteforce.rs",
+  "unique": 20,
+  "wordlist_count": 9,
+  "wordlist_sha256": "b87e7244125a4faf7aff61cdb10c6fcb23ea014887a3f82856dae582bdfb3be2"
+}

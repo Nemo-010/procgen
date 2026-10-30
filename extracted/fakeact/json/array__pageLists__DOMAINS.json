@@ -1,0 +1,34 @@
+{
+  "count": 16,
+  "id": "array__pageLists__DOMAINS",
+  "items": [
+    "auth",
+    "user",
+    "admin",
+    "blog",
+    "shop",
+    "product",
+    "order",
+    "payment",
+    "dashboard",
+    "settings",
+    "profile",
+    "notification",
+    "message",
+    "chat",
+    "report",
+    "analytics"
+  ],
+  "kind": "array",
+  "meta": {
+    "file": "pageLists",
+    "value_kind": "str"
+  },
+  "name": "DOMAINS",
+  "schema": 1,
+  "sha256": "ccd07498019ba3360639105175b92b932448f47397f04b9a0661ff15794d3d05",
+  "source": "src/utils/pageLists.ts",
+  "unique": 16,
+  "wordlist_count": 16,
+  "wordlist_sha256": "20e86385b796f491f94e489b6c5d86ea564a612234a2e12507fa9626599de4ce"
+}

@@ -1,0 +1,21 @@
+{
+  "count": 3,
+  "id": "array__pip__ERROR_MESSAGES",
+  "items": [
+    "ERROR: Could not find a version that satisfies the requirement {package}",
+    "ERROR: Invalid requirement: '{package}'",
+    "ERROR: Hash verification failed for {package}"
+  ],
+  "kind": "array",
+  "meta": {
+    "file": "pip",
+    "value_kind": "str"
+  },
+  "name": "ERROR_MESSAGES",
+  "schema": 1,
+  "sha256": "931af6390af26ed89110fead6e4eb00e3756530278b9c585cbafa626ab5f9c6f",
+  "source": "src/modules/pip.ts",
+  "unique": 3,
+  "wordlist_count": 3,
+  "wordlist_sha256": "6a144f462c62c977cdea0ac0f82af3009d1c406b2a10fb65588eed61fc9f4ae8"
+}

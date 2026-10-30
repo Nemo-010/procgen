@@ -1,0 +1,37 @@
+{
+  "count": 20,
+  "id": "module__terraform",
+  "items": [
+    "{}",
+    "terraform",
+    "terraform --check",
+    "Acquiring state lock. This may take a few moments...\r\n",
+    "AWS",
+    "AZURE",
+    "GCP",
+    "AWS",
+    "AZURE",
+    "GCP",
+    "{resource}.{id}: Refreshing state... [id={id}]",
+    "{resource}.{id}: Creating...",
+    "{resource}.{id}: Creation complete after {secs}s [id={id}]",
+    "{resource}.{id}: Still creating... [{secs}s elapsed]",
+    "{resource}.{id}: Modifying... [id={id}]",
+    "{resource}.{id}: Still modifying... [id={id}, {secs}s elapsed]",
+    "{resource}.{id}: Modifications complete after {secs}s [id={id}]",
+    "{resource}.{id}: Destroying... [id={id}]",
+    "{resource}.{id}: Destruction complete after {secs}s",
+    "\r\nApply complete! Resources: {added} added, {changed} changed, {destroyed} destroyed.\r\n"
+  ],
+  "kind": "literal",
+  "meta": {
+    "declared_name": "terraform"
+  },
+  "name": "terraform",
+  "schema": 1,
+  "sha256": "5d5a701e02b70634a7270721d4f9d842111a67da43e55328ab9dd301d615d00e",
+  "source": "src/modules/terraform.rs",
+  "unique": 17,
+  "wordlist_count": 16,
+  "wordlist_sha256": "27e4a35047cf6559bd30d32d0640a3c53780be93d3c40861c28fb71cced7090f"
+}

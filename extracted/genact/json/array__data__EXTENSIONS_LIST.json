@@ -1,0 +1,41 @@
+{
+  "count": 23,
+  "id": "array__data__EXTENSIONS_LIST",
+  "items": [
+    "gif",
+    "mkv",
+    "webm",
+    "mp4",
+    "html",
+    "php",
+    "md",
+    "png",
+    "jpg",
+    "opus",
+    "ogg",
+    "mp3",
+    "flac",
+    "iso",
+    "zip",
+    "rar",
+    "tar.gz",
+    "tar.bz2",
+    "tar.xz",
+    "tar.zstd",
+    "deb",
+    "rpm",
+    "exe"
+  ],
+  "kind": "array",
+  "meta": {
+    "file": "data",
+    "value_kind": "str"
+  },
+  "name": "EXTENSIONS_LIST",
+  "schema": 1,
+  "sha256": "160303edf8b64828e7224fbac3d5aa85e06151a1d6644cc88f223e7e50250153",
+  "source": "src/data.rs",
+  "unique": 23,
+  "wordlist_count": 23,
+  "wordlist_sha256": "43a29cc715fdf316287fa79816732fdcb86b718be15fd161e56cb31ff85e9a6a"
+}

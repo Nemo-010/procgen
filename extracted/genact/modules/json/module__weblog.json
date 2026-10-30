@@ -1,0 +1,23 @@
+{
+  "count": 6,
+  "id": "module__weblog",
+  "items": [
+    "weblog",
+    "tail -f /var/log/nginx/access.log",
+    "%e/%b/%Y:%T %z",
+    "GET",
+    "-",
+    "{ip} - - [{date}] \"{method} {path} HTTP/1.0\" {http_code} {size} \"{referrer}\" \"{user_agent}\""
+  ],
+  "kind": "literal",
+  "meta": {
+    "declared_name": "weblog"
+  },
+  "name": "weblog",
+  "schema": 1,
+  "sha256": "9b5d98d13f9abcbb9c60579c9da1e397c63d50e48af321c64796d1d15c3df88b",
+  "source": "src/modules/weblog.rs",
+  "unique": 6,
+  "wordlist_count": 5,
+  "wordlist_sha256": "3a4df4de035419214a148b251917a4218725ea3131c24a3563969c5991231432"
+}

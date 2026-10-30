@@ -1,0 +1,30 @@
+{
+  "count": 12,
+  "id": "array__pageLists__ACTIONS",
+  "items": [
+    "create",
+    "edit",
+    "view",
+    "delete",
+    "list",
+    "manage",
+    "export",
+    "import",
+    "preview",
+    "review",
+    "approve",
+    "reject"
+  ],
+  "kind": "array",
+  "meta": {
+    "file": "pageLists",
+    "value_kind": "str"
+  },
+  "name": "ACTIONS",
+  "schema": 1,
+  "sha256": "db1100ce692ef661633f32854cead4a934410cdc539bff079ba7da98510933dd",
+  "source": "src/utils/pageLists.ts",
+  "unique": 12,
+  "wordlist_count": 12,
+  "wordlist_sha256": "51ffdf2058f96d1093e6e00fe9ebbc7e5c666440f177f1a6df15613456379a9a"
+}

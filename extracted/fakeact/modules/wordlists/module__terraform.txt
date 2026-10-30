@@ -1,0 +1,23 @@
+${resource}.${id}: Creating...
+${resource}.${id}: Creation complete after ${elapsedSecs}s [id=${id}]
+${resource}.${id}: Destroying... [id=${id}]
+${resource}.${id}: Destruction complete after ${elapsedSecs}s
+${resource}.${id}: Modifications complete after ${elapsedSecs}s [id=${id}]
+${resource}.${id}: Modifying... [id=${id}]
+${resource}.${id}: Refreshing state... [id=${id}]
+${resource}.${id}: Still creating... [${elapsedSecs}s elapsed]
+${resource}.${id}: Still modifying... [id=${id}, ${elapsedSecs}s elapsed]
+../utils/dataLoader.js
+../utils/environment.js
+../utils/helpers.js
+AWS
+AZURE
+Acquiring state lock. This may take a few moments...
+Apply complete! Resources: ${counts.added} added, ${counts.changed} changed, ${counts.destroyed} destroyed.
+GCP
+chalk
+terraform --check
+terraform_aws_resources
+terraform_azure_resources
+terraform_gcp_resources
+terraform_ids

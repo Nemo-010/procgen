@@ -1,0 +1,24 @@
+{
+  "count": 6,
+  "id": "array__claudeCode__FILES",
+  "items": [
+    "src/components/Button.tsx",
+    "src/components/LoginForm.tsx",
+    "src/pages/index.tsx",
+    "src/utils/helpers.ts",
+    "src/api/users.ts",
+    "src/components/Modal.tsx"
+  ],
+  "kind": "array",
+  "meta": {
+    "file": "claudeCode",
+    "value_kind": "str"
+  },
+  "name": "FILES",
+  "schema": 1,
+  "sha256": "8b4963e96f7ff9b22a9db6e90424a7104a2e1d4a72d805fdf2998b3b616e8a4e",
+  "source": "src/modules/claudeCode.ts",
+  "unique": 6,
+  "wordlist_count": 6,
+  "wordlist_sha256": "051c1189598ca784088d6ce9b289d35ce55a18fcbb44d1c83bd87454bb47f749"
+}

@@ -1,0 +1,20 @@
+{
+  "count": 2,
+  "id": "array__cc__FLAGS_WARN_BASE",
+  "items": [
+    "-Wall",
+    "-Wall -Wextra"
+  ],
+  "kind": "array",
+  "meta": {
+    "file": "cc",
+    "value_kind": "str"
+  },
+  "name": "FLAGS_WARN_BASE",
+  "schema": 1,
+  "sha256": "92484caf5f068e6d7ad0a62fe89a6f34e8503d043e56041b982e19cb28fe2ff6",
+  "source": "src/modules/cc.ts",
+  "unique": 2,
+  "wordlist_count": 2,
+  "wordlist_sha256": "92484caf5f068e6d7ad0a62fe89a6f34e8503d043e56041b982e19cb28fe2ff6"
+}

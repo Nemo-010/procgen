@@ -1,0 +1,22 @@
+{
+  "count": 4,
+  "id": "array__ansible__suffixes",
+  "items": [
+    "prod",
+    "dev",
+    "staging",
+    "test"
+  ],
+  "kind": "array",
+  "meta": {
+    "file": "ansible",
+    "value_kind": "str"
+  },
+  "name": "suffixes",
+  "schema": 1,
+  "sha256": "a90a607be5776e7268f11f5fe84fe42e0f05ba1b03476a7d20d6891007cef1e7",
+  "source": "src/modules/ansible.ts",
+  "unique": 4,
+  "wordlist_count": 4,
+  "wordlist_sha256": "9e0c708b07a567ceb30fafb2aa67e474e6f3d612640afc7398d0288b22fa96d6"
+}

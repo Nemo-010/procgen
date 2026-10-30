@@ -1,0 +1,26 @@
+{
+  "count": 8,
+  "id": "array__bruteforce__names",
+  "items": [
+    "james",
+    "john",
+    "robert",
+    "michael",
+    "william",
+    "david",
+    "richard",
+    "joseph"
+  ],
+  "kind": "array",
+  "meta": {
+    "file": "bruteforce",
+    "value_kind": "str"
+  },
+  "name": "names",
+  "schema": 1,
+  "sha256": "b3b20d424fc590aeb00c1f59e3685e3d4a91316d0497cf6bd8afab05d2dbba69",
+  "source": "src/modules/bruteforce.ts",
+  "unique": 8,
+  "wordlist_count": 8,
+  "wordlist_sha256": "ae4ab53d6650f0c4511191853bdd32e7f6205dbb937cf0869c115ee3d59a67da"
+}

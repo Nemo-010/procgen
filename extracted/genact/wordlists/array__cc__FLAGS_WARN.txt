@@ -1,0 +1,7 @@
+-Wno-parentheses
+-Wno-sign-compare
+-Wno-unknown-pragmas
+-Wno-unused-variable
+-Wold-style-definition
+-Wundef
+-Wwrite-strings

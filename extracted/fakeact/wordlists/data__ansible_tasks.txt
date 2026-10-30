@@ -1,0 +1,920 @@
+"prepare postgres ssl hosts list"
+'default'
+'default-receiver'
+'rebuilderd'
+Active service
+Alertmanager
+Check python module availability
+Create directory
+Create remote-control keys
+Create temp dir
+Create the includes dir
+Generate HTML documentation
+Generate Translations
+Install python module
+Install unbound
+Install unbound config file
+Loki
+Prometheus
+Update pacman website
+abort reboot when borg backup is running
+abort reboot with logged on users
+abort reboot with running builds
+activate letsencrypt renewal service
+activate regular updatedb for mlocate
+activate systemd timer for backup
+activate systemd timers
+activate systemd timers for gitlab-cleanup
+add IPv6 NAT for docker
+add acl default:group::r-x to /srv/repos/svn-community/svn
+add acl default:group::r-x to /srv/repos/svn-packages/svn
+add acl default:group::rwx to /srv/repos/svn-community/package-cleanup
+add acl default:group::rwx to /srv/repos/svn-packages/package-cleanup
+add acl default:other::r-x to /srv/repos/svn-community/package-cleanup
+add acl default:other::r-x to /srv/repos/svn-community/svn
+add acl default:other::r-x to /srv/repos/svn-packages/package-cleanup
+add acl default:other::r-x to /srv/repos/svn-packages/svn
+add acl default:user::rwx to /srv/repos/svn-community/package-cleanup
+add acl default:user::rwx to /srv/repos/svn-community/svn
+add acl default:user::rwx to /srv/repos/svn-packages/package-cleanup
+add acl default:user::rwx to /srv/repos/svn-packages/svn
+add acl default:user:cleanup:rwx to /srv/repos/svn-community/package-cleanup
+add acl default:user:cleanup:rwx to /srv/repos/svn-packages/package-cleanup
+add acl group:dev:rw- to /srv/ftp/lastupdate
+add acl group:tu:rw- to /srv/ftp/lastupdate
+add acl user:cleanup:rwx to /srv/repos/svn-community/package-cleanup
+add acl user:cleanup:rwx to /srv/repos/svn-packages/package-cleanup
+add acl user:sourceballs:rwx to /srv/repos/svn-community/tmp
+add acl user:sourceballs:rwx to /srv/repos/svn-packages/tmp
+add authorized key for root
+add authorized keys for root
+add cleanup user
+add company-svntogit user
+add hedgedoc postgres db
+add hedgedoc postgres user
+add hedgedoc.service.d dir
+add irc postgres db
+add node_exporter to rebuilderd group
+add pg_trgm extension to the companymanweb db
+add phrik group
+add phrik user
+add quassel postgres db
+add quassel postgres user
+add quassel.service.d dir
+add sourceballs user
+add sudo users to wheel
+add svntogit public remotes
+add synapse group
+add synapse postgres db
+add synapse postgres user
+add synapse user
+add vmail group
+add vmail user
+add wg0 to the wireguard zone
+adding users to phrik group
+adding users to systemd-journal group for monitoring
+allow certain clients to connect
+allow wheel group to use sudo
+apply sysctl settings
+assign ipv4 addresses to fact postgres_hosts4
+basic setup for all hosts
+blackbox
+borg
+btrfs
+build example-common-style
+build mjolnir
+build website
+check for active borg backup jobs
+check for running builds
+check if /backup exists
+check if borg repository already exists
+check if moreutils is installed
+check whether postgres user exists
+check whether we're running in Hetzner or Packet.net rescue environment
+clean pacman cache
+clone amazingweb repo
+clone amazingweb-retro repo
+clone archive uploader code
+clone aurweb repo
+clone bugbot source
+clone companymanweb repo
+clone companywiki repo
+clone dbscripts git repo
+clone fluxbb
+clone flyspray repo
+clone git-svn repos
+clone patchwork repo
+clone security-tracker repo
+common playbook for archive-mirrors
+common playbook for mirrors
+common playbook for rebuilderd_workers
+configure Docker daemon for IPv6
+configure UWSGI for companymanweb
+configure amazingweb
+configure archive.org client
+configure cgit uwsgi service
+configure companymanweb
+configure companywiki
+configure debuginfod systemd service
+configure default php.ini
+configure flyspray
+configure gen_rsyncd.conf.pl
+configure git tranfser.hideRefs
+configure git transfer.hideRefs second
+configure git transfer.hideRefs third
+configure grub
+configure journald
+configure locale.gen
+configure locales
+configure logrotate
+configure mailman uwsgi service
+configure mariadb
+configure network (dhcp)
+configure network (static)
+configure networking
+configure nginx
+configure pacman mirror
+configure patchwork
+configure php-fpm
+configure postgres
+configure rebuilderd-sync.conf
+configure rebuilderd-worker.conf
+configure rebuilderd.conf
+configure robots.txt
+configure security-tracker
+configure smartd to do periodic health checks
+configure smartgit uwsgi service
+configure ssh keys
+configure ssh keys for TUs
+configure ssh keys for devs
+configure ssh on backup clients
+configure sshd
+configure static dns (dhcp)
+configure static dns (static)
+configure svnserve
+configure svntogit git user email
+configure svntogit git user name
+configure svntogit pull upstream branch
+configure tcp receive window limits
+configure tcp send window limits
+configure uwsgi
+copy (public) grafana dashboards
+copy aurweb configuration file
+copy custom theme
+copy gitlab-cleanup timer and service
+copy grafana dashboards
+copy nginx map files
+copy postgresql upgrade script
+copy prometheus memcached exporter configuration
+copy prometheus mysqld exporter configuration
+copy resolv.conf to bootstrap chroot
+copy robots.txt
+copy security-tracker units
+copy snippets
+copy sshd_config into place to change the port to 222
+copy webroot files
+create .ssh directory
+create Company-specific groups
+create Company-specific users
+create GRUB embed partitions
+create a home directory for each sub-account
+create amazingweb db
+create amazingweb db users
+create an admin user
+create archive user
+create aur db
+create aur db user
+create aurweb conf dir
+create auth directory
+create auth file
+create borg user
+create borg user home
+create borg-keys directory
+create client configuration for root
+create company repro configuration dir
+create companymanweb db
+create companymanweb db user
+create companywiki db
+create companywiki db user
+create dbscripts paths
+create dbscripts users
+create default nginx log directory
+create default uwsgi log directory
+create dhparam
+create dhparam 2048
+create directory to store validation stuff in
+create dovecot configuration directory
+create dovecot sieve dir
+create drop-in directories for oomd
+create drop-in directory for 10-dhcp-ethernet.network
+create drop-in directory for 10-static-ethernet.network
+create drop-in directory for loki
+create drop-in directory for mailman.service
+create drop-in directory for promtail.service
+create flyspray db
+create flyspray db user
+create git repo dir
+create grafana config directory
+create grafana provisioning directory
+create htpasswd for nginx prometheus endpoint
+create http directory for debuginfod website files
+create keycloak db
+create letsencrypt hook dir
+create lolbuilddest
+create mailman list
+create maps directory
+create mariadb database
+create mariadb user
+create media dir
+create missing sub-accounts
+create mysql backup directory
+create necessary directories
+create nginx log directory
+create nginx.d directory
+create nocow database directory
+create pacman.d hooks dir
+create patchwork db
+create patchwork db users
+create postgres keycloak user
+create postgres subvolume
+create prometheus mysqld database user
+create question answer file
+create retro dir
+create root partitions
+create rspamd dkim directory
+create rsyncd-conf-genscripts
+create setup dir with write permissions
+create ssl cert
+create staging directories in user homes
+create svn-community/package-cleanup directory
+create svn-community/source-cleanup directory
+create svn-community/svn directory
+create svn-community/tmp directory
+create svn-packages/package-cleanup directory
+create svn-packages/source-cleanup directory
+create svn-packages/svn directory
+create svn-packages/tmp directory
+create svntogit repos subdir
+create symlink to resolv.conf
+create synapse config dir
+create synapse home
+create systemd unit override path
+create tempfile
+create terraform state db
+create terraform state db user
+create textcollector directory
+create the 503 html file
+create the maintenance http dir
+create the maintenance logs dir
+create the root backup directory at {{ backup_dir }}
+create the service http root dir
+create unique DH group
+create uploads directory
+create user
+create user account on mail to relay with
+create website directory
+create wireguard zone
+create zsh directory
+daemon reload
+db privileges for amazingweb users
+db privileges for patchwork users
+delete anonymous users
+delete wg0
+deploy amazingweb
+deploy new cgit release
+deploy new release
+deploy new smartgit release
+deploy patchwork
+deploy security-tracker
+disable default dhcpv6-client rule
+disable kexec load
+disable security-tracker timer
+disable ssh keys of disabled users
+disable unprivileged bpf
+disable unprivileged userns
+disable zswap to prevent conflict with zram
+disallow remote root login
+django collectstatic
+django migrate
+download bootstrap image
+download latest gluebuddy
+download matrix-appservice-irc
+download mjolnir
+drop test database
+enable JIT hardening for all users
+enable alertmanager server service
+enable and start emperor.uwsgi.service
+enable and start gitlab runner service
+enable and start gitlab-runner-docker-cleanup.timer
+enable and start prometheus archive textcollector timer
+enable and start prometheus aur textcollector timer
+enable and start prometheus btrfs textcollector timer
+enable and start prometheus fail2ban textcollector timer
+enable and start prometheus hetzner textcollector timer
+enable and start prometheus rebuilderd textcollector timer
+enable and start prometheus repository textcollector timer
+enable and start prometheus smart textcollector timer
+enable and start prometheus super textcollector timer
+enable and start rebuilderd
+enable and start rebuilderd {{ item }} timer
+enable and start rebuilderd-worker@{{ item }}
+enable borg textcollector services
+enable hcloud-init inside chroot
+enable logrotate timer
+enable matrix-appservice-irc units
+enable mjolnir units
+enable nginx
+enable paccache timer
+enable pantalaimon units
+enable prometheus server service
+enable prometheus-blackbox-exporter service
+enable prometheus-memcached-exporter service
+enable prometheus-mysqld-exporter service
+enable prometheus-node-exporter service
+enable services inside chroot
+enable synapse units
+enable timer
+enable turnserver units
+ensure latest keyring
+ensure question answer file exists and set permissions
+extract boostrap image  # noqa 208
+federation_reader
+fetch borg key
+fetch borg keys
+fetch borg offsite key
+fetch dbscripts PGP key
+fetch hostkey checksums
+fetch known_hosts
+fetch pacman tarball
+fetch ssh hostkeys
+fetch ssh keys from each borg client machine
+fill tempfile
+filter company_users for users with non-matching hosts
+fix /var/lib/grafana permissions
+fix cache permissions
+fix home permissions
+fix sessions permissions
+fix svntogit home permissions
+fix uploads permissions
+force reload nginx
+gemini pre-reboot checks
+generate locales
+generate mirror config
+generate ssh key for root
+get list of remote users
+get list of sub-accounts
+gitlab
+homeserver
+init borg repository
+init git directory
+initialize mariadb
+initialize pacman keyring inside bootstrap chroot
+initialize postgres
+initialize quassel
+initialize the database
+install 10-dhcp-ethernet.network
+install 10-static-ethernet.network
+install AUR systemd service and timers
+install DKIM keys
+install PAM config
+install additional files
+install alertmanager configuration
+install alertmanager server
+install amazingweb memcached service
+install amazingweb rsync iso service and timer
+install archivetools package
+install aur textcollector service
+install aur textcollector timer
+install binutils for createlinks script
+install blackbox exporter configuration
+install borg
+install borg and tools
+install borg backup scripts
+install borg textcollector services
+install bouncehandler config
+install bouncehandler script
+install btrfs textcollector service
+install btrfs textcollector timer
+install bugbot systemd service
+install bugbot utilities
+install cert renewal hook
+install certbot
+install cgit configuration
+install company base from bootstrap chroot
+install companywiki memcached service
+install companywiki question updater hook
+install conf file
+install config
+install convenience scripts
+install createlinks script
+install custom aurweb configuration
+install custom aurweb-git-auth wrapper script
+install custom aurweb-git-serve wrapper script
+install custom aurweb-git-update wrapper script
+install custom paccache.service
+install debuginfod
+install dependencies
+install dkim_signing.conf
+install docker dependencies
+install docker.slice
+install donation import wrapper script
+install dovecot
+install dovecot cert renewal hook
+install dovecot jail
+install dovecot.conf
+install download script
+install drop-in for mailman.service
+install drop-in for promtail.service
+install drop-in snippet for loki
+install drop-in snippets for oomd
+install env file
+install essential tools
+install fail2ban
+install fail2ban register ban filter
+install fail2ban register ban jail
+install fail2ban textcollector service
+install fail2ban textcollector timer
+install fetchmail
+install firewallcmd-allports.local
+install firewalld
+install firewalld config
+install forum config
+install from requirements into virtualenv
+install git
+install gitlab-runner-docker-cleanup.{service,timer}
+install grafana
+install grafana config
+install grafana dashboard provisioning
+install grafana datasources provisioning
+install grub
+install hcloud-init
+install hcloud-init.service
+install hedgedoc
+install hedgedoc config file
+install hedgedoc.service snippet for configuration
+install hetzner textcollector service
+install hetzner textcollector timer
+install homeserver config
+install inetutils for hostname
+install internet archive packages
+install inventory_hostname vhost
+install irc-bridge config
+install irc-bridge registration
+install ircpass key
+install keycloak
+install letsencrypt hook
+install letsencrypt renewal service
+install local config files
+install logrotate
+install logrotate config
+install loki and logcli
+install loki configuration
+install lolbuild
+install lolbuild config files
+install lolbuild scripts
+install lolbuild sudoers config
+install lolbuild unit
+install lolbuild units
+install lolbuild user units
+install mailman configuration
+install mailman, uwsgi-plugin-cgi and postfx
+install makepkg.conf
+install mariadb
+install matrix-appservice-irc
+install matrix-appservice-irc units
+install memcached
+install mirrorcheck service and timer
+install mirrorresolv service and timer
+install misc utils
+install mjolnir
+install mjolnir antispam module
+install mjolnir config
+install mjolnir units
+install mlocate
+install motd
+install mysql backup config
+install mysql backup script
+install nginx
+install nginx migrated-tasks.map
+install nginx-limit-req jail
+install nginx.service snippet
+install node exporter configuration
+install node exporter textcollector scripts
+install openssh
+install packagelist units
+install packages
+install packages for bounce handler
+install pacman config
+install pacman-contrib,hacker-contrib
+install pantalaimon
+install pantalaimon config
+install pantalaimon units
+install patchwork memcached service
+install patchwork notification service
+install patchwork notification timer
+install patchwork parsemail script
+install pg_hba.conf
+install pgp_import hook
+install pgp_import service
+install php-apcu
+install php-fpm
+install php-fpm units
+install php7-fpm
+install php7-fpm units
+install phrik sudoers config
+install phrik systemd service
+install phrik utilities
+install planet service and timer
+install polkit rule for restarting phrik
+install populate_signoffs service and timer
+install postfix
+install postfix cert renewal hook
+install postfix configuration
+install postfix jail
+install postfix maps
+install postfwd
+install postfwd.cf
+install postgres
+install postgres backup script
+install postgres ca
+install postgres cert renewal hook
+install postgres certificate
+install postgres private key
+install prometheus alert configuration
+install prometheus cli configuration
+install prometheus configuration
+install prometheus server
+install prometheus web-config configuration
+install prometheus-blackbox-exporter
+install prometheus-memcached-exporter
+install prometheus-mysqld-exporter
+install prometheus-node-exporter
+install promtail
+install promtail configuration
+install public_html scripts
+install public_html units
+install python-passlib
+install quassel
+install quassel cert renewal hook
+install quassel units
+install quassel.service snippet
+install readlinks service
+install rebuilderd status service and timer
+install rebuilderd textcollector service
+install rebuilderd textcollector timer
+install redis
+install repo helpers
+install reporead service
+install required packages
+install root shell config
+install rspamd
+install rsync
+install rsync.conf.proto
+install rsyncd config
+install runner configuration
+install sequoia
+install signing key
+install smart
+install smart textcollector service
+install smart textcollector timer
+install smart-repro configuration
+install smartmontools for dedicated servers
+install sourceballs requirements (makepkg download dependencies)
+install spam-to-folder.sieve
+install sshd jail
+install static config
+install stuff into virtualenv
+install sudo
+install sudoer rights for fetchmail to call amazingweb django scripts
+install sudoer rights for fetchmail to call patchwork
+install sudoers for btrfs
+install super textcollector service
+install super textcollector timer
+install super-boxes-sync.sh script
+install super-boxes-sync.sh script dependencies
+install super-boxes-sync.{service,timer}
+install svn, git, rsync and some perl stuff
+install svnlog
+install synapse
+install synapse units
+install syncarchive script
+install syncarchive units
+install syncdebug script
+install syncdebug units
+install syncrepo script
+install syncrepo units
+install system service
+install system.conf
+install systemd service/timer
+install systemd services for backup
+install systemd services/timers
+install systemd timer for backup
+install systemd timers
+install systemd unit override file
+install systemd units
+install template configs
+install the cgit package
+install the git package
+install turnserver cert renewal hook
+install turnserver.conf
+install ucode update for AMD
+install ucode update for Intel
+install uwsgi
+install website files
+install wireguard configuration
+install wireguard-tools
+install zram-generator
+install zram-generator config for zram
+install_company
+invalidate MediaWiki file cache
+irc-bridge
+link custom aurweb-git-update wrapper to hooks/update
+list build-related processes
+list logged on users
+make /srv/svn
+make amazingweb user
+make archive dir
+make aur user
+make bouncehandler user
+make community debug repos
+make community root debug repos
+make companymanweb user
+make companywiki user
+make debug community-debug pool
+make debug log dir
+make debug packages-debug pool
+make example.com dir
+make flyspray user
+make nginx log dir
+make package debug repos
+make package root debug repos
+make patchwork user
+make postgres backup directory
+make rsync iso dir
+make security user
+make sources dir
+make sure all required packages are installed in the rescue system for installation
+make symlink to other sources
+make symlink to repo sources
+make uwsgi user
+make virtualenv
+make virtualenvs
+manually append Hetzner Storageboxes host keys
+manually append rsync.net host keys
+match usernames to backup clients
+media_repository
+mjolnir
+mount /dev to bootstrap chroot
+mount /dev to new chroot
+mount /mnt to bootstrap chroot
+mount /proc to bootstrap chroot
+mount /proc to new chroot
+mount /sys to bootstrap chroot
+mount /sys to new chroot
+mount the filesystem (btrfs)
+node_common
+open debuginfod ipv4 port for monitoring.example.com
+open firewall hole
+open firewall holes
+open firewall holes for certbot standalone authenticator
+open firewall holes for postfix
+open firewall holes for rsync
+open firewall holes for svnserve
+open firewall holes to known postgresql ipv4 clients
+open firewall holes to known postgresql ipv6 clients
+open gitlab exporter ipv4 port for monitoring.example.com
+open prometheus memcached exporter ipv4 port for monitoring.example.com
+open prometheus mysqld exporter ipv4 port for monitoring.example.com
+open prometheus port for monitoring.example.com
+open prometheus-node-exporter ipv4 port for monitoring.example.com
+open promtail ipv4 port for monitoring.example.com
+pacman
+partition and format the disks (btrfs RAID)
+partition and format the disks (btrfs single)
+populate pacman keyring inside bootstrap chroot
+postmap additional files
+prepare local storage directory
+prometheus
+provide default mount options (btrfs)
+purge nginx cache
+put dbscripts.htpasswd in place
+put memcached.conf into tmpfiles
+put rsyncd.conf into tmpfiles
+read /etc/motd
+reboot
+rebuilderd
+receive valid signing keys
+reencrypt vault key
+reload .network and .netdev files
+reload alertmanager
+reload debuginfod
+reload dovecot
+reload fail2ban jails
+reload firewalld
+reload mailman
+reload nginx
+reload postfix
+reload postfwd
+reload prometheus
+reload rspamd
+remove LOCK file on mountpoint
+remove all users from wheel group
+remove old files
+remove ssh keys if undefined
+request a bearer token
+restart amazingweb readlinks service
+restart amazingweb reporead service
+restart companyweb memcached
+restart docker
+restart emperor.uwsgi
+restart fail2ban
+restart fetchmail
+restart firewalld
+restart gitlab-runner
+restart gitlab-runner-docker-cleanup.timer
+restart grafana
+restart journald
+restart keycloak
+restart loki
+restart mailman
+restart mariadb
+restart matrix-appservice-irc
+restart mjolnir
+restart networkd
+restart pantalaimon
+restart patchwork memcached
+restart php-fpm7@flyspray
+restart php-fpm@companywiki
+restart php-fpm@fluxbb
+restart php-fpm@{{ aurweb_user }}
+restart postfix
+restart postgres
+restart promtail
+restart sshd
+restart synapse
+restart systemd-zram-setup@zram0
+restart turnserver
+restart unbound
+restrict database permissions
+retrieve sub-account information
+run Django management tasks
+run initial setup
+run locale-gen inside chroot
+run maintenance mode
+run migrations
+run mkinitcpio
+run sievec
+run systemd-firstboot
+run wiki updatescript
+save borg key
+save borg offsite key
+save hideRefs setting on var
+secure path to protect against attacks
+sequence privileges for amazingweb users
+sequence privileges for patchwork users
+set acl on lolbuilddest
+set amazingweb groups
+set companymanweb groups
+set file permissions
+set hostname
+set kernel lockdown to restricted
+set local mirror as cachedir
+set patchwork groups
+set postgres user password
+set ptrace scope, restrict ptrace to CAP_SYS_PTRACE
+set restricted access to kernel logs
+set restricted access to kernel pointers in proc fs
+set root password
+set up custom nginx maintenance mode
+set up nginx
+set up nginx maintenance mode
+set up sudoers.d for special users
+setup Keycloak server
+setup archive configuration
+setup archive timer
+setup archive-hardlink timer
+setup aur-dev.example.com
+setup aur.example.com
+setup gitlab-runners
+setup hedgedoc server
+setup homedir.example.com
+setup mail.example.com
+setup mailman server
+setup man.example.com
+setup matrix
+setup patchwork.example.com
+setup phrik bot server
+setup prometheus server
+setup quassel server
+setup redirect.example.com
+setup reproducible builds rebuilder
+setup rsync.net account
+setup security.example.com
+setup state.example.com (terraform state store)
+setup wiki.example.com
+smart
+snippets directories
+start and enable AUR systemd services and timers
+start and enable amazingweb memcached service and amazingweb-rsync_iso timer
+start and enable amazingweb mirrorcheck timer
+start and enable amazingweb mirrorresolv timer
+start and enable amazingweb planet timer
+start and enable amazingweb populate_signoffs timer
+start and enable amazingweb readlinks service
+start and enable amazingweb rebulderd update timer
+start and enable amazingweb reporead service
+start and enable auditd
+start and enable btrfs scrub timer
+start and enable bugbot service
+start and enable companymanweb update timer
+start and enable companywiki timers and services
+start and enable debuginfod
+start and enable dovecot
+start and enable fetchmail
+start and enable firewalld
+start and enable hcloud-init
+start and enable hedgedoc
+start and enable keycloak
+start and enable loki
+start and enable lolbuild mounts
+start and enable lolbuild units
+start and enable lolbuilddest mount
+start and enable mailman{.service,-*.timer}
+start and enable networkd
+start and enable packagelist.timer
+start and enable patchwork memcached service and notification timer
+start and enable pkgfile and phrikservice
+start and enable postfix
+start and enable postfwd
+start and enable postgres
+start and enable promtail
+start and enable public_html units
+start and enable quassel
+start and enable redis
+start and enable resolved
+start and enable rspamd
+start and enable rsync
+start and enable security-tracker timer
+start and enable service
+start and enable smart
+start and enable sshd
+start and enable super-boxes-sync.timer
+start and enable svnserve
+start and enable syncarchive units
+start and enable syncdebug units
+start and enable syncrepo units
+start and enable systemd socket
+start and enable systemd-timesyncd
+start and enable the service
+start and enable vnstatd
+start docker
+start docker gitlab image
+start firewalld
+start systemd-oomd
+start uploader timer
+stop company-svntogit.timer
+stop firewalld
+store hostkeys
+store known_hosts
+symlink /community to /srv/repos/svn-community/dbscripts
+symlink /packages to /srv/repos/svn-packages/dbscripts
+symlink /srv/svn/community to /srv/repos/svn-community/svn
+symlink /srv/svn/packages to /srv/repos/svn-packages/svn
+synapse.appservice
+synapse.federation_reader
+synapse.federation_writer
+synapse.homeserver
+synapse.media_repository
+systemd daemon-reload
+systemd_unit
+table privileges for amazingweb users
+table privileges for patchwork users
+take away setup dir write permissions
+template company-svntogit
+template fetchmail config
+template keycloak config
+touch /srv/ftp/lastsync file
+touch /srv/ftp/lastupdate file
+touch LOCK file on mountpoint
+unpack tarball
+update aliases db
+update list of sub-accounts
+update package cache
+update virtualenvs
+upgrade all packages
+upgrade and reboot all hetzner servers
+upgrade and reboot all kape and packet.net servers
+upgrade database
+upgrade each host in this batch
+upload authorized_keys file
+upload authorized_keys file to {{ backup_dir }}/{{ item.item }}
+upload authorized_keys for Company
+upload authorized_keys for each backup client
+upload known_hosts
+upload known_hosts to all nodes
+upload website
+use tmpfiles.d/memcached.conf
+use tmpfiles.d/rsyncd.conf
+use tmpfiles.d/zram.conf
+vassals directory
+wait for svntogit to finish

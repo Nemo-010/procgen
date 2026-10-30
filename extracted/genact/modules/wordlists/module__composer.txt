@@ -1,0 +1,9 @@
+  - {stage} {package_name} ({package_version}): Loading from cache
+Generating autoload files
+Installing
+Loading composer repositories with package information
+Updating dependencies (including require-dev)
+Writing lock file
+composer
+composer install
+{major:.0}.{minor:.0}.{patch:.0}

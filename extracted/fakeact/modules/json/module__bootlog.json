@@ -1,0 +1,29 @@
+{
+  "count": 12,
+  "id": "module__bootlog",
+  "items": [
+    "chalk",
+    "../utils/dataLoader.js",
+    "../utils/helpers.js",
+    "../utils/environment.js",
+    "bootlog",
+    "",
+    " ",
+    " ",
+    " ",
+    "${firstWords}${isError ? chalk.red(",
+    ") : txt}",
+    "bcdedit /set {current} bootlog Yes && shutdown /r"
+  ],
+  "kind": "literal",
+  "meta": {
+    "declared_name": "bootlog"
+  },
+  "name": "bootlog",
+  "schema": 1,
+  "sha256": "f3056cb855e50d1d6cd76065269695cfe00ce5f6dc419d6b4a924b7717f86273",
+  "source": "src/modules/bootlog.ts",
+  "unique": 9,
+  "wordlist_count": 8,
+  "wordlist_sha256": "c4ef8e34409d62222060976183d88b729b4364b7272f9f6e81729adfc8618a1d"
+}

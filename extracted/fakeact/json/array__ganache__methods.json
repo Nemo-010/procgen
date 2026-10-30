@@ -1,0 +1,22 @@
+{
+  "count": 4,
+  "id": "array__ganache__methods",
+  "items": [
+    "eth_getBalance",
+    "eth_getTransactionCount",
+    "eth_getCode",
+    "eth_call"
+  ],
+  "kind": "array",
+  "meta": {
+    "file": "ganache",
+    "value_kind": "str"
+  },
+  "name": "methods",
+  "schema": 1,
+  "sha256": "a12c53357cc07037980c5339d1bcde738946ea7998b265755bd04a412a46488e",
+  "source": "src/modules/ganache.ts",
+  "unique": 4,
+  "wordlist_count": 4,
+  "wordlist_sha256": "261cea8cb567c5a30997d5ceaa1889136446b6729db64320fb3eaa2a2f4bb8d6"
+}

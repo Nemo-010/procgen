@@ -1,0 +1,101 @@
+ora
+chalk
+../utils/helpers.js
+../utils/packageLists.js
+@types/
+@babel/
+@vue/
+@typescript-eslint/
+@jest/
+@testing-library/
+
+util
+core
+plugin
+helper
+tool
+lib
+common
+config
+preset
+loader
+parser
+-${names[Math.floor(Math.random() * names.length)]}
+
+-${['alpha', 'beta', 'rc'][Math.floor(Math.random() * 3)]}.${getRandomInt(1, 5)}
+
+${major}.${minor}.${patch}${prerelease}
+B
+kB
+MB
+GB
+${size.toFixed(1)} ${units[unit]}
+[
+=
+>
+
+ 
+]
+Resolving dependencies...
+Dependencies resolved
+\nDependencies:
+
+└── 
+├── 
+${prefix}${line}${pkg.name}@${pkg.version}
+    
+│   
+└── 
+├── 
+${newPrefix}${depLine}${depName}@${depVersion}
+${newPrefix}└── ...
+Regular dependencies:
+└── ... and ${regularDeps.length - 6} more
+\nDev dependencies:
+└── ... and ${devDeps.length - 6} more
+\nPackages (
+):
+Generating type definitions...
+Verifying tree...
+Resolving peer dependencies...
+Running install scripts...
+Building fresh packages...
+Optimizing dependencies...
+Auditing package tree...
+Linking dependencies...
+Checking for native build requirements...
+Processing source maps...
+Validating package.json...
+Checking compatibility...
+\nInstallation interrupted
+[1A[2K
+ (dev)
+
+${progressBar} ${(progress * 100).toFixed(1)}% 
+added ${pkg.name}@${pkg.version}
+ (${formatSize(pkg.size || 0)})
+\n
+✓
+ Installation completed successfully
+Added ${packages.length} packages (${packages.filter(p => p.isDevDependency).length} dev) in ${installTime}s
+Total size: ${formatSize(totalSize)}
+funding
+${fundingCount} packages are looking for funding\n  Run ${chalk.cyan('npm fund')} for details
+Found ${total} vulnerabilities (
+${critical} critical
+${high} high
+${moderate} moderate
+${low} low
+, 
+)
+security
+\n  Run 
+npm audit fix
+ to fix them
+outdated
+${outdatedCount} packages are outdated\n  Run ${chalk.cyan('npm outdated')} to see them
+engine
+Package requires Node.js version >=16.0.0\n  Current version: ${process.version}
+
+\n
+npm install

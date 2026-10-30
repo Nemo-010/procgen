@@ -1,0 +1,40 @@
+chalk
+../utils/helpers.js
+../utils/pageLists.js
+../utils/environment.js
+Setup
+Compile
+Optimize
+Bundle
+Build
+info
+warn
+error
+info
+info
+warn
+error
+${prefix}  - ${message}
+└── 
+├── 
+${chalk.yellow('warn')}  - ${getRandomItem(WARNING_MESSAGES)} in ${page}
+warn
+${chalk.red('error')} - ${getRandomItem(ERROR_MESSAGES)} in ${page}
+error
+${line}○ ${chalk.dim(page)}${' '.repeat(Math.max(1, 40 - page.length))}
+${size} kB${' '.repeat(8)}${buildTime}s
+\n🔥 Next.js Build Simulator\n
+Creating an optimized production build...
+${phase} phase starting...
+\nCompiling pages...\n
+${chalk.underline('Page')}${' '.repeat(42)}${chalk.underline('Size')}${' '.repeat(12)}${chalk.underline('Times')}
+├── ○ ${chalk.dim('/')}
+\n
+─
+\n✗ Failed to compile in ${duration}s
+\nFound errors in your application:
+\n✓ Compiled successfully in ${duration}s
+\n○ Pages: ${this.totalPages}
+\n⚠ Found some non-critical issues (see above)
+\n✨ Done!
+next build

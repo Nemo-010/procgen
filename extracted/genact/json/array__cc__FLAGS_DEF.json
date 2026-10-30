@@ -1,0 +1,25 @@
+{
+  "count": 7,
+  "id": "array__cc__FLAGS_DEF",
+  "items": [
+    "-D_REENTRANT",
+    "-DMATH_LOOP",
+    "-D_LIBS_REENTRANT",
+    "-DNAMESPACE=lib",
+    "-DMODULE_NAME=lib",
+    "-DPIC",
+    "-DSHARED"
+  ],
+  "kind": "array",
+  "meta": {
+    "file": "cc",
+    "value_kind": "str"
+  },
+  "name": "FLAGS_DEF",
+  "schema": 1,
+  "sha256": "b83127297ef976b5610fcd00e15b81ef405c899dd78033228db20c4c2cfaa0e3",
+  "source": "src/modules/cc.rs",
+  "unique": 7,
+  "wordlist_count": 7,
+  "wordlist_sha256": "35e7ac1c2aa095f30007d993af0cf6919cdf14071189740850654809a0db841d"
+}

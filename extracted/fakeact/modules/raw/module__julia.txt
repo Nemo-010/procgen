@@ -1,0 +1,78 @@
+ora
+chalk
+../utils/helpers.js
+../utils/dataLoader.js
+=
+ 
+[${bar}] ${this.current}/${this.total}
+[${bar}] ${Math.floor(progress * 100)}%
+               ${chalk.green('_')}\n   ${chalk.blue('_')}       _ ${chalk.red('_')}${chalk.green('(_)')}${chalk.magenta('_')}     |  Documentation: https://docs.julialang.org\n  ${chalk.blue('(_)')}     | ${chalk.red('(_)')} ${chalk.magenta('(_)')}    |\n   _ _   _| |_  __ _   |  Type "?" for help, "]?" for Pkg help.\n  | | | | | | |/ _` |  |\n  | | |_| | | | (_| |  |  Version 1.7.3 (2022-05-06)\n _/ |\\__'_|_|_|\\__'_|  |  Fedora 35 build\n|__/                   |\n
+julia> 
+(${project}) pkg> 
+${chalk.green.bold(action.padStart(12))} ${message}
+─
+${pkg.name} ${padding} v${version}
+Installing
+[1A[2K
+Installed
+Downloading
+artifact: ${artifact.name}
+${chalk.cyan.bold('Downloading'.padStart(15))} ${bar}
+line
+100%
+${chalk.cyan.bold('Downloading'.padStart(15))} ${bar}
+[1A[2K
+Downloaded
+artifact: ${artifact.name}
+@
+~/.julia/environments/${project.slice(1)}/Project.toml
+~/Documents/code/julia/projects/${project}.jl/Project.toml
+~/.julia/environments/${project.slice(1)}/Manifest.toml
+~/Documents/code/julia/projects/${project}.jl/Manifest.toml
+Updating
+`${projectPath}`
+No Changes
+to `${projectPath}`
+Updating
+`${manifestPath}`
+  [${pkg.id.substring(0, 8)}] 
+↑ ${pkg.name} ${pkg.versions[0]} ⇒ ${pkg.versions[1]}
++ ${pkg.name} ${pkg.versions[0]}
+- ${pkg.name} ${pkg.versions[0]}
+─
+${artifact.name} ${padding}→ ~/.julia/scratchspaces/${generateHexString(8)}-${generateHexString(4)}-${generateHexString(4)}-${generateHexString(4)}-${generateHexString(12)}/${generateHexString(40)}/build.log
+Building
+${packageAndVersion}
+${chalk.cyan.bold('Progress'.padStart(15))} ${bar}
+line
+100%
+${chalk.cyan.bold('Progress'.padStart(15))} ${bar}
+Precompiling
+project...
+${chalk.cyan.bold('Progress'.padStart(15))} ${bar}
+line
+100%
+${chalk.cyan.bold('Progress'.padStart(15))} ${bar}
+  ${packages.length} dependencies successfully precompiled in ${new Date().getSeconds() - tt} seconds (${getRandomInt(10, 500)} already precompiled)
+${chalk.cyan.bold('[ Info:"')} We haven't cleaned this depot up for a bit, running Pkg.gc()...
+Active
+manifest files: ${getRandomInt(1, 10)} found
+Active
+artifact files: ${getRandomInt(10, 200)} found
+Active
+scratchspaces: ${getRandomInt(10, 20)} found
+Deleted
+${getRandomInt(2, 10)} artifact installations ${getRandomInt(10, 250)} MiB
+Deleted
+${getRandomInt(2, 10)} scratchspaces ${getRandomInt(10, 250)} byte
+julia
+@v1.7
+[2K
+up
+date
+Updating
+registry at `~/.julia/registries/General.toml`
+Resolving
+package versions...
+[2K
+julia --threads auto --project .

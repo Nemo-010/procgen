@@ -1,0 +1,23 @@
+{
+  "count": 5,
+  "id": "array__pageLists__ERROR_MESSAGES",
+  "items": [
+    "Failed to resolve import \"../components/Missing\"",
+    "Unexpected token in JSON at position 4",
+    "Cannot read properties of undefined (reading \"map\")",
+    "ChunkLoadError: Loading chunk [number] failed",
+    "TypeError: Cannot destructure property \"data\" of undefined"
+  ],
+  "kind": "array",
+  "meta": {
+    "file": "pageLists",
+    "value_kind": "str"
+  },
+  "name": "ERROR_MESSAGES",
+  "schema": 1,
+  "sha256": "b9c8e04ad140b16cdcf9da0124d794a18ccc0eda402b5e428d7bbd2f2245314e",
+  "source": "src/utils/pageLists.ts",
+  "unique": 5,
+  "wordlist_count": 5,
+  "wordlist_sha256": "1ff282562c7ac8f244141c6fb2ded123ccfa58d6a87391239d2933336b6fe248"
+}

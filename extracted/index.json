@@ -1,0 +1,32 @@
+{
+  "repos": {
+    "fakeact": {
+      "assets": 93,
+      "commit": "8850edea1bb8a0192847bbc60faa90cf2ee0fd1e",
+      "flavor": "ts",
+      "items": 53685,
+      "manifest": "fakeact/manifest.json",
+      "warnings": 0,
+      "wordlist_items": 67446
+    },
+    "genact": {
+      "assets": 65,
+      "commit": "ad54eba035dcc6569333a0ad93c2486cfc2ed55a",
+      "flavor": "rust",
+      "items": 53292,
+      "manifest": "genact/manifest.json",
+      "warnings": 0,
+      "wordlist_items": 67083
+    }
+  },
+  "schema": 1,
+  "summary": {
+    "assets": 158,
+    "kept_prior": 0,
+    "repos": 2,
+    "unchanged": 158,
+    "written": 0
+  },
+  "tool": "actparse",
+  "version": "1.0.0"
+}

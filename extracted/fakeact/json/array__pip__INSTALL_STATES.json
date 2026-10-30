@@ -1,0 +1,22 @@
+{
+  "count": 4,
+  "id": "array__pip__INSTALL_STATES",
+  "items": [
+    "Collecting {package}",
+    "Downloading {package}-{version}.whl ({size})",
+    "Installing collected packages: {package}",
+    "Successfully installed {package}-{version}"
+  ],
+  "kind": "array",
+  "meta": {
+    "file": "pip",
+    "value_kind": "str"
+  },
+  "name": "INSTALL_STATES",
+  "schema": 1,
+  "sha256": "751f0a13d2a54a784b144af9109bcdc88d1cac98e9946d6f5edc4b976d7483bf",
+  "source": "src/modules/pip.ts",
+  "unique": 4,
+  "wordlist_count": 4,
+  "wordlist_sha256": "751f0a13d2a54a784b144af9109bcdc88d1cac98e9946d6f5edc4b976d7483bf"
+}

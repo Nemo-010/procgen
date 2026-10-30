@@ -1,0 +1,7 @@
+@types/
+@babel/
+@vue/
+@typescript-eslint/
+@jest/
+@testing-library/
+

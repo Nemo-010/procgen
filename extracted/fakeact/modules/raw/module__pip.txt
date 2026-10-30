@@ -1,0 +1,48 @@
+chalk
+../utils/dataLoader.js
+../utils/helpers.js
+../utils/environment.js
+WARNING: Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken
+WARNING: You are using pip version 21.2.4; however, version 23.3.1 is available.
+WARNING: Package {package} requires Python >=3.7, but you have Python 3.6.9
+WARNING: Ignoring invalid distribution -ip ({package})
+WARNING: {package} was installed using pip from legacy index
+WARNING: Directory {package}-0.0.0.dist-info is not owned by current user
+ERROR: Could not find a version that satisfies the requirement {package}
+ERROR: Invalid requirement: '{package}'
+ERROR: Hash verification failed for {package}
+Collecting {package}
+Downloading {package}-{version}.whl ({size})
+Installing collected packages: {package}
+Successfully installed {package}-{version}
+${bytes} B
+${(bytes / 1024).toFixed(1)} kB
+${(bytes / (1024 * 1024)).toFixed(1)} MB
+${(bytesPerSec / (1024 * 1024)).toFixed(1)} MB/s
+0:00:${seconds > 9?seconds:
+}
+0:${minutes > 9?minutes:
+}:${seconds > 9?seconds:
+}
+━
+━
+  ${chalk.green('━'.repeat(filled))}
+  ${bar}
+${formatBytes(downloaded)}/${formatBytes(totalSize)}
+${formatSpeed(stats.speed)}
+eta ${chalk.cyan(stats.eta)}
+ 
+[2K\r
+${generateProgressBar(1)} ${chalk.green(
+)} ${chalk.red(formatSpeed(lastSteps))} eta ${chalk.cyan('0:00:00')}
+[2K\r
+${major}.${minor}.${patch}
+{package}
+{version}
+{size}
+{total_size}
+pypi
+Collecting packages from requirements.txt...
+Resolving dependencies...
+\nSuccessfully installed ${selectedPackages.size} packages
+pip install -r requirements.txt

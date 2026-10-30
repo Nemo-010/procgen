@@ -1,0 +1,21 @@
+{
+  "count": 3,
+  "id": "array__cc__FLAGS_ARCH",
+  "items": [
+    "-march=x86-64",
+    "-mtune=generic",
+    "-pipe"
+  ],
+  "kind": "array",
+  "meta": {
+    "file": "cc",
+    "value_kind": "str"
+  },
+  "name": "FLAGS_ARCH",
+  "schema": 1,
+  "sha256": "2076f26b1415ba29e38a8d1beba487a13a7291db023bd9c0ec5c254168a05577",
+  "source": "src/modules/cc.ts",
+  "unique": 3,
+  "wordlist_count": 3,
+  "wordlist_sha256": "2076f26b1415ba29e38a8d1beba487a13a7291db023bd9c0ec5c254168a05577"
+}

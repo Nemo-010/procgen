@@ -1,0 +1,43 @@
+{
+  "count": 25,
+  "id": "array__kernel_compile__SPECIALS",
+  "items": [
+    "HOSTLD  arch/ARCH/tools/relocs",
+    "HOSTLD  scripts/mod/modpost",
+    "MKELF   scripts/mod/elfconfig.h",
+    "LDS     arch/ARCH/entry/vdso/vdso32/vdso32.lds",
+    "LDS     arch/ARCH/kernel/vmlinux.lds",
+    "LDS     arch/ARCH/realmode/rm/realmode.lds",
+    "LDS     arch/ARCH/boot/compressed/vmlinux.lds",
+    "EXPORTS arch/ARCH/lib/lib-ksyms.o",
+    "EXPORTS lib/lib-ksyms.o",
+    "MODPOST vmlinux.o",
+    "SORTEX  vmlinux",
+    "SYSMAP  System.map",
+    "VOFFSET arch/ARCH/boot/compressed/../voffset.h",
+    "OBJCOPY arch/ARCH/entry/vdso/vdso32.so",
+    "OBJCOPY arch/ARCH/realmode/rm/realmode.bin",
+    "OBJCOPY arch/ARCH/boot/compressed/vmlinux.bin",
+    "OBJCOPY arch/ARCH/boot/vmlinux.bin",
+    "VDSO2C  arch/ARCH/entry/vdso/vdso-image-32.c",
+    "VDSO    arch/ARCH/entry/vdso/vdso32.so.dbg",
+    "RELOCS  arch/ARCH/realmode/rm/realmode.relocs",
+    "PASYMS  arch/ARCH/realmode/rm/pasyms.h",
+    "XZKERN  arch/ARCH/boot/compressed/vmlinux.bin.xz",
+    "MKPIGGY arch/ARCH/boot/compressed/piggy.S",
+    "DATAREL arch/ARCH/boot/compressed/vmlinux",
+    "ZOFFSET arch/ARCH/boot/zoffset.h"
+  ],
+  "kind": "array",
+  "meta": {
+    "file": "kernel_compile",
+    "value_kind": "str"
+  },
+  "name": "SPECIALS",
+  "schema": 1,
+  "sha256": "d4727124de90531730043d4b6ac89eac5244dd385ff87be7f7b939011680029a",
+  "source": "src/modules/kernel_compile.rs",
+  "unique": 25,
+  "wordlist_count": 25,
+  "wordlist_sha256": "c3e5edafb9f08e09acf97e83611dd1179bb025e01bc10603e376adfb4bcbfe7e"
+}

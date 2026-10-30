@@ -1,0 +1,13 @@
+chalk
+../utils/dataLoader.js
+../utils/helpers.js
+../utils/environment.js
+${major}.${minor}.${patch}
+composer
+Loading composer repositories with package information
+Updating dependencies (including require-dev)
+  - Installing ${chalk.green(pkg.name)} (${chalk.yellow(pkg.version)}): Loading from cache
+Writing lock file
+Generating autoload files
+Error during composer installation:
+composer install

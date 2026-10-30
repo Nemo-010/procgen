@@ -1,0 +1,25 @@
+{
+  "count": 7,
+  "id": "array__npm__prefixes",
+  "items": [
+    "@types/",
+    "@babel/",
+    "@vue/",
+    "@typescript-eslint/",
+    "@jest/",
+    "@testing-library/",
+    ""
+  ],
+  "kind": "array",
+  "meta": {
+    "file": "npm",
+    "value_kind": "str"
+  },
+  "name": "prefixes",
+  "schema": 1,
+  "sha256": "a6d20a75b0d358c0ee5239083b65a845728f5e95cc56771284856f1747806977",
+  "source": "src/modules/npm.ts",
+  "unique": 6,
+  "wordlist_count": 6,
+  "wordlist_sha256": "b77378bab122ef173e2e31f5c2bc31ca08b9e23db17f687b0ebf83318bf21507"
+}

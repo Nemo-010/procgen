@@ -1,0 +1,16 @@
+ora
+chalk
+../utils/helpers.js
+../utils/dataLoader.js
+../utils/format.js
+cfiles
+Download files ${numFiles}
+/
+.${extension}
+${formatBytes(actualSpeed)}/s
+${truncatedFileName} ${percent.padStart(3)}%${progressBar} ${formattedBytes.padEnd(10)} ${formattedSpeed.padEnd(12)} eta ${formattedEta.padEnd(10)}
+[
+=
+ 
+]
+wget -i downloads.txt

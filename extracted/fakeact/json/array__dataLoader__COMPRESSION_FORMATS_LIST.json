@@ -1,0 +1,25 @@
+{
+  "count": 7,
+  "id": "array__dataLoader__COMPRESSION_FORMATS_LIST",
+  "items": [
+    "gzip",
+    "bzip2",
+    "lzma",
+    "xz",
+    "lzop",
+    "lz4",
+    "zstd"
+  ],
+  "kind": "array",
+  "meta": {
+    "file": "dataLoader",
+    "value_kind": "str"
+  },
+  "name": "COMPRESSION_FORMATS_LIST",
+  "schema": 1,
+  "sha256": "33d7af173651614f94223b878e441d8b6714f4bfba32f46db905e4cd72e7d4c9",
+  "source": "src/utils/dataLoader.ts",
+  "unique": 7,
+  "wordlist_count": 7,
+  "wordlist_sha256": "c7aa239570ce62853af8217287960956c61972b56c475f78ee2bb2a42dac6126"
+}

@@ -1,0 +1,37 @@
+\nSuccessfully installed ${selectedPackages.size} packages
+  ${bar}
+  ${chalk.green('━'.repeat(filled))}
+${(bytes / (1024 * 1024)).toFixed(1)} MB
+${(bytes / 1024).toFixed(1)} kB
+${(bytesPerSec / (1024 * 1024)).toFixed(1)} MB/s
+${bytes} B
+${formatBytes(downloaded)}/${formatBytes(totalSize)}
+${formatSpeed(stats.speed)}
+${generateProgressBar(1)} ${chalk.green(
+${major}.${minor}.${patch}
+)} ${chalk.red(formatSpeed(lastSteps))} eta ${chalk.cyan('0:00:00')}
+../utils/dataLoader.js
+../utils/environment.js
+../utils/helpers.js
+0:${minutes > 9?minutes:
+0:00:${seconds > 9?seconds:
+Collecting packages from requirements.txt...
+Collecting {package}
+Downloading {package}-{version}.whl ({size})
+ERROR: Could not find a version that satisfies the requirement {package}
+ERROR: Hash verification failed for {package}
+ERROR: Invalid requirement: '{package}'
+Installing collected packages: {package}
+Resolving dependencies...
+Successfully installed {package}-{version}
+WARNING: Directory {package}-0.0.0.dist-info is not owned by current user
+WARNING: Ignoring invalid distribution -ip ({package})
+WARNING: Package {package} requires Python >=3.7, but you have Python 3.6.9
+WARNING: Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken
+WARNING: You are using pip version 21.2.4; however, version 23.3.1 is available.
+WARNING: {package} was installed using pip from legacy index
+chalk
+eta ${chalk.cyan(stats.eta)}
+pip install -r requirements.txt
+pypi
+}:${seconds > 9?seconds:

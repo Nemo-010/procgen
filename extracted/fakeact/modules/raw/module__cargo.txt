@@ -1,0 +1,11 @@
+chalk
+../utils/dataLoader.js
+../utils/helpers.js
+../utils/environment.js
+${major}.${minor}.${patch}
+packages
+Downloading
+Compiling
+${chalk.green.bold(stage.padStart(12))} ${pkg.name} v${pkg.version}
+${chalk.green.bold('Finished'.padStart(12))} release [optimized] target(s) in ${elapsed.toFixed(2)} secs
+cargo run

@@ -1,0 +1,24 @@
+{
+  "count": 7,
+  "id": "module__bootlog",
+  "items": [
+    "bootlog",
+    "bcdedit /set {current} bootlog Yes && shutdown /r",
+    "",
+    "{}",
+    "ERROR: {choice}",
+    "{}",
+    " "
+  ],
+  "kind": "literal",
+  "meta": {
+    "declared_name": "bootlog"
+  },
+  "name": "bootlog",
+  "schema": 1,
+  "sha256": "c963ca2dc7a69db0d199e9efa54806be3825287c017dee49809f8f9a399e1b23",
+  "source": "src/modules/bootlog.rs",
+  "unique": 5,
+  "wordlist_count": 3,
+  "wordlist_sha256": "1ebd42b9b59ee32b8a1ba3108b1d31283e3e7e122bdf9d36a1ce56dc4321658f"
+}

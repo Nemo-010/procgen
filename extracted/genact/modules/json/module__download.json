@@ -1,0 +1,23 @@
+{
+  "count": 6,
+  "id": "module__download",
+  "items": [
+    "download",
+    "wget -i downloads.txt",
+    ".wat",
+    "Terminal too small to display download progress\n",
+    "/s",
+    "{file_name:<file_name_width$} {percent:>4.0}%{progress_bar} {bytes_downloaded:<10} {download_speed:<12} eta {eta:<10}"
+  ],
+  "kind": "literal",
+  "meta": {
+    "declared_name": "download"
+  },
+  "name": "download",
+  "schema": 1,
+  "sha256": "d2fb464ecc60471475fe2a49b5233512edbf2d0e879c3cb9e9f1e3af2e544a9b",
+  "source": "src/modules/download.rs",
+  "unique": 6,
+  "wordlist_count": 6,
+  "wordlist_sha256": "6fa7c4712bce4c828dc8ece03ea69bdf07084ab5fff4d35c6da6b37f9017f046"
+}

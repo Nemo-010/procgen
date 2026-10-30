@@ -1,0 +1,11 @@
+${formatBytes(actualSpeed)}/s
+${truncatedFileName} ${percent.padStart(3)}%${progressBar} ${formattedBytes.padEnd(10)} ${formattedSpeed.padEnd(12)} eta ${formattedEta.padEnd(10)}
+.${extension}
+../utils/dataLoader.js
+../utils/format.js
+../utils/helpers.js
+Download files ${numFiles}
+cfiles
+chalk
+ora
+wget -i downloads.txt

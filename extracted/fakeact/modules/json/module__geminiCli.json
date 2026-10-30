@@ -1,0 +1,36 @@
+{
+  "count": 19,
+  "id": "module__geminiCli",
+  "items": [
+    "chalk",
+    "../utils/helpers.js",
+    "../utils/environment.js",
+    "src/components/LoginForm.tsx",
+    "src/components/Button.tsx",
+    "src/pages/dashboard.tsx",
+    "src/utils/format.ts",
+    "src/api/auth.ts",
+    "read_file",
+    "run_shell_command",
+    "write_file",
+    "Gemini CLI · Build, debug & deploy with AI",
+    "Tool: ${tool}",
+    "  path: ${file}",
+    "run_shell_command",
+    "  $ npm test",
+    "  ✓ ${tool} completed",
+    "Summary: Refactored a component to use a form library.",
+    "gemini cli"
+  ],
+  "kind": "literal",
+  "meta": {
+    "declared_name": "geminiCli"
+  },
+  "name": "geminiCli",
+  "schema": 1,
+  "sha256": "4862e40e03472db819540ddf3b4cc211bab4f3dd3321313941409cbd3e2d88dc",
+  "source": "src/modules/geminiCli.ts",
+  "unique": 18,
+  "wordlist_count": 18,
+  "wordlist_sha256": "7719c94f3ff6bb32556d1677ced0bb3b56ed8a85a6edf7cc8e6efe2c349db2b3"
+}

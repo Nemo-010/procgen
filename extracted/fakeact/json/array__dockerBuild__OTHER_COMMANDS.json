@@ -1,0 +1,27 @@
+{
+  "count": 9,
+  "id": "array__dockerBuild__OTHER_COMMANDS",
+  "items": [
+    "apt-get update && apt-get install -y",
+    "npm install --production",
+    "pip install -r requirements.txt",
+    "mkdir -p /app/data",
+    "COPY . /app/",
+    "chmod +x /entrypoint.sh",
+    "RUN adduser --system --group app",
+    "WORKDIR /app",
+    "ENV NODE_ENV=production"
+  ],
+  "kind": "array",
+  "meta": {
+    "file": "dockerBuild",
+    "value_kind": "str"
+  },
+  "name": "OTHER_COMMANDS",
+  "schema": 1,
+  "sha256": "16f8d0737e64cb1272f88db2b364c7239e0c58537fb7f024e70b81ffa27b8a64",
+  "source": "src/modules/dockerBuild.ts",
+  "unique": 9,
+  "wordlist_count": 9,
+  "wordlist_sha256": "7cdbe6f6cd65912d643888ea2a20daedd21b2cb9fa675494d5b68a8f24dcdf1e"
+}

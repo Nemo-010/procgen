@@ -1,0 +1,22 @@
+{
+  "count": 4,
+  "id": "array__bruteforce__spinnerChars",
+  "items": [
+    "|",
+    "/",
+    "-",
+    "\\"
+  ],
+  "kind": "array",
+  "meta": {
+    "file": "bruteforce",
+    "value_kind": "str"
+  },
+  "name": "spinnerChars",
+  "schema": 1,
+  "sha256": "2af699dd55b4eabb0edb34e8d96c0efffe160c4f1d223767dce4085709802930",
+  "source": "src/modules/bruteforce.ts",
+  "unique": 4,
+  "wordlist_count": 4,
+  "wordlist_sha256": "48d7121f23f19e62f441cd0984407618164a3aead04e64614713bf3f90518561"
+}

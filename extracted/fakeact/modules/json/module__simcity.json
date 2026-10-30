@@ -1,0 +1,41 @@
+{
+  "count": 24,
+  "id": "module__simcity",
+  "items": [
+    "chalk",
+    "../utils/dataLoader.js",
+    "../utils/helpers.js",
+    "../utils/environment.js",
+    "/",
+    "-",
+    "\\",
+    "|",
+    "simcity",
+    "",
+    "OK",
+    "FAIL",
+    "YES",
+    "SUCCESS",
+    "[ ] ",
+    "[o] ",
+    "${currentSimcity}... ${spinner}",
+    "\r",
+    "ABORTED",
+    "FAIL",
+    "ABORTED",
+    "${currentSimcity}... ${resolution}",
+    "ALL DONE",
+    "./start-sumcity.sh"
+  ],
+  "kind": "literal",
+  "meta": {
+    "declared_name": "simcity"
+  },
+  "name": "simcity",
+  "schema": 1,
+  "sha256": "9243b630abeee6cba5fb92c5d52eb9dbbf8181206048593dbbe8ee013c94755f",
+  "source": "src/modules/simcity.ts",
+  "unique": 21,
+  "wordlist_count": 15,
+  "wordlist_sha256": "7559e286d5dfd6753ace3e309cae21f76edce6e8a298cc49e404efe622d4297d"
+}

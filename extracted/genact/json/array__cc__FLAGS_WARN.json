@@ -1,0 +1,25 @@
+{
+  "count": 7,
+  "id": "array__cc__FLAGS_WARN",
+  "items": [
+    "-Wno-unused-variable",
+    "-Wno-sign-compare",
+    "-Wno-unknown-pragmas",
+    "-Wno-parentheses",
+    "-Wundef",
+    "-Wwrite-strings",
+    "-Wold-style-definition"
+  ],
+  "kind": "array",
+  "meta": {
+    "file": "cc",
+    "value_kind": "str"
+  },
+  "name": "FLAGS_WARN",
+  "schema": 1,
+  "sha256": "2450dd047e10b2b494ee94be654655dba776026607f3dcff1a71349d8f8858ab",
+  "source": "src/modules/cc.rs",
+  "unique": 7,
+  "wordlist_count": 7,
+  "wordlist_sha256": "18c3759f35ef33453ebf085a67e39874b87d0e730c4e4e0539943df5795acbe8"
+}

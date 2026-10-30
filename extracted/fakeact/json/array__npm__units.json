@@ -1,0 +1,22 @@
+{
+  "count": 4,
+  "id": "array__npm__units",
+  "items": [
+    "B",
+    "kB",
+    "MB",
+    "GB"
+  ],
+  "kind": "array",
+  "meta": {
+    "file": "npm",
+    "value_kind": "str"
+  },
+  "name": "units",
+  "schema": 1,
+  "sha256": "858664f91a906d2ef135377f709dac4697f0d0afb7c5510299769f4a58334859",
+  "source": "src/modules/npm.ts",
+  "unique": 4,
+  "wordlist_count": 4,
+  "wordlist_sha256": "1d983316c273b18bee927e8e54f1c8baebe97a9949f47aaa971849abdc0424f5"
+}

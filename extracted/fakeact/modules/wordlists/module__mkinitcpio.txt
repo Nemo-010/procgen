@@ -1,0 +1,31 @@
+${chalk.blue.bold('  -> ')}${chalk.bold(msg)}
+${chalk.green.bold('==> ')}${chalk.bold(msg)}
+${chalk.yellow.bold('==> WARNING: ')}${chalk.bold(msg)}
+-k /boot/vmlinuz-${preset} -c /etc/mkinitcpio.conf -g ${image}
+../utils/dataLoader.js
+../utils/environment.js
+../utils/helpers.js
+/boot/initramfs-${preset}${mode === 'default' ? '' : 
+Building image from preset: /etc/mkinitcpio.d/${preset}.preset: '${mode}'
+Creating ${zip}-compressed initcpio image: ${image}
+Generating module dependencies
+Image generation successful
+Possibly missing firmware for module: ${driver}
+Running build hook: [${hook}]
+Starting build: ${osRelease}
+autodetect
+base
+block
+boot_hooks
+cfiles
+chalk
+default
+fallback
+filesystems
+fsck
+linux
+mkinitcpio --generate /boot/initramfs-custom2.img --kernel 5.7.12-arch1-1
+modconf
+os_releases
+udev
+}.img

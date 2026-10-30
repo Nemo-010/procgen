@@ -1,0 +1,25 @@
+{
+  "count": 7,
+  "id": "array__mkinitcpio__REQUIRED_HOOKS",
+  "items": [
+    "base",
+    "udev",
+    "autodetect",
+    "modconf",
+    "block",
+    "fsck",
+    "filesystems"
+  ],
+  "kind": "array",
+  "meta": {
+    "file": "mkinitcpio",
+    "value_kind": "str"
+  },
+  "name": "REQUIRED_HOOKS",
+  "schema": 1,
+  "sha256": "8f7ab84e82ebf18eca595f62355b495d553aae803ef72cbd45b1881154eb34db",
+  "source": "src/modules/mkinitcpio.rs",
+  "unique": 7,
+  "wordlist_count": 7,
+  "wordlist_sha256": "7da5db804e01215b850137b73efec4b30ba990503e5ce1f0e8db7d4afd1d9a40"
+}

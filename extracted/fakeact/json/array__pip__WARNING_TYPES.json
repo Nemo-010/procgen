@@ -1,0 +1,24 @@
+{
+  "count": 6,
+  "id": "array__pip__WARNING_TYPES",
+  "items": [
+    "WARNING: Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken",
+    "WARNING: You are using pip version 21.2.4; however, version 23.3.1 is available.",
+    "WARNING: Package {package} requires Python >=3.7, but you have Python 3.6.9",
+    "WARNING: Ignoring invalid distribution -ip ({package})",
+    "WARNING: {package} was installed using pip from legacy index",
+    "WARNING: Directory {package}-0.0.0.dist-info is not owned by current user"
+  ],
+  "kind": "array",
+  "meta": {
+    "file": "pip",
+    "value_kind": "str"
+  },
+  "name": "WARNING_TYPES",
+  "schema": 1,
+  "sha256": "b406d8ecac2f9078fc5a64b847db6a5100f4ad19107672ac4294513fd869b9ed",
+  "source": "src/modules/pip.ts",
+  "unique": 6,
+  "wordlist_count": 6,
+  "wordlist_sha256": "37dc1cf389987cda8cc5bce535085c761865982250e2a54ce33fa037f2ee2a54"
+}

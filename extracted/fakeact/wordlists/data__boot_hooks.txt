@@ -1,0 +1,17 @@
+autodetect
+base
+block
+consolefont
+encrypt
+filesystems
+fsck
+keyboard
+keymap
+lvm2
+mdadm
+mdadm_udev
+modconf
+net
+resume
+udev
+usr

@@ -1,0 +1,34 @@
+{
+  "count": 15,
+  "id": "data__rkhunter_tasks",
+  "items": [
+    "Performing 'shared libraries' checks",
+    "Performing 'strings' command checks",
+    "Performing additional rootkit checks",
+    "Performing check for backdoor ports",
+    "Performing check of known rootkit files and directories",
+    "Performing check of possible rootkit files and directories",
+    "Performing checks on the network interfaces",
+    "Performing checks on the network ports",
+    "Performing file properties checks",
+    "Performing filesystem checks",
+    "Performing group and account checks",
+    "Performing malware checks",
+    "Performing system boot checks",
+    "Performing system configuration file checks",
+    "Performing trojan specific checks"
+  ],
+  "kind": "data",
+  "meta": {
+    "bytes": 577,
+    "extension": ".txt",
+    "referenced": true
+  },
+  "name": "rkhunter_tasks",
+  "schema": 1,
+  "sha256": "7d2bc10e133b8dad8f3ee441946ca2a435e7a263f95d0ddbad55c522ede59b9f",
+  "source": "data/rkhunter_tasks.txt",
+  "unique": 15,
+  "wordlist_count": 15,
+  "wordlist_sha256": "7d2bc10e133b8dad8f3ee441946ca2a435e7a263f95d0ddbad55c522ede59b9f"
+}

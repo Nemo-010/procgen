@@ -1,0 +1,5 @@
+docker_image_rm
+docker image rm 04880416f1bf
+Untagged: {package_name}:{package_tag}
+Untagged: {package_name}:{package_tag}@sha256:{hash}
+Deleted: sha256:{hash}

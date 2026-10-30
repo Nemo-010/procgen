@@ -1,0 +1,37 @@
+chalk
+../utils/helpers.js
+../utils/environment.js
+00
+CC
+DD
+CD
+FD
+FE
+48
+89
+E5
+53
+48
+83
+EC
+20
+FF
+00
+FF
+FF
+00
+
+0
+[?25l
+[?25h
+${currentLoc.toString(16).padStart(16, '0')}  
+ 
+#A0A0A0
+ 
+ |
+.
+|
+[?25h
+[?25h
+\nMemory dump failed:
+memdump -k -v

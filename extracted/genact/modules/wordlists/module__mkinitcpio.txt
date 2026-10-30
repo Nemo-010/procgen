@@ -1,0 +1,24 @@
+-k /boot/vmlinuz-{preset} -c /etc/mkinitcpio.conf -g {image}
+-{mode}
+/boot/initramfs-{preset}{suffix}.img
+==> WARNING: 
+Building image from preset: /etc/mkinitcpio.d/{preset}.preset: '{mode}'
+Creating {zip}-compressed initcpio image: {image}
+Generating module dependencies
+Image generation successful
+Possibly missing firmware for module: {driver}
+Running build hook: [{hook}]
+Starting build: {os_release}
+^drivers/scsi.*/([^/\\.]+).c$
+autodetect
+base
+block
+default
+fallback
+filesystems
+fsck
+linux
+mkinitcpio
+mkinitcpio --generate /boot/initramfs-custom2.img --kernel 5.7.12-arch1-1
+modconf
+udev

@@ -1,0 +1,11 @@
+\nALL DONE\n
+./start-sumcity.sh
+ABORTED
+FAIL
+OK
+SUCCESS
+YES
+[o] 
+mkinitcpio
+{simcity}... {resolution}
+{simcity}... {spinner}

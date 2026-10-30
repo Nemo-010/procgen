@@ -1,0 +1,21 @@
+{
+  "count": 3,
+  "id": "array__kernel_compile__CMDS",
+  "items": [
+    "WRAP   ",
+    "CHK    ",
+    "UPD    "
+  ],
+  "kind": "array",
+  "meta": {
+    "file": "kernel_compile",
+    "value_kind": "str"
+  },
+  "name": "CMDS",
+  "schema": 1,
+  "sha256": "c7d2aae772fdc1d8a29de5d993f0d53288298a98966db177aa446bb57bce91f3",
+  "source": "src/modules/kernel_compile.rs",
+  "unique": 3,
+  "wordlist_count": 3,
+  "wordlist_sha256": "5523191cc879a7f30e441c4f8e7fc255883d137e7b76314191a37d2aea0a58c4"
+}

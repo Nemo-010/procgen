@@ -1,0 +1,21 @@
+{
+  "count": 3,
+  "id": "array__geminiCli__TOOLS",
+  "items": [
+    "read_file",
+    "run_shell_command",
+    "write_file"
+  ],
+  "kind": "array",
+  "meta": {
+    "file": "geminiCli",
+    "value_kind": "str"
+  },
+  "name": "TOOLS",
+  "schema": 1,
+  "sha256": "08d9cddac96ffce2ccb18b5ac01d89231fbe4970b4a0d143b73bed7b3ca753a8",
+  "source": "src/modules/geminiCli.ts",
+  "unique": 3,
+  "wordlist_count": 3,
+  "wordlist_sha256": "08d9cddac96ffce2ccb18b5ac01d89231fbe4970b4a0d143b73bed7b3ca753a8"
+}

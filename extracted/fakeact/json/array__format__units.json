@@ -1,0 +1,22 @@
+{
+  "count": 4,
+  "id": "array__format__units",
+  "items": [
+    "B",
+    "KB",
+    "MB",
+    "GB"
+  ],
+  "kind": "array",
+  "meta": {
+    "file": "format",
+    "value_kind": "str"
+  },
+  "name": "units",
+  "schema": 1,
+  "sha256": "cef000a5442586028bd66ba8300cf6ab83692294205830331599c2e722b46697",
+  "source": "src/utils/format.ts",
+  "unique": 4,
+  "wordlist_count": 4,
+  "wordlist_sha256": "a5eb3ba133bd1c52bdadd702297a3c0b9e2cc5eff1063c0700e30e74210baa79"
+}

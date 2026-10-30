@@ -1,0 +1,7 @@
+bzip2
+gzip
+lz4
+lzma
+lzop
+xz
+zstd

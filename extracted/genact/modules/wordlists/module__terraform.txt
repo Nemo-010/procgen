@@ -1,0 +1,16 @@
+\r\nApply complete! Resources: {added} added, {changed} changed, {destroyed} destroyed.\r\n
+AWS
+AZURE
+Acquiring state lock. This may take a few moments...\r\n
+GCP
+terraform
+terraform --check
+{resource}.{id}: Creating...
+{resource}.{id}: Creation complete after {secs}s [id={id}]
+{resource}.{id}: Destroying... [id={id}]
+{resource}.{id}: Destruction complete after {secs}s
+{resource}.{id}: Modifications complete after {secs}s [id={id}]
+{resource}.{id}: Modifying... [id={id}]
+{resource}.{id}: Refreshing state... [id={id}]
+{resource}.{id}: Still creating... [{secs}s elapsed]
+{resource}.{id}: Still modifying... [id={id}, {secs}s elapsed]

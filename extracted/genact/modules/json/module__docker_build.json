@@ -1,0 +1,29 @@
+{
+  "count": 12,
+  "id": "module__docker_build",
+  "items": [
+    "docker_build",
+    "docker build -t image .",
+    "\rSending build context to Docker daemon  {current_size:>4.2}MB",
+    "docker",
+    "\rStep {current_step}/{total_steps} : {instruction}",
+    "RUN",
+    " ",
+    " ---> Using cache",
+    " ---> Running in {step_hash}",
+    " ---> {step_hash}",
+    "Successfully built {hash}",
+    "Successfully tagged {image}:{image_tag}"
+  ],
+  "kind": "literal",
+  "meta": {
+    "declared_name": "docker_build"
+  },
+  "name": "docker_build",
+  "schema": 1,
+  "sha256": "e42bb665f350fbc9551068e0c0513f90274d7d140d6cfd85c0fcddb5395fc0a9",
+  "source": "src/modules/docker_build.rs",
+  "unique": 12,
+  "wordlist_count": 11,
+  "wordlist_sha256": "fb09b4f9a34d2b48f744895b4ddbd02d897b9f9dffb5a63e95c17f33530a333b"
+}

@@ -1,0 +1,30 @@
+{
+  "count": 13,
+  "id": "module__composer",
+  "items": [
+    "{major:.0}.{minor:.0}.{patch:.0}",
+    "composer",
+    "composer install",
+    "{text}",
+    "Loading composer repositories with package information",
+    "{text}",
+    "Updating dependencies (including require-dev)",
+    "Installing",
+    "  - {stage} {package_name} ({package_version}): Loading from cache",
+    "{text}",
+    "Writing lock file",
+    "{text}",
+    "Generating autoload files"
+  ],
+  "kind": "literal",
+  "meta": {
+    "declared_name": "composer"
+  },
+  "name": "composer",
+  "schema": 1,
+  "sha256": "ee57e9ba7e248b4c3b502acf547bf09e00dd153d2af20edc52561101ce45443f",
+  "source": "src/modules/composer.rs",
+  "unique": 10,
+  "wordlist_count": 9,
+  "wordlist_sha256": "3b24d7023128b510a799238419da37536aec419ef6af51194911710064b7233f"
+}

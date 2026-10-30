@@ -1,0 +1,22 @@
+{
+  "count": 4,
+  "id": "array__pageLists__FILE_EXTENSIONS",
+  "items": [
+    ".tsx",
+    ".ts",
+    ".jsx",
+    ".js"
+  ],
+  "kind": "array",
+  "meta": {
+    "file": "pageLists",
+    "value_kind": "str"
+  },
+  "name": "FILE_EXTENSIONS",
+  "schema": 1,
+  "sha256": "a459e6dc2785eb47118499662a7635b646fa5d2fbfd4f5ac136868e478cca9ed",
+  "source": "src/utils/pageLists.ts",
+  "unique": 4,
+  "wordlist_count": 4,
+  "wordlist_sha256": "850e7631915bd89f2abfd3c7e5194e97d3d79608f8809da74edffe0ae232ba06"
+}

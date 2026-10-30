@@ -1,0 +1,27 @@
+{
+  "count": 9,
+  "id": "array__weblog__HTTP_CODES",
+  "items": [
+    "200",
+    "201",
+    "400",
+    "401",
+    "403",
+    "404",
+    "500",
+    "502",
+    "503"
+  ],
+  "kind": "array",
+  "meta": {
+    "file": "weblog",
+    "value_kind": "num"
+  },
+  "name": "HTTP_CODES",
+  "schema": 1,
+  "sha256": "a372a2b4ed8cdc15b43248a77065772f3b5a08127cd29b5bb959b5ca963b479a",
+  "source": "src/modules/weblog.rs",
+  "unique": 9,
+  "wordlist_count": 9,
+  "wordlist_sha256": "a372a2b4ed8cdc15b43248a77065772f3b5a08127cd29b5bb959b5ca963b479a"
+}

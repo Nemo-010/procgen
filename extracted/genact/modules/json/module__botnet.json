@@ -1,0 +1,30 @@
+{
+  "count": 13,
+  "id": "module__botnet",
+  "items": [
+    "botnet",
+    "./botnet.sh",
+    "\rEstablishing connections: {connected:4}/{size:4}",
+    "  Cluster #{i:02} ({nodes:3} nodes)",
+    "online",
+    "booting",
+    "  Cluster #{i:02} ({nodes:3} nodes) [{status:}]",
+    "Synchronizing clocks...",
+    "Sending login information...",
+    "Sending command...",
+    "+ {task} ",
+    "[done]",
+    ">> Botnet update complete."
+  ],
+  "kind": "literal",
+  "meta": {
+    "declared_name": "botnet"
+  },
+  "name": "botnet",
+  "schema": 1,
+  "sha256": "e35ff377097e7d8e1b995f23e668a51367bae14bbd7475c39749b1a8a4a31514",
+  "source": "src/modules/botnet.rs",
+  "unique": 13,
+  "wordlist_count": 13,
+  "wordlist_sha256": "e341e85bbde86e7aa750dcb8414d97b828b8ec67b71afea82ef425925c84a432"
+}

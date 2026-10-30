@@ -1,0 +1,20 @@
+{
+  "count": 2,
+  "id": "array__cargo__stages",
+  "items": [
+    "Downloading",
+    "Compiling"
+  ],
+  "kind": "array",
+  "meta": {
+    "file": "cargo",
+    "value_kind": "str"
+  },
+  "name": "stages",
+  "schema": 1,
+  "sha256": "3f583162786af7aab89c2296cda36ec8d7314fcce1e5347f4e5991d420faa4f0",
+  "source": "src/modules/cargo.ts",
+  "unique": 2,
+  "wordlist_count": 2,
+  "wordlist_sha256": "e8c3a97651a39875ecbab64c7cf9b2ea1f240f8c4ba8d905e796c509e1fb60b6"
+}

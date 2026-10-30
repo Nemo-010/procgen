@@ -1,0 +1,29 @@
+{
+  "count": 12,
+  "id": "module__weblog",
+  "items": [
+    "../utils/dataLoader.js",
+    "../utils/helpers.js",
+    "@faker-js/faker",
+    "dayjs",
+    "../utils/environment.js",
+    "/${dirs.join('/')}/${pkg}${extension}",
+    "packages",
+    "D/MMM/YYYY:HH:mm:ss ZZ",
+    "GET",
+    "-",
+    "${ip} - - [${date}] \"${method} ${path} HTTP/1.0\" ${httpCode} ${size} \"${referrer}\" \"${userAgent}\"",
+    "tail -f /var/log/nginx/access.log"
+  ],
+  "kind": "literal",
+  "meta": {
+    "declared_name": "weblog"
+  },
+  "name": "weblog",
+  "schema": 1,
+  "sha256": "fe75f2dad70463fc6138c162f676be884f1ed0ae7cff6b21764081a0aee00c27",
+  "source": "src/modules/weblog.ts",
+  "unique": 12,
+  "wordlist_count": 11,
+  "wordlist_sha256": "292ac9277631da2da406d772c7e6e52369fca2525127e4e40eab4ee3a1536b05"
+}

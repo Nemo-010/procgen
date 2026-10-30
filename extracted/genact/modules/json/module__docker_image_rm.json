@@ -1,0 +1,22 @@
+{
+  "count": 5,
+  "id": "module__docker_image_rm",
+  "items": [
+    "docker_image_rm",
+    "docker image rm 04880416f1bf",
+    "Untagged: {package_name}:{package_tag}",
+    "Untagged: {package_name}:{package_tag}@sha256:{hash}",
+    "Deleted: sha256:{hash}"
+  ],
+  "kind": "literal",
+  "meta": {
+    "declared_name": "docker_image_rm"
+  },
+  "name": "docker_image_rm",
+  "schema": 1,
+  "sha256": "90c46904e25a10030cd2c80dc5be735ae999e1c5fe951b27008ca2f71522d252",
+  "source": "src/modules/docker_image_rm.rs",
+  "unique": 5,
+  "wordlist_count": 5,
+  "wordlist_sha256": "b13aea9b867ed1d7c7ce12fd87f35a3bd6b1b16e519b902625a142c497bac43a"
+}

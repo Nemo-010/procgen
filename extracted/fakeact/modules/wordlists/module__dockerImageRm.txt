@@ -1,0 +1,9 @@
+../utils/dataLoader.js
+../utils/helpers.js
+Deleted: sha256:${deleteHash}
+Untagged: ${packageName}:${packageTag}
+Untagged: ${packageName}:${packageTag}@sha256:${hash}
+chalk
+docker image rm 04880416f1bf
+docker_packages
+docker_tags

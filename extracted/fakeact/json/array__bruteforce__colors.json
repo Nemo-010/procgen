@@ -1,0 +1,25 @@
+{
+  "count": 7,
+  "id": "array__bruteforce__colors",
+  "items": [
+    "#FF0000",
+    "#FF7F00",
+    "#FFFF00",
+    "#00FF00",
+    "#0000FF",
+    "#4B0082",
+    "#9400D3"
+  ],
+  "kind": "array",
+  "meta": {
+    "file": "bruteforce",
+    "value_kind": "str"
+  },
+  "name": "colors",
+  "schema": 1,
+  "sha256": "1f86cd88a6071e48c64ff829cee04d7b8714c95620d41d901fa1512fe0c2c395",
+  "source": "src/modules/bruteforce.ts",
+  "unique": 7,
+  "wordlist_count": 7,
+  "wordlist_sha256": "1d1691b8b46fed5cde3842d3cc81d448b7920f33cf19c6fcf32052ca611e0590"
+}

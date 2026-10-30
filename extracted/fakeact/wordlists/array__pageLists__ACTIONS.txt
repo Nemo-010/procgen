@@ -1,0 +1,12 @@
+approve
+create
+delete
+edit
+export
+import
+list
+manage
+preview
+reject
+review
+view

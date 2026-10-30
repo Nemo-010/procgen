@@ -1,0 +1,35 @@
+{
+  "count": 18,
+  "id": "module__ansible",
+  "items": [
+    "ok: [{host}]",
+    "skipping: [{host}]",
+    "failed: [{host}]",
+    "changed: [{host}]",
+    "skipping: [{host}]",
+    "failed: [{host}]",
+    "changed: [{host}]",
+    "ok: [{host}]",
+    "ansible",
+    "ansible-playbook",
+    "PLAY [setup {server}] ",
+    "{play_text:*<term_width$}",
+    "TASK [Gathering Facts] ",
+    "{gathering_text:*<term_width$}",
+    "unknown",
+    "unknown",
+    "TASK [{role} : {task}] ",
+    "{task_text:*<term_width$}"
+  ],
+  "kind": "literal",
+  "meta": {
+    "declared_name": "ansible"
+  },
+  "name": "ansible",
+  "schema": 1,
+  "sha256": "1886f49f733c9ffeefdfb35a3d28258504d13f32ce994901f54f2ced6ddc8fa4",
+  "source": "src/modules/ansible.rs",
+  "unique": 13,
+  "wordlist_count": 10,
+  "wordlist_sha256": "ffc900a70026879f58f16b2468473c91c289193af49c7c78dfdb7b2f8c0fe917"
+}

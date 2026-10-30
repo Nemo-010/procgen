@@ -1,0 +1,20 @@
+{
+  "count": 2,
+  "id": "array__cc__COMPILERS",
+  "items": [
+    "gcc",
+    "clang"
+  ],
+  "kind": "array",
+  "meta": {
+    "file": "cc",
+    "value_kind": "str"
+  },
+  "name": "COMPILERS",
+  "schema": 1,
+  "sha256": "26556df74fafb6436381a44697bdfc261b2c061b4b03312afbb9e19d7edd0d9a",
+  "source": "src/modules/cc.ts",
+  "unique": 2,
+  "wordlist_count": 2,
+  "wordlist_sha256": "f896daae39a2687d3d24867c4f5c40f9b5b35dd04c833d6f4122f9be69d61ae6"
+}

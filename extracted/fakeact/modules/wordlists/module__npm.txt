@@ -1,0 +1,75 @@
+\n  Run 
+\nDependencies:
+\nDev dependencies:
+\nInstallation interrupted
+\nPackages (
+ (${formatSize(pkg.size || 0)})
+ (dev)
+ Installation completed successfully
+ to fix them
+${critical} critical
+${fundingCount} packages are looking for funding\n  Run ${chalk.cyan('npm fund')} for details
+${high} high
+${low} low
+${major}.${minor}.${patch}${prerelease}
+${moderate} moderate
+${newPrefix}${depLine}${depName}@${depVersion}
+${newPrefix}└── ...
+${outdatedCount} packages are outdated\n  Run ${chalk.cyan('npm outdated')} to see them
+${prefix}${line}${pkg.name}@${pkg.version}
+${progressBar} ${(progress * 100).toFixed(1)}% 
+${size.toFixed(1)} ${units[unit]}
+-${['alpha', 'beta', 'rc'][Math.floor(Math.random() * 3)]}.${getRandomInt(1, 5)}
+-${names[Math.floor(Math.random() * names.length)]}
+../utils/helpers.js
+../utils/packageLists.js
+@babel/
+@jest/
+@testing-library/
+@types/
+@typescript-eslint/
+@vue/
+Added ${packages.length} packages (${packages.filter(p => p.isDevDependency).length} dev) in ${installTime}s
+Auditing package tree...
+Building fresh packages...
+Checking compatibility...
+Checking for native build requirements...
+Dependencies resolved
+Found ${total} vulnerabilities (
+GB
+Generating type definitions...
+Linking dependencies...
+MB
+Optimizing dependencies...
+Package requires Node.js version >=16.0.0\n  Current version: ${process.version}
+Processing source maps...
+Regular dependencies:
+Resolving dependencies...
+Resolving peer dependencies...
+Running install scripts...
+Total size: ${formatSize(totalSize)}
+Validating package.json...
+Verifying tree...
+added ${pkg.name}@${pkg.version}
+chalk
+common
+config
+core
+engine
+funding
+helper
+kB
+lib
+loader
+npm audit fix
+npm install
+ora
+outdated
+parser
+plugin
+preset
+security
+tool
+util
+└── ... and ${devDeps.length - 6} more
+└── ... and ${regularDeps.length - 6} more

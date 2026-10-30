@@ -1,0 +1,3 @@
+ERROR: {choice}
+bcdedit /set {current} bootlog Yes && shutdown /r
+bootlog

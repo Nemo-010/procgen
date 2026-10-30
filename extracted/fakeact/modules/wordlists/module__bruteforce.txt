@@ -1,0 +1,29 @@
+\r :: ${guesser.toString()} ::
+\r${message} [${rainbowProgress}]
+  ${hash}
+  ${hash}:${chalk.bold(pass)}
+#0000FF
+#00FF00
+#4B0082
+#9400D3
+#FF0000
+#FF7F00
+#FFFF00
+${name}${num}
+../utils/environment.js
+../utils/helpers.js
+./bruteforce.sh ./hashes.txt
+0123456789abcdef
+=> Begin matching
+=> Extracting Rainbow Table
+=> Hashes to decrypt
+=> Match found
+chalk
+david
+james
+john
+joseph
+michael
+richard
+robert
+william

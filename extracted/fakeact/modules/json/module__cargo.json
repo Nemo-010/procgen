@@ -1,0 +1,28 @@
+{
+  "count": 11,
+  "id": "module__cargo",
+  "items": [
+    "chalk",
+    "../utils/dataLoader.js",
+    "../utils/helpers.js",
+    "../utils/environment.js",
+    "${major}.${minor}.${patch}",
+    "packages",
+    "Downloading",
+    "Compiling",
+    "${chalk.green.bold(stage.padStart(12))} ${pkg.name} v${pkg.version}",
+    "${chalk.green.bold('Finished'.padStart(12))} release [optimized] target(s) in ${elapsed.toFixed(2)} secs",
+    "cargo run"
+  ],
+  "kind": "literal",
+  "meta": {
+    "declared_name": "cargo"
+  },
+  "name": "cargo",
+  "schema": 1,
+  "sha256": "aaba1857e89ed148ed84295b251c1d143ca119fa0b2cfbda1415584576e3efb9",
+  "source": "src/modules/cargo.ts",
+  "unique": 11,
+  "wordlist_count": 11,
+  "wordlist_sha256": "a907ff9e68fba6db58ad5fcf4d5343d1fe3f68e89d273d02d49da152f9f28dea"
+}

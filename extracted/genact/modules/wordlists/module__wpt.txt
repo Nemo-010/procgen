@@ -1,0 +1,39 @@
+  at <unknown>
+  at assert_wrapper (http://web-platform.test:8000/resources/testharness.js:{}:35)
+  at http://web-platform.test:8000/resources/testharness.js:{}:{}
+  at http://web-platform.test:8000/{}:{}:{}
+  at test (http://web-platform.test:8000/resources/testharness.js:{}:34)
+  at {} (http://web-platform.test:8000/{}:{}:{})
+/css/css-{}/test-{}.html
+/encoding/{}/{}-{}.html?{}-{}
+/html/{}/test-{}.html
+/{}/test-{}.html
+FAIL
+PASS
+Running {num_tests} tests in web-platform-tests\r\n
+TIMEOUT
+approx_equals: expected {} +/- {} but got {}
+array_equals: expected property {} to be {} but got {}
+assert
+big5-decode
+check
+equals: expected {} but got {}
+eucjp-decode
+eucjp-encode-form
+legacy-mb-japanese
+legacy-mb-korean
+legacy-mb-schinese
+legacy-mb-tchinese
+shift-jis-decode
+test
+testGetBoundingClientRect
+throws_dom: function "() => test()" threw object "TypeError: undefined is not a function" that is not a DOMException
+true: expected true but got false
+verify
+wpt
+wpt run -f --browser-version="1.0" --processes=16
+{}/test-{}.html
+{}ERROR [expected {}] {} test_{} assert_{}
+{}[{}/{}] No tests running.
+{}{}Timed out in {}
+{}{}Unexpected subtest result in {}:

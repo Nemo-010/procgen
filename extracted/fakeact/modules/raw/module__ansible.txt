@@ -1,0 +1,47 @@
+chalk
+../utils/dataLoader.js
+../utils/helpers.js
+../utils/environment.js
+.
+0
+:
+server
+host
+node
+web
+prod
+dev
+staging
+test
+0
+${prefixes[Math.floor(Math.random() * prefixes.length)]}${numbers}${suffixes[Math.floor(Math.random() * suffixes.length)]}
+green
+yellow
+red
+cyan
+ok: [${host}]
+green
+skipping: [${host}]
+cyan
+failed: [${host}]
+red
+changed: [${host}]
+yellow
+skipping: [${host}]
+cyan
+failed: [${host}]
+red
+changed: [${host}]
+yellow
+ok: [${host}]
+green
+ansible_roles
+ansible_tasks
+PLAY [setup ${username}] 
+*
+TASK [Gathering Facts] 
+*
+TASK [${role} : ${task}] 
+*
+Error during ansible execution:
+ansible-playbook

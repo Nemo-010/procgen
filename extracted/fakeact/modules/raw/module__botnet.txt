@@ -1,0 +1,17 @@
+chalk
+../utils/helpers.js
+../utils/environment.js
+[${lines}A
+[2K
+\rEstablishing connections: ${connected.toString().padStart(4)}/${size.toString().padStart(4)}
+  Cluster #${i.toString().padStart(2, '0')} (${clusters[i].toString().padStart(3)} nodes)
+online
+booting
+  Cluster #${i.toString().padStart(2, '0')} (${clusters[i].toString().padStart(3)} nodes) [${status}]
+Synchronizing clocks...
+Sending login information...
+Sending command...
++ ${task} 
+[done]
+>> Botnet update complete.
+./botnet.sh

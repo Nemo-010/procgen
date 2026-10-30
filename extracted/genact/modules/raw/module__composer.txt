@@ -1,0 +1,13 @@
+{major:.0}.{minor:.0}.{patch:.0}
+composer
+composer install
+{text}
+Loading composer repositories with package information
+{text}
+Updating dependencies (including require-dev)
+Installing
+  - {stage} {package_name} ({package_version}): Loading from cache
+{text}
+Writing lock file
+{text}
+Generating autoload files

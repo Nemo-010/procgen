@@ -1,0 +1,35 @@
+  ${rootkit.padEnd(checkPad)} [ ${rootkitFound ? chalk.red('Found') : 'Not found'} ]
+  Checking for ${rootkit}...
+${rkPad}  ${check.padEnd(checkPad)} [ ${checkStatus} ]
+../utils/dataLoader.js
+../utils/environment.js
+../utils/helpers.js
+2-digit
+Checking if the O/S has changed since last time...
+Found
+Found O/S name: Ubuntu ${genPackageVersion()}
+Info: Detected operating system is 'Linux'
+Info: Environment shell is /bin/bash; rkhunter is using dash
+Info: Installation directory is '/usr'
+Info: Locking is not being used\n
+Info: No mail-on-warning address configured\n
+Info: Nothing seems to have changed.
+Info: Start date is ${getCurrentDate()}\n
+Info: Using '/usr/local/sbin /usr/local/bin /usr/sbin /usr/bin /sbin /bin /usr/games /usr/local/games /snap/bin /usr/libexec' as the command directories
+Info: Using '/usr/share/rkhunter/scripts' as the support script directory
+Info: Using '/var/lib/rkhunter/db' as the database directory
+Info: Using '/var/lib/rkhunter/tmp' as the temporary directory
+Info: Using configuration file '/etc/rkhunter.conf'
+Info: Using language 'en'
+Not found
+Running Rootkit Hunter version ${version} on localhost\n
+Skipped
+Starting system checks...\n
+chalk
+en-US
+numeric
+rkhunter --check
+rkhunter_checks
+rkhunter_rootkits
+rkhunter_tasks
+short

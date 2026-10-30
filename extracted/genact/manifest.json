@@ -1,0 +1,799 @@
+{
+  "assets": {
+    "array__cc__COMPILERS": {
+      "count": 2,
+      "kind": "array",
+      "meta": {
+        "file": "cc",
+        "value_kind": "str"
+      },
+      "name": "COMPILERS",
+      "source": "src/modules/cc.rs",
+      "unique": 2,
+      "wordlist_count": 2
+    },
+    "array__cc__FLAGS_ARCH": {
+      "count": 3,
+      "kind": "array",
+      "meta": {
+        "file": "cc",
+        "value_kind": "str"
+      },
+      "name": "FLAGS_ARCH",
+      "source": "src/modules/cc.rs",
+      "unique": 3,
+      "wordlist_count": 3
+    },
+    "array__cc__FLAGS_DEF": {
+      "count": 7,
+      "kind": "array",
+      "meta": {
+        "file": "cc",
+        "value_kind": "str"
+      },
+      "name": "FLAGS_DEF",
+      "source": "src/modules/cc.rs",
+      "unique": 7,
+      "wordlist_count": 7
+    },
+    "array__cc__FLAGS_DEF_BASE": {
+      "count": 2,
+      "kind": "array",
+      "meta": {
+        "file": "cc",
+        "value_kind": "str"
+      },
+      "name": "FLAGS_DEF_BASE",
+      "source": "src/modules/cc.rs",
+      "unique": 2,
+      "wordlist_count": 2
+    },
+    "array__cc__FLAGS_F": {
+      "count": 4,
+      "kind": "array",
+      "meta": {
+        "file": "cc",
+        "value_kind": "str"
+      },
+      "name": "FLAGS_F",
+      "source": "src/modules/cc.rs",
+      "unique": 4,
+      "wordlist_count": 4
+    },
+    "array__cc__FLAGS_OPT": {
+      "count": 6,
+      "kind": "array",
+      "meta": {
+        "file": "cc",
+        "value_kind": "str"
+      },
+      "name": "FLAGS_OPT",
+      "source": "src/modules/cc.rs",
+      "unique": 6,
+      "wordlist_count": 6
+    },
+    "array__cc__FLAGS_WARN": {
+      "count": 7,
+      "kind": "array",
+      "meta": {
+        "file": "cc",
+        "value_kind": "str"
+      },
+      "name": "FLAGS_WARN",
+      "source": "src/modules/cc.rs",
+      "unique": 7,
+      "wordlist_count": 7
+    },
+    "array__cc__FLAGS_WARN_BASE": {
+      "count": 2,
+      "kind": "array",
+      "meta": {
+        "file": "cc",
+        "value_kind": "str"
+      },
+      "name": "FLAGS_WARN_BASE",
+      "source": "src/modules/cc.rs",
+      "unique": 2,
+      "wordlist_count": 2
+    },
+    "array__data__COMPRESSION_FORMATS_LIST": {
+      "count": 7,
+      "kind": "array",
+      "meta": {
+        "file": "data",
+        "value_kind": "str"
+      },
+      "name": "COMPRESSION_FORMATS_LIST",
+      "source": "src/data.rs",
+      "unique": 7,
+      "wordlist_count": 7
+    },
+    "array__data__EXTENSIONS_LIST": {
+      "count": 23,
+      "kind": "array",
+      "meta": {
+        "file": "data",
+        "value_kind": "str"
+      },
+      "name": "EXTENSIONS_LIST",
+      "source": "src/data.rs",
+      "unique": 23,
+      "wordlist_count": 23
+    },
+    "array__kernel_compile__ARCHES": {
+      "count": 30,
+      "kind": "array",
+      "meta": {
+        "file": "kernel_compile",
+        "value_kind": "str"
+      },
+      "name": "ARCHES",
+      "source": "src/modules/kernel_compile.rs",
+      "unique": 30,
+      "wordlist_count": 30
+    },
+    "array__kernel_compile__CMDS": {
+      "count": 3,
+      "kind": "array",
+      "meta": {
+        "file": "kernel_compile",
+        "value_kind": "str"
+      },
+      "name": "CMDS",
+      "source": "src/modules/kernel_compile.rs",
+      "unique": 3,
+      "wordlist_count": 3
+    },
+    "array__kernel_compile__RARE_CMDS": {
+      "count": 2,
+      "kind": "array",
+      "meta": {
+        "file": "kernel_compile",
+        "value_kind": "str"
+      },
+      "name": "RARE_CMDS",
+      "source": "src/modules/kernel_compile.rs",
+      "unique": 2,
+      "wordlist_count": 2
+    },
+    "array__kernel_compile__RARE_CMDS__2": {
+      "count": 2,
+      "kind": "array",
+      "meta": {
+        "file": "kernel_compile",
+        "value_kind": "str"
+      },
+      "name": "RARE_CMDS",
+      "source": "src/modules/kernel_compile.rs",
+      "unique": 2,
+      "wordlist_count": 2
+    },
+    "array__kernel_compile__SPECIALS": {
+      "count": 25,
+      "kind": "array",
+      "meta": {
+        "file": "kernel_compile",
+        "value_kind": "str"
+      },
+      "name": "SPECIALS",
+      "source": "src/modules/kernel_compile.rs",
+      "unique": 25,
+      "wordlist_count": 25
+    },
+    "array__mkinitcpio__REQUIRED_HOOKS": {
+      "count": 7,
+      "kind": "array",
+      "meta": {
+        "file": "mkinitcpio",
+        "value_kind": "str"
+      },
+      "name": "REQUIRED_HOOKS",
+      "source": "src/modules/mkinitcpio.rs",
+      "unique": 7,
+      "wordlist_count": 7
+    },
+    "array__simcity__SPINNERS": {
+      "count": 4,
+      "kind": "array",
+      "meta": {
+        "file": "simcity",
+        "value_kind": "str"
+      },
+      "name": "SPINNERS",
+      "source": "src/modules/simcity.rs",
+      "unique": 4,
+      "wordlist_count": 4
+    },
+    "array__uv__SPINNER_FRAME": {
+      "count": 10,
+      "kind": "array",
+      "meta": {
+        "file": "uv",
+        "value_kind": "str"
+      },
+      "name": "SPINNER_FRAME",
+      "source": "src/modules/uv.rs",
+      "unique": 10,
+      "wordlist_count": 10
+    },
+    "array__weblog__HTTP_CODES": {
+      "count": 9,
+      "kind": "array",
+      "meta": {
+        "file": "weblog",
+        "value_kind": "num"
+      },
+      "name": "HTTP_CODES",
+      "source": "src/modules/weblog.rs",
+      "unique": 9,
+      "wordlist_count": 9
+    },
+    "array__wpt__ENCODING_TYPES": {
+      "count": 4,
+      "kind": "array",
+      "meta": {
+        "file": "wpt",
+        "value_kind": "str"
+      },
+      "name": "ENCODING_TYPES",
+      "source": "src/modules/wpt.rs",
+      "unique": 4,
+      "wordlist_count": 4
+    },
+    "array__wpt__TESTHARNESS_LINES": {
+      "count": 4,
+      "kind": "array",
+      "meta": {
+        "file": "wpt",
+        "value_kind": "num"
+      },
+      "name": "TESTHARNESS_LINES",
+      "source": "src/modules/wpt.rs",
+      "unique": 4,
+      "wordlist_count": 4
+    },
+    "array__wpt__TEST_FUNC_NAMES": {
+      "count": 5,
+      "kind": "array",
+      "meta": {
+        "file": "wpt",
+        "value_kind": "str"
+      },
+      "name": "TEST_FUNC_NAMES",
+      "source": "src/modules/wpt.rs",
+      "unique": 5,
+      "wordlist_count": 5
+    },
+    "data__ansible_roles": {
+      "count": 74,
+      "kind": "data",
+      "meta": {
+        "bytes": 733,
+        "extension": ".txt",
+        "referenced": true
+      },
+      "name": "ansible_roles",
+      "source": "data/ansible_roles.txt",
+      "unique": 74,
+      "wordlist_count": 74
+    },
+    "data__ansible_tasks": {
+      "count": 1080,
+      "kind": "data",
+      "meta": {
+        "bytes": 29810,
+        "extension": ".txt",
+        "referenced": true
+      },
+      "name": "ansible_tasks",
+      "source": "data/ansible_tasks.txt",
+      "unique": 920,
+      "wordlist_count": 920
+    },
+    "data__boot_hooks": {
+      "count": 17,
+      "kind": "data",
+      "meta": {
+        "bytes": 125,
+        "extension": ".txt",
+        "referenced": true
+      },
+      "name": "boot_hooks",
+      "source": "data/boot_hooks.txt",
+      "unique": 17,
+      "wordlist_count": 17
+    },
+    "data__bootlog": {
+      "count": 320,
+      "kind": "data",
+      "meta": {
+        "bytes": 16722,
+        "extension": ".txt",
+        "referenced": true
+      },
+      "name": "bootlog",
+      "source": "data/bootlog.txt",
+      "unique": 314,
+      "wordlist_count": 314
+    },
+    "data__cfiles": {
+      "count": 25957,
+      "kind": "data",
+      "meta": {
+        "bytes": 850221,
+        "extension": ".txt",
+        "referenced": true
+      },
+      "name": "cfiles",
+      "source": "data/cfiles.txt",
+      "unique": 25957,
+      "wordlist_count": 25957
+    },
+    "data__composer": {
+      "count": 121,
+      "kind": "data",
+      "meta": {
+        "bytes": 2700,
+        "extension": ".txt",
+        "referenced": true
+      },
+      "name": "composer",
+      "source": "data/composer.txt",
+      "unique": 121,
+      "wordlist_count": 121
+    },
+    "data__css_properties": {
+      "count": 72,
+      "kind": "data",
+      "meta": {
+        "bytes": 690,
+        "extension": ".txt",
+        "referenced": true
+      },
+      "name": "css_properties",
+      "source": "data/css_properties.txt",
+      "unique": 72,
+      "wordlist_count": 72
+    },
+    "data__docker_packages": {
+      "count": 103,
+      "kind": "data",
+      "meta": {
+        "bytes": 1521,
+        "extension": ".txt",
+        "referenced": true
+      },
+      "name": "docker_packages",
+      "source": "data/docker_packages.txt",
+      "unique": 103,
+      "wordlist_count": 103
+    },
+    "data__docker_tags": {
+      "count": 101,
+      "kind": "data",
+      "meta": {
+        "bytes": 1040,
+        "extension": ".txt",
+        "referenced": true
+      },
+      "name": "docker_tags",
+      "source": "data/docker_tags.txt",
+      "unique": 101,
+      "wordlist_count": 101
+    },
+    "data__julia": {
+      "count": 8224,
+      "kind": "data",
+      "meta": {
+        "bytes": 628973,
+        "extension": ".csv",
+        "referenced": true
+      },
+      "name": "julia",
+      "source": "data/julia.csv",
+      "unique": 8224,
+      "wordlist_count": 22358
+    },
+    "data__os_releases": {
+      "count": 21,
+      "kind": "data",
+      "meta": {
+        "bytes": 298,
+        "extension": ".txt",
+        "referenced": true
+      },
+      "name": "os_releases",
+      "source": "data/os_releases.txt",
+      "unique": 21,
+      "wordlist_count": 21
+    },
+    "data__packages": {
+      "count": 12603,
+      "kind": "data",
+      "meta": {
+        "bytes": 134502,
+        "extension": ".txt",
+        "referenced": true
+      },
+      "name": "packages",
+      "source": "data/packages.txt",
+      "unique": 12598,
+      "wordlist_count": 12598
+    },
+    "data__rkhunter_checks": {
+      "count": 271,
+      "kind": "data",
+      "meta": {
+        "bytes": 10618,
+        "extension": ".txt",
+        "referenced": true
+      },
+      "name": "rkhunter_checks",
+      "source": "data/rkhunter_checks.txt",
+      "unique": 271,
+      "wordlist_count": 271
+    },
+    "data__rkhunter_rootkits": {
+      "count": 28,
+      "kind": "data",
+      "meta": {
+        "bytes": 419,
+        "extension": ".txt",
+        "referenced": true
+      },
+      "name": "rkhunter_rootkits",
+      "source": "data/rkhunter_rootkits.txt",
+      "unique": 28,
+      "wordlist_count": 28
+    },
+    "data__rkhunter_tasks": {
+      "count": 15,
+      "kind": "data",
+      "meta": {
+        "bytes": 577,
+        "extension": ".txt",
+        "referenced": true
+      },
+      "name": "rkhunter_tasks",
+      "source": "data/rkhunter_tasks.txt",
+      "unique": 15,
+      "wordlist_count": 15
+    },
+    "data__simcity": {
+      "count": 106,
+      "kind": "data",
+      "meta": {
+        "bytes": 3011,
+        "extension": ".txt",
+        "referenced": true
+      },
+      "name": "simcity",
+      "source": "data/simcity.txt",
+      "unique": 106,
+      "wordlist_count": 106
+    },
+    "data__terraform_aws_resources": {
+      "count": 1295,
+      "kind": "data",
+      "meta": {
+        "bytes": 37751,
+        "extension": ".txt",
+        "referenced": true
+      },
+      "name": "terraform_aws_resources",
+      "source": "data/terraform_aws_resources.txt",
+      "unique": 1295,
+      "wordlist_count": 1295
+    },
+    "data__terraform_azure_resources": {
+      "count": 1062,
+      "kind": "data",
+      "meta": {
+        "bytes": 38940,
+        "extension": ".txt",
+        "referenced": true
+      },
+      "name": "terraform_azure_resources",
+      "source": "data/terraform_azure_resources.txt",
+      "unique": 1062,
+      "wordlist_count": 1062
+    },
+    "data__terraform_gcp_resources": {
+      "count": 653,
+      "kind": "data",
+      "meta": {
+        "bytes": 21406,
+        "extension": ".txt",
+        "referenced": true
+      },
+      "name": "terraform_gcp_resources",
+      "source": "data/terraform_gcp_resources.txt",
+      "unique": 653,
+      "wordlist_count": 653
+    },
+    "data__terraform_ids": {
+      "count": 232,
+      "kind": "data",
+      "meta": {
+        "bytes": 2087,
+        "extension": ".txt",
+        "referenced": true
+      },
+      "name": "terraform_ids",
+      "source": "data/terraform_ids.txt",
+      "unique": 232,
+      "wordlist_count": 232
+    },
+    "data__web_apis": {
+      "count": 104,
+      "kind": "data",
+      "meta": {
+        "bytes": 1232,
+        "extension": ".txt",
+        "referenced": true
+      },
+      "name": "web_apis",
+      "source": "data/web_apis.txt",
+      "unique": 104,
+      "wordlist_count": 104
+    },
+    "data__wpt_categories": {
+      "count": 100,
+      "kind": "data",
+      "meta": {
+        "bytes": 1749,
+        "extension": ".txt",
+        "referenced": true
+      },
+      "name": "wpt_categories",
+      "source": "data/wpt_categories.txt",
+      "unique": 100,
+      "wordlist_count": 100
+    },
+    "modules/module__ansible": {
+      "count": 18,
+      "kind": "literal",
+      "meta": {
+        "declared_name": "ansible"
+      },
+      "name": "ansible",
+      "source": "src/modules/ansible.rs",
+      "unique": 13,
+      "wordlist_count": 10
+    },
+    "modules/module__bootlog": {
+      "count": 7,
+      "kind": "literal",
+      "meta": {
+        "declared_name": "bootlog"
+      },
+      "name": "bootlog",
+      "source": "src/modules/bootlog.rs",
+      "unique": 5,
+      "wordlist_count": 3
+    },
+    "modules/module__botnet": {
+      "count": 13,
+      "kind": "literal",
+      "meta": {
+        "declared_name": "botnet"
+      },
+      "name": "botnet",
+      "source": "src/modules/botnet.rs",
+      "unique": 13,
+      "wordlist_count": 13
+    },
+    "modules/module__bruteforce": {
+      "count": 21,
+      "kind": "literal",
+      "meta": {
+        "declared_name": "bruteforce"
+      },
+      "name": "bruteforce",
+      "source": "src/modules/bruteforce.rs",
+      "unique": 20,
+      "wordlist_count": 9
+    },
+    "modules/module__cargo": {
+      "count": 7,
+      "kind": "literal",
+      "meta": {
+        "declared_name": "cargo"
+      },
+      "name": "cargo",
+      "source": "src/modules/cargo.rs",
+      "unique": 7,
+      "wordlist_count": 7
+    },
+    "modules/module__cc": {
+      "count": 46,
+      "kind": "literal",
+      "meta": {
+        "declared_name": "cc"
+      },
+      "name": "cc",
+      "source": "src/modules/cc.rs",
+      "unique": 42,
+      "wordlist_count": 41
+    },
+    "modules/module__composer": {
+      "count": 13,
+      "kind": "literal",
+      "meta": {
+        "declared_name": "composer"
+      },
+      "name": "composer",
+      "source": "src/modules/composer.rs",
+      "unique": 10,
+      "wordlist_count": 9
+    },
+    "modules/module__cryptomining": {
+      "count": 27,
+      "kind": "literal",
+      "meta": {
+        "declared_name": "cryptomining"
+      },
+      "name": "cryptomining",
+      "source": "src/modules/cryptomining.rs",
+      "unique": 19,
+      "wordlist_count": 16
+    },
+    "modules/module__docker_build": {
+      "count": 12,
+      "kind": "literal",
+      "meta": {
+        "declared_name": "docker_build"
+      },
+      "name": "docker_build",
+      "source": "src/modules/docker_build.rs",
+      "unique": 12,
+      "wordlist_count": 11
+    },
+    "modules/module__docker_image_rm": {
+      "count": 5,
+      "kind": "literal",
+      "meta": {
+        "declared_name": "docker_image_rm"
+      },
+      "name": "docker_image_rm",
+      "source": "src/modules/docker_image_rm.rs",
+      "unique": 5,
+      "wordlist_count": 5
+    },
+    "modules/module__download": {
+      "count": 6,
+      "kind": "literal",
+      "meta": {
+        "declared_name": "download"
+      },
+      "name": "download",
+      "source": "src/modules/download.rs",
+      "unique": 6,
+      "wordlist_count": 6
+    },
+    "modules/module__julia": {
+      "count": 88,
+      "kind": "literal",
+      "meta": {
+        "declared_name": "julia"
+      },
+      "name": "julia",
+      "source": "src/modules/julia.rs",
+      "unique": 62,
+      "wordlist_count": 51
+    },
+    "modules/module__kernel_compile": {
+      "count": 90,
+      "kind": "literal",
+      "meta": {
+        "declared_name": "kernel_compile"
+      },
+      "name": "kernel_compile",
+      "source": "src/modules/kernel_compile.rs",
+      "unique": 79,
+      "wordlist_count": 78
+    },
+    "modules/module__memdump": {
+      "count": 6,
+      "kind": "literal",
+      "meta": {
+        "declared_name": "memdump"
+      },
+      "name": "memdump",
+      "source": "src/modules/memdump.rs",
+      "unique": 6,
+      "wordlist_count": 3
+    },
+    "modules/module__mkinitcpio": {
+      "count": 33,
+      "kind": "literal",
+      "meta": {
+        "declared_name": "mkinitcpio"
+      },
+      "name": "mkinitcpio",
+      "source": "src/modules/mkinitcpio.rs",
+      "unique": 27,
+      "wordlist_count": 24
+    },
+    "modules/module__rkhunter": {
+      "count": 33,
+      "kind": "literal",
+      "meta": {
+        "declared_name": "rkhunter"
+      },
+      "name": "rkhunter",
+      "source": "src/modules/rkhunter.rs",
+      "unique": 28,
+      "wordlist_count": 26
+    },
+    "modules/module__simcity": {
+      "count": 22,
+      "kind": "literal",
+      "meta": {
+        "declared_name": "mkinitcpio"
+      },
+      "name": "simcity",
+      "source": "src/modules/simcity.rs",
+      "unique": 17,
+      "wordlist_count": 11
+    },
+    "modules/module__terraform": {
+      "count": 20,
+      "kind": "literal",
+      "meta": {
+        "declared_name": "terraform"
+      },
+      "name": "terraform",
+      "source": "src/modules/terraform.rs",
+      "unique": 17,
+      "wordlist_count": 16
+    },
+    "modules/module__uv": {
+      "count": 34,
+      "kind": "literal",
+      "meta": {
+        "declared_name": "uv"
+      },
+      "name": "uv",
+      "source": "src/modules/uv.rs",
+      "unique": 33,
+      "wordlist_count": 10
+    },
+    "modules/module__weblog": {
+      "count": 6,
+      "kind": "literal",
+      "meta": {
+        "declared_name": "weblog"
+      },
+      "name": "weblog",
+      "source": "src/modules/weblog.rs",
+      "unique": 6,
+      "wordlist_count": 5
+    },
+    "modules/module__wpt": {
+      "count": 58,
+      "kind": "literal",
+      "meta": {
+        "declared_name": "wpt"
+      },
+      "name": "wpt",
+      "source": "src/modules/wpt.rs",
+      "unique": 47,
+      "wordlist_count": 39
+    }
+  },
+  "repo": {
+    "commit": "ad54eba035dcc6569333a0ad93c2486cfc2ed55a",
+    "files_scanned": 68,
+    "flavor": "rust",
+    "name": "genact"
+  },
+  "schema": 1,
+  "stale": [],
+  "summary": {
+    "assets": 65,
+    "items": 53292,
+    "wordlist_items": 67083
+  },
+  "warnings": []
+}

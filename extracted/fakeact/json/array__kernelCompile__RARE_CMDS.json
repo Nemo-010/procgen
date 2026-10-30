@@ -1,0 +1,20 @@
+{
+  "count": 2,
+  "id": "array__kernelCompile__RARE_CMDS",
+  "items": [
+    "SYSTBL ",
+    "SYSHDR "
+  ],
+  "kind": "array",
+  "meta": {
+    "file": "kernelCompile",
+    "value_kind": "str"
+  },
+  "name": "RARE_CMDS",
+  "schema": 1,
+  "sha256": "f8a22e86208c84816c6dee02d940811e4e256cfd23a78147508421c46cc1a33e",
+  "source": "src/modules/kernelCompile.ts",
+  "unique": 2,
+  "wordlist_count": 2,
+  "wordlist_sha256": "fadbaf31ac1ba8d090ecc84945da44885cf6629ef3243a02e947830d48962a7c"
+}

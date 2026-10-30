@@ -1,0 +1,1129 @@
+{
+  "assets": {
+    "array__ansible__prefixes": {
+      "count": 4,
+      "kind": "array",
+      "meta": {
+        "file": "ansible",
+        "value_kind": "str"
+      },
+      "name": "prefixes",
+      "source": "src/modules/ansible.ts",
+      "unique": 4,
+      "wordlist_count": 4
+    },
+    "array__ansible__suffixes": {
+      "count": 4,
+      "kind": "array",
+      "meta": {
+        "file": "ansible",
+        "value_kind": "str"
+      },
+      "name": "suffixes",
+      "source": "src/modules/ansible.ts",
+      "unique": 4,
+      "wordlist_count": 4
+    },
+    "array__botnet__tasks": {
+      "count": 3,
+      "kind": "array",
+      "meta": {
+        "file": "botnet",
+        "value_kind": "str"
+      },
+      "name": "tasks",
+      "source": "src/modules/botnet.ts",
+      "unique": 3,
+      "wordlist_count": 3
+    },
+    "array__bruteforce__colors": {
+      "count": 7,
+      "kind": "array",
+      "meta": {
+        "file": "bruteforce",
+        "value_kind": "str"
+      },
+      "name": "colors",
+      "source": "src/modules/bruteforce.ts",
+      "unique": 7,
+      "wordlist_count": 7
+    },
+    "array__bruteforce__names": {
+      "count": 8,
+      "kind": "array",
+      "meta": {
+        "file": "bruteforce",
+        "value_kind": "str"
+      },
+      "name": "names",
+      "source": "src/modules/bruteforce.ts",
+      "unique": 8,
+      "wordlist_count": 8
+    },
+    "array__bruteforce__spinnerChars": {
+      "count": 4,
+      "kind": "array",
+      "meta": {
+        "file": "bruteforce",
+        "value_kind": "str"
+      },
+      "name": "spinnerChars",
+      "source": "src/modules/bruteforce.ts",
+      "unique": 4,
+      "wordlist_count": 4
+    },
+    "array__cargo__stages": {
+      "count": 2,
+      "kind": "array",
+      "meta": {
+        "file": "cargo",
+        "value_kind": "str"
+      },
+      "name": "stages",
+      "source": "src/modules/cargo.ts",
+      "unique": 2,
+      "wordlist_count": 2
+    },
+    "array__cc__COMPILERS": {
+      "count": 2,
+      "kind": "array",
+      "meta": {
+        "file": "cc",
+        "value_kind": "str"
+      },
+      "name": "COMPILERS",
+      "source": "src/modules/cc.ts",
+      "unique": 2,
+      "wordlist_count": 2
+    },
+    "array__cc__FLAGS_ARCH": {
+      "count": 3,
+      "kind": "array",
+      "meta": {
+        "file": "cc",
+        "value_kind": "str"
+      },
+      "name": "FLAGS_ARCH",
+      "source": "src/modules/cc.ts",
+      "unique": 3,
+      "wordlist_count": 3
+    },
+    "array__cc__FLAGS_DEF": {
+      "count": 7,
+      "kind": "array",
+      "meta": {
+        "file": "cc",
+        "value_kind": "str"
+      },
+      "name": "FLAGS_DEF",
+      "source": "src/modules/cc.ts",
+      "unique": 7,
+      "wordlist_count": 7
+    },
+    "array__cc__FLAGS_DEF_BASE": {
+      "count": 2,
+      "kind": "array",
+      "meta": {
+        "file": "cc",
+        "value_kind": "str"
+      },
+      "name": "FLAGS_DEF_BASE",
+      "source": "src/modules/cc.ts",
+      "unique": 2,
+      "wordlist_count": 2
+    },
+    "array__cc__FLAGS_F": {
+      "count": 4,
+      "kind": "array",
+      "meta": {
+        "file": "cc",
+        "value_kind": "str"
+      },
+      "name": "FLAGS_F",
+      "source": "src/modules/cc.ts",
+      "unique": 4,
+      "wordlist_count": 4
+    },
+    "array__cc__FLAGS_OPT": {
+      "count": 6,
+      "kind": "array",
+      "meta": {
+        "file": "cc",
+        "value_kind": "str"
+      },
+      "name": "FLAGS_OPT",
+      "source": "src/modules/cc.ts",
+      "unique": 6,
+      "wordlist_count": 6
+    },
+    "array__cc__FLAGS_WARN": {
+      "count": 7,
+      "kind": "array",
+      "meta": {
+        "file": "cc",
+        "value_kind": "str"
+      },
+      "name": "FLAGS_WARN",
+      "source": "src/modules/cc.ts",
+      "unique": 7,
+      "wordlist_count": 7
+    },
+    "array__cc__FLAGS_WARN_BASE": {
+      "count": 2,
+      "kind": "array",
+      "meta": {
+        "file": "cc",
+        "value_kind": "str"
+      },
+      "name": "FLAGS_WARN_BASE",
+      "source": "src/modules/cc.ts",
+      "unique": 2,
+      "wordlist_count": 2
+    },
+    "array__claudeCode__FILES": {
+      "count": 6,
+      "kind": "array",
+      "meta": {
+        "file": "claudeCode",
+        "value_kind": "str"
+      },
+      "name": "FILES",
+      "source": "src/modules/claudeCode.ts",
+      "unique": 6,
+      "wordlist_count": 6
+    },
+    "array__claudeCode__TOOLS": {
+      "count": 4,
+      "kind": "array",
+      "meta": {
+        "file": "claudeCode",
+        "value_kind": "str"
+      },
+      "name": "TOOLS",
+      "source": "src/modules/claudeCode.ts",
+      "unique": 4,
+      "wordlist_count": 4
+    },
+    "array__dataLoader__COMPRESSION_FORMATS_LIST": {
+      "count": 7,
+      "kind": "array",
+      "meta": {
+        "file": "dataLoader",
+        "value_kind": "str"
+      },
+      "name": "COMPRESSION_FORMATS_LIST",
+      "source": "src/utils/dataLoader.ts",
+      "unique": 7,
+      "wordlist_count": 7
+    },
+    "array__dataLoader__EXTENSIONS_LIST": {
+      "count": 23,
+      "kind": "array",
+      "meta": {
+        "file": "dataLoader",
+        "value_kind": "str"
+      },
+      "name": "EXTENSIONS_LIST",
+      "source": "src/utils/dataLoader.ts",
+      "unique": 23,
+      "wordlist_count": 23
+    },
+    "array__dockerBuild__OTHER_COMMANDS": {
+      "count": 9,
+      "kind": "array",
+      "meta": {
+        "file": "dockerBuild",
+        "value_kind": "str"
+      },
+      "name": "OTHER_COMMANDS",
+      "source": "src/modules/dockerBuild.ts",
+      "unique": 9,
+      "wordlist_count": 9
+    },
+    "array__format__units": {
+      "count": 4,
+      "kind": "array",
+      "meta": {
+        "file": "format",
+        "value_kind": "str"
+      },
+      "name": "units",
+      "source": "src/utils/format.ts",
+      "unique": 4,
+      "wordlist_count": 4
+    },
+    "array__ganache__methods": {
+      "count": 4,
+      "kind": "array",
+      "meta": {
+        "file": "ganache",
+        "value_kind": "str"
+      },
+      "name": "methods",
+      "source": "src/modules/ganache.ts",
+      "unique": 4,
+      "wordlist_count": 4
+    },
+    "array__geminiCli__FILES": {
+      "count": 5,
+      "kind": "array",
+      "meta": {
+        "file": "geminiCli",
+        "value_kind": "str"
+      },
+      "name": "FILES",
+      "source": "src/modules/geminiCli.ts",
+      "unique": 5,
+      "wordlist_count": 5
+    },
+    "array__geminiCli__TOOLS": {
+      "count": 3,
+      "kind": "array",
+      "meta": {
+        "file": "geminiCli",
+        "value_kind": "str"
+      },
+      "name": "TOOLS",
+      "source": "src/modules/geminiCli.ts",
+      "unique": 3,
+      "wordlist_count": 3
+    },
+    "array__kernelCompile__ARCHES": {
+      "count": 30,
+      "kind": "array",
+      "meta": {
+        "file": "kernelCompile",
+        "value_kind": "str"
+      },
+      "name": "ARCHES",
+      "source": "src/modules/kernelCompile.ts",
+      "unique": 30,
+      "wordlist_count": 30
+    },
+    "array__kernelCompile__CMDS": {
+      "count": 3,
+      "kind": "array",
+      "meta": {
+        "file": "kernelCompile",
+        "value_kind": "str"
+      },
+      "name": "CMDS",
+      "source": "src/modules/kernelCompile.ts",
+      "unique": 3,
+      "wordlist_count": 3
+    },
+    "array__kernelCompile__RARE_CMDS": {
+      "count": 2,
+      "kind": "array",
+      "meta": {
+        "file": "kernelCompile",
+        "value_kind": "str"
+      },
+      "name": "RARE_CMDS",
+      "source": "src/modules/kernelCompile.ts",
+      "unique": 2,
+      "wordlist_count": 2
+    },
+    "array__kernelCompile__RARE_CMDS__2": {
+      "count": 2,
+      "kind": "array",
+      "meta": {
+        "file": "kernelCompile",
+        "value_kind": "str"
+      },
+      "name": "RARE_CMDS",
+      "source": "src/modules/kernelCompile.ts",
+      "unique": 2,
+      "wordlist_count": 2
+    },
+    "array__kernelCompile__SPECIALS": {
+      "count": 25,
+      "kind": "array",
+      "meta": {
+        "file": "kernelCompile",
+        "value_kind": "str"
+      },
+      "name": "SPECIALS",
+      "source": "src/modules/kernelCompile.ts",
+      "unique": 25,
+      "wordlist_count": 25
+    },
+    "array__mkinitcpio__REQUIRED_HOOKS": {
+      "count": 7,
+      "kind": "array",
+      "meta": {
+        "file": "mkinitcpio",
+        "value_kind": "str"
+      },
+      "name": "REQUIRED_HOOKS",
+      "source": "src/modules/mkinitcpio.ts",
+      "unique": 7,
+      "wordlist_count": 7
+    },
+    "array__npm__names": {
+      "count": 11,
+      "kind": "array",
+      "meta": {
+        "file": "npm",
+        "value_kind": "str"
+      },
+      "name": "names",
+      "source": "src/modules/npm.ts",
+      "unique": 11,
+      "wordlist_count": 11
+    },
+    "array__npm__prefixes": {
+      "count": 7,
+      "kind": "array",
+      "meta": {
+        "file": "npm",
+        "value_kind": "str"
+      },
+      "name": "prefixes",
+      "source": "src/modules/npm.ts",
+      "unique": 6,
+      "wordlist_count": 6
+    },
+    "array__npm__statusMessages": {
+      "count": 12,
+      "kind": "array",
+      "meta": {
+        "file": "npm",
+        "value_kind": "str"
+      },
+      "name": "statusMessages",
+      "source": "src/modules/npm.ts",
+      "unique": 12,
+      "wordlist_count": 12
+    },
+    "array__npm__units": {
+      "count": 4,
+      "kind": "array",
+      "meta": {
+        "file": "npm",
+        "value_kind": "str"
+      },
+      "name": "units",
+      "source": "src/modules/npm.ts",
+      "unique": 4,
+      "wordlist_count": 4
+    },
+    "array__pageLists__ACTIONS": {
+      "count": 12,
+      "kind": "array",
+      "meta": {
+        "file": "pageLists",
+        "value_kind": "str"
+      },
+      "name": "ACTIONS",
+      "source": "src/utils/pageLists.ts",
+      "unique": 12,
+      "wordlist_count": 12
+    },
+    "array__pageLists__BASE_COMPONENTS": {
+      "count": 6,
+      "kind": "array",
+      "meta": {
+        "file": "pageLists",
+        "value_kind": "str"
+      },
+      "name": "BASE_COMPONENTS",
+      "source": "src/utils/pageLists.ts",
+      "unique": 6,
+      "wordlist_count": 6
+    },
+    "array__pageLists__DOMAINS": {
+      "count": 16,
+      "kind": "array",
+      "meta": {
+        "file": "pageLists",
+        "value_kind": "str"
+      },
+      "name": "DOMAINS",
+      "source": "src/utils/pageLists.ts",
+      "unique": 16,
+      "wordlist_count": 16
+    },
+    "array__pageLists__ERROR_MESSAGES": {
+      "count": 5,
+      "kind": "array",
+      "meta": {
+        "file": "pageLists",
+        "value_kind": "str"
+      },
+      "name": "ERROR_MESSAGES",
+      "source": "src/utils/pageLists.ts",
+      "unique": 5,
+      "wordlist_count": 5
+    },
+    "array__pageLists__FILE_EXTENSIONS": {
+      "count": 4,
+      "kind": "array",
+      "meta": {
+        "file": "pageLists",
+        "value_kind": "str"
+      },
+      "name": "FILE_EXTENSIONS",
+      "source": "src/utils/pageLists.ts",
+      "unique": 4,
+      "wordlist_count": 4
+    },
+    "array__pageLists__INFO_MESSAGES": {
+      "count": 7,
+      "kind": "array",
+      "meta": {
+        "file": "pageLists",
+        "value_kind": "str"
+      },
+      "name": "INFO_MESSAGES",
+      "source": "src/utils/pageLists.ts",
+      "unique": 7,
+      "wordlist_count": 7
+    },
+    "array__pageLists__PRESET_PAGES": {
+      "count": 58,
+      "kind": "array",
+      "meta": {
+        "file": "pageLists",
+        "value_kind": "str"
+      },
+      "name": "PRESET_PAGES",
+      "source": "src/utils/pageLists.ts",
+      "unique": 58,
+      "wordlist_count": 58
+    },
+    "array__pageLists__WARNING_MESSAGES": {
+      "count": 7,
+      "kind": "array",
+      "meta": {
+        "file": "pageLists",
+        "value_kind": "str"
+      },
+      "name": "WARNING_MESSAGES",
+      "source": "src/utils/pageLists.ts",
+      "unique": 7,
+      "wordlist_count": 7
+    },
+    "array__pip__ERROR_MESSAGES": {
+      "count": 3,
+      "kind": "array",
+      "meta": {
+        "file": "pip",
+        "value_kind": "str"
+      },
+      "name": "ERROR_MESSAGES",
+      "source": "src/modules/pip.ts",
+      "unique": 3,
+      "wordlist_count": 3
+    },
+    "array__pip__INSTALL_STATES": {
+      "count": 4,
+      "kind": "array",
+      "meta": {
+        "file": "pip",
+        "value_kind": "str"
+      },
+      "name": "INSTALL_STATES",
+      "source": "src/modules/pip.ts",
+      "unique": 4,
+      "wordlist_count": 4
+    },
+    "array__pip__WARNING_TYPES": {
+      "count": 6,
+      "kind": "array",
+      "meta": {
+        "file": "pip",
+        "value_kind": "str"
+      },
+      "name": "WARNING_TYPES",
+      "source": "src/modules/pip.ts",
+      "unique": 6,
+      "wordlist_count": 6
+    },
+    "array__simcity__SPINNERS": {
+      "count": 4,
+      "kind": "array",
+      "meta": {
+        "file": "simcity",
+        "value_kind": "str"
+      },
+      "name": "SPINNERS",
+      "source": "src/modules/simcity.ts",
+      "unique": 4,
+      "wordlist_count": 4
+    },
+    "array__terraform__cloudProviders": {
+      "count": 3,
+      "kind": "array",
+      "meta": {
+        "file": "terraform",
+        "value_kind": "str"
+      },
+      "name": "cloudProviders",
+      "source": "src/modules/terraform.ts",
+      "unique": 3,
+      "wordlist_count": 3
+    },
+    "array__weblog__HTTP_CODES": {
+      "count": 9,
+      "kind": "array",
+      "meta": {
+        "file": "weblog",
+        "value_kind": "num"
+      },
+      "name": "HTTP_CODES",
+      "source": "src/modules/weblog.ts",
+      "unique": 9,
+      "wordlist_count": 9
+    },
+    "data__ansible_roles": {
+      "count": 74,
+      "kind": "data",
+      "meta": {
+        "bytes": 733,
+        "extension": ".txt",
+        "referenced": true
+      },
+      "name": "ansible_roles",
+      "source": "data/ansible_roles.txt",
+      "unique": 74,
+      "wordlist_count": 74
+    },
+    "data__ansible_tasks": {
+      "count": 1080,
+      "kind": "data",
+      "meta": {
+        "bytes": 29810,
+        "extension": ".txt",
+        "referenced": true
+      },
+      "name": "ansible_tasks",
+      "source": "data/ansible_tasks.txt",
+      "unique": 920,
+      "wordlist_count": 920
+    },
+    "data__boot_hooks": {
+      "count": 17,
+      "kind": "data",
+      "meta": {
+        "bytes": 125,
+        "extension": ".txt",
+        "referenced": true
+      },
+      "name": "boot_hooks",
+      "source": "data/boot_hooks.txt",
+      "unique": 17,
+      "wordlist_count": 17
+    },
+    "data__bootlog": {
+      "count": 320,
+      "kind": "data",
+      "meta": {
+        "bytes": 16722,
+        "extension": ".txt",
+        "referenced": true
+      },
+      "name": "bootlog",
+      "source": "data/bootlog.txt",
+      "unique": 314,
+      "wordlist_count": 314
+    },
+    "data__cfiles": {
+      "count": 25957,
+      "kind": "data",
+      "meta": {
+        "bytes": 850221,
+        "extension": ".txt",
+        "referenced": true
+      },
+      "name": "cfiles",
+      "source": "data/cfiles.txt",
+      "unique": 25957,
+      "wordlist_count": 25957
+    },
+    "data__composer": {
+      "count": 121,
+      "kind": "data",
+      "meta": {
+        "bytes": 2700,
+        "extension": ".txt",
+        "referenced": true
+      },
+      "name": "composer",
+      "source": "data/composer.txt",
+      "unique": 121,
+      "wordlist_count": 121
+    },
+    "data__docker_packages": {
+      "count": 103,
+      "kind": "data",
+      "meta": {
+        "bytes": 1521,
+        "extension": ".txt",
+        "referenced": true
+      },
+      "name": "docker_packages",
+      "source": "data/docker_packages.txt",
+      "unique": 103,
+      "wordlist_count": 103
+    },
+    "data__docker_tags": {
+      "count": 101,
+      "kind": "data",
+      "meta": {
+        "bytes": 1040,
+        "extension": ".txt",
+        "referenced": true
+      },
+      "name": "docker_tags",
+      "source": "data/docker_tags.txt",
+      "unique": 101,
+      "wordlist_count": 101
+    },
+    "data__julia": {
+      "count": 8224,
+      "kind": "data",
+      "meta": {
+        "bytes": 628973,
+        "extension": ".csv",
+        "referenced": true
+      },
+      "name": "julia",
+      "source": "data/julia.csv",
+      "unique": 8224,
+      "wordlist_count": 22358
+    },
+    "data__os_releases": {
+      "count": 21,
+      "kind": "data",
+      "meta": {
+        "bytes": 298,
+        "extension": ".txt",
+        "referenced": true
+      },
+      "name": "os_releases",
+      "source": "data/os_releases.txt",
+      "unique": 21,
+      "wordlist_count": 21
+    },
+    "data__packages": {
+      "count": 12603,
+      "kind": "data",
+      "meta": {
+        "bytes": 134502,
+        "extension": ".txt",
+        "referenced": true
+      },
+      "name": "packages",
+      "source": "data/packages.txt",
+      "unique": 12598,
+      "wordlist_count": 12598
+    },
+    "data__pypi": {
+      "count": 124,
+      "kind": "data",
+      "meta": {
+        "bytes": 1139,
+        "extension": ".txt",
+        "referenced": true
+      },
+      "name": "pypi",
+      "source": "data/pypi.txt",
+      "unique": 124,
+      "wordlist_count": 124
+    },
+    "data__rkhunter_checks": {
+      "count": 271,
+      "kind": "data",
+      "meta": {
+        "bytes": 10618,
+        "extension": ".txt",
+        "referenced": true
+      },
+      "name": "rkhunter_checks",
+      "source": "data/rkhunter_checks.txt",
+      "unique": 271,
+      "wordlist_count": 271
+    },
+    "data__rkhunter_rootkits": {
+      "count": 28,
+      "kind": "data",
+      "meta": {
+        "bytes": 419,
+        "extension": ".txt",
+        "referenced": true
+      },
+      "name": "rkhunter_rootkits",
+      "source": "data/rkhunter_rootkits.txt",
+      "unique": 28,
+      "wordlist_count": 28
+    },
+    "data__rkhunter_tasks": {
+      "count": 15,
+      "kind": "data",
+      "meta": {
+        "bytes": 577,
+        "extension": ".txt",
+        "referenced": true
+      },
+      "name": "rkhunter_tasks",
+      "source": "data/rkhunter_tasks.txt",
+      "unique": 15,
+      "wordlist_count": 15
+    },
+    "data__simcity": {
+      "count": 106,
+      "kind": "data",
+      "meta": {
+        "bytes": 3011,
+        "extension": ".txt",
+        "referenced": true
+      },
+      "name": "simcity",
+      "source": "data/simcity.txt",
+      "unique": 106,
+      "wordlist_count": 106
+    },
+    "data__terraform_aws_resources": {
+      "count": 1295,
+      "kind": "data",
+      "meta": {
+        "bytes": 37751,
+        "extension": ".txt",
+        "referenced": true
+      },
+      "name": "terraform_aws_resources",
+      "source": "data/terraform_aws_resources.txt",
+      "unique": 1295,
+      "wordlist_count": 1295
+    },
+    "data__terraform_azure_resources": {
+      "count": 1062,
+      "kind": "data",
+      "meta": {
+        "bytes": 38940,
+        "extension": ".txt",
+        "referenced": true
+      },
+      "name": "terraform_azure_resources",
+      "source": "data/terraform_azure_resources.txt",
+      "unique": 1062,
+      "wordlist_count": 1062
+    },
+    "data__terraform_gcp_resources": {
+      "count": 653,
+      "kind": "data",
+      "meta": {
+        "bytes": 21406,
+        "extension": ".txt",
+        "referenced": true
+      },
+      "name": "terraform_gcp_resources",
+      "source": "data/terraform_gcp_resources.txt",
+      "unique": 653,
+      "wordlist_count": 653
+    },
+    "data__terraform_ids": {
+      "count": 232,
+      "kind": "data",
+      "meta": {
+        "bytes": 2087,
+        "extension": ".txt",
+        "referenced": true
+      },
+      "name": "terraform_ids",
+      "source": "data/terraform_ids.txt",
+      "unique": 232,
+      "wordlist_count": 232
+    },
+    "modules/module__ansible": {
+      "count": 47,
+      "kind": "literal",
+      "meta": {
+        "declared_name": "ansible"
+      },
+      "name": "ansible",
+      "source": "src/modules/ansible.ts",
+      "unique": 32,
+      "wordlist_count": 28
+    },
+    "modules/module__bootlog": {
+      "count": 12,
+      "kind": "literal",
+      "meta": {
+        "declared_name": "bootlog"
+      },
+      "name": "bootlog",
+      "source": "src/modules/bootlog.ts",
+      "unique": 9,
+      "wordlist_count": 8
+    },
+    "modules/module__botnet": {
+      "count": 17,
+      "kind": "literal",
+      "meta": {
+        "declared_name": "botnet"
+      },
+      "name": "botnet",
+      "source": "src/modules/botnet.ts",
+      "unique": 17,
+      "wordlist_count": 15
+    },
+    "modules/module__bruteforce": {
+      "count": 42,
+      "kind": "literal",
+      "meta": {
+        "declared_name": "bruteforce"
+      },
+      "name": "bruteforce",
+      "source": "src/modules/bruteforce.ts",
+      "unique": 38,
+      "wordlist_count": 29
+    },
+    "modules/module__cargo": {
+      "count": 11,
+      "kind": "literal",
+      "meta": {
+        "declared_name": "cargo"
+      },
+      "name": "cargo",
+      "source": "src/modules/cargo.ts",
+      "unique": 11,
+      "wordlist_count": 11
+    },
+    "modules/module__cc": {
+      "count": 57,
+      "kind": "literal",
+      "meta": {
+        "declared_name": "cc"
+      },
+      "name": "cc",
+      "source": "src/modules/cc.ts",
+      "unique": 50,
+      "wordlist_count": 47
+    },
+    "modules/module__claudeCode": {
+      "count": 26,
+      "kind": "literal",
+      "meta": {
+        "declared_name": "claudeCode"
+      },
+      "name": "claudeCode",
+      "source": "src/modules/claudeCode.ts",
+      "unique": 23,
+      "wordlist_count": 23
+    },
+    "modules/module__composer": {
+      "count": 13,
+      "kind": "literal",
+      "meta": {
+        "declared_name": "composer"
+      },
+      "name": "composer",
+      "source": "src/modules/composer.ts",
+      "unique": 13,
+      "wordlist_count": 13
+    },
+    "modules/module__cryptomining": {
+      "count": 25,
+      "kind": "literal",
+      "meta": {
+        "declared_name": "cryptomining"
+      },
+      "name": "cryptomining",
+      "source": "src/modules/cryptomining.ts",
+      "unique": 21,
+      "wordlist_count": 18
+    },
+    "modules/module__dockerBuild": {
+      "count": 26,
+      "kind": "literal",
+      "meta": {
+        "declared_name": "dockerBuild"
+      },
+      "name": "dockerBuild",
+      "source": "src/modules/dockerBuild.ts",
+      "unique": 25,
+      "wordlist_count": 25
+    },
+    "modules/module__dockerImageRm": {
+      "count": 9,
+      "kind": "literal",
+      "meta": {
+        "declared_name": "dockerImageRm"
+      },
+      "name": "dockerImageRm",
+      "source": "src/modules/dockerImageRm.ts",
+      "unique": 9,
+      "wordlist_count": 9
+    },
+    "modules/module__download": {
+      "count": 16,
+      "kind": "literal",
+      "meta": {
+        "declared_name": "download"
+      },
+      "name": "download",
+      "source": "src/modules/download.ts",
+      "unique": 16,
+      "wordlist_count": 11
+    },
+    "modules/module__ganache": {
+      "count": 50,
+      "kind": "literal",
+      "meta": {
+        "declared_name": "ganache"
+      },
+      "name": "ganache",
+      "source": "src/modules/ganache.ts",
+      "unique": 40,
+      "wordlist_count": 38
+    },
+    "modules/module__geminiCli": {
+      "count": 19,
+      "kind": "literal",
+      "meta": {
+        "declared_name": "geminiCli"
+      },
+      "name": "geminiCli",
+      "source": "src/modules/geminiCli.ts",
+      "unique": 18,
+      "wordlist_count": 18
+    },
+    "modules/module__julia": {
+      "count": 78,
+      "kind": "literal",
+      "meta": {
+        "declared_name": "julia"
+      },
+      "name": "julia",
+      "source": "src/modules/julia.ts",
+      "unique": 61,
+      "wordlist_count": 54
+    },
+    "modules/module__kernelCompile": {
+      "count": 83,
+      "kind": "literal",
+      "meta": {
+        "declared_name": "kernelCompile"
+      },
+      "name": "kernelCompile",
+      "source": "src/modules/kernelCompile.ts",
+      "unique": 81,
+      "wordlist_count": 81
+    },
+    "modules/module__memdump": {
+      "count": 37,
+      "kind": "literal",
+      "meta": {
+        "declared_name": "memdump"
+      },
+      "name": "memdump",
+      "source": "src/modules/memdump.ts",
+      "unique": 28,
+      "wordlist_count": 15
+    },
+    "modules/module__mkinitcpio": {
+      "count": 34,
+      "kind": "literal",
+      "meta": {
+        "declared_name": "mkinitcpio"
+      },
+      "name": "mkinitcpio",
+      "source": "src/modules/mkinitcpio.ts",
+      "unique": 31,
+      "wordlist_count": 31
+    },
+    "modules/module__nextBuild": {
+      "count": 40,
+      "kind": "literal",
+      "meta": {
+        "declared_name": "nextBuild"
+      },
+      "name": "nextBuild",
+      "source": "src/modules/nextBuild.ts",
+      "unique": 34,
+      "wordlist_count": 30
+    },
+    "modules/module__npm": {
+      "count": 101,
+      "kind": "literal",
+      "meta": {
+        "declared_name": "npm"
+      },
+      "name": "npm",
+      "source": "src/modules/npm.ts",
+      "unique": 91,
+      "wordlist_count": 75
+    },
+    "modules/module__pip": {
+      "count": 48,
+      "kind": "literal",
+      "meta": {
+        "declared_name": "pip"
+      },
+      "name": "pip",
+      "source": "src/modules/pip.ts",
+      "unique": 45,
+      "wordlist_count": 37
+    },
+    "modules/module__rkhunter": {
+      "count": 44,
+      "kind": "literal",
+      "meta": {
+        "declared_name": "rkhunter"
+      },
+      "name": "rkhunter",
+      "source": "src/modules/rkhunter.ts",
+      "unique": 36,
+      "wordlist_count": 35
+    },
+    "modules/module__simcity": {
+      "count": 24,
+      "kind": "literal",
+      "meta": {
+        "declared_name": "simcity"
+      },
+      "name": "simcity",
+      "source": "src/modules/simcity.ts",
+      "unique": 21,
+      "wordlist_count": 15
+    },
+    "modules/module__terraform": {
+      "count": 30,
+      "kind": "literal",
+      "meta": {
+        "declared_name": "terraform"
+      },
+      "name": "terraform",
+      "source": "src/modules/terraform.ts",
+      "unique": 23,
+      "wordlist_count": 23
+    },
+    "modules/module__weblog": {
+      "count": 12,
+      "kind": "literal",
+      "meta": {
+        "declared_name": "weblog"
+      },
+      "name": "weblog",
+      "source": "src/modules/weblog.ts",
+      "unique": 12,
+      "wordlist_count": 11
+    }
+  },
+  "repo": {
+    "commit": "8850edea1bb8a0192847bbc60faa90cf2ee0fd1e",
+    "files_scanned": 62,
+    "flavor": "ts",
+    "name": "fakeact"
+  },
+  "schema": 1,
+  "stale": [],
+  "summary": {
+    "assets": 93,
+    "items": 53685,
+    "wordlist_items": 67446
+  },
+  "warnings": []
+}

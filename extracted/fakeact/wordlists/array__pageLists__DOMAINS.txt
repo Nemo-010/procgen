@@ -1,0 +1,16 @@
+admin
+analytics
+auth
+blog
+chat
+dashboard
+message
+notification
+order
+payment
+product
+profile
+report
+settings
+shop
+user

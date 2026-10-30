@@ -1,0 +1,25 @@
+{
+  "count": 7,
+  "id": "array__pageLists__WARNING_MESSAGES",
+  "items": [
+    "Invalid configuration in next.config.js",
+    "Duplicate atom key detected in jotai store",
+    "Missing \"key\" prop for element in array",
+    "Potential memory leak detected in useEffect",
+    "Large page bundle size detected",
+    "Deprecated API usage found",
+    "Missing meta description tag"
+  ],
+  "kind": "array",
+  "meta": {
+    "file": "pageLists",
+    "value_kind": "str"
+  },
+  "name": "WARNING_MESSAGES",
+  "schema": 1,
+  "sha256": "094fe73597cd7a76ce12fbd10ff551dfad6d2171b06949f88610623f785ccc4e",
+  "source": "src/utils/pageLists.ts",
+  "unique": 7,
+  "wordlist_count": 7,
+  "wordlist_sha256": "4399d838815268b39ecfd5cc63d6b528f841ffc091339a466bda67ae2f157d2d"
+}

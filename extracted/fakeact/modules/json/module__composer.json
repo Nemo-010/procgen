@@ -1,0 +1,30 @@
+{
+  "count": 13,
+  "id": "module__composer",
+  "items": [
+    "chalk",
+    "../utils/dataLoader.js",
+    "../utils/helpers.js",
+    "../utils/environment.js",
+    "${major}.${minor}.${patch}",
+    "composer",
+    "Loading composer repositories with package information",
+    "Updating dependencies (including require-dev)",
+    "  - Installing ${chalk.green(pkg.name)} (${chalk.yellow(pkg.version)}): Loading from cache",
+    "Writing lock file",
+    "Generating autoload files",
+    "Error during composer installation:",
+    "composer install"
+  ],
+  "kind": "literal",
+  "meta": {
+    "declared_name": "composer"
+  },
+  "name": "composer",
+  "schema": 1,
+  "sha256": "19c116518748ae239882f82dec23b75c29bb8d6c5ee080b4488a24ca246c2f38",
+  "source": "src/modules/composer.ts",
+  "unique": 13,
+  "wordlist_count": 13,
+  "wordlist_sha256": "68c0e1d4bd2a3cd2d73b1298611287ac65ac688d12621dc9ab27eade1837c774"
+}

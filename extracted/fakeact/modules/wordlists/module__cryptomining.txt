@@ -1,0 +1,18 @@
+${chalk.green('Accepted.')}
+${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}
+${info}  ${timeFormatted}${separator}${chalk.blue('CUDA0')}     
+${info}  ${timeFormatted}${separator}${chalk.blue('cryptominer')} 
+${info}  ${timeFormatted}${separator}${chalk.blue('stratum')}    
+${speed}    ${gpuStats}  
+../utils/environment.js
+../utils/helpers.js
+./cryptominer.sh --gpu all --provider stratum
+Nonce: 0x${generateHexString(16)}
+Received new job #${generateHexString(8)}  
+Solution found; Submitted to stratum.buttcoin.org
+Speed ${chalk.cyan.bold(totalMhs.toFixed(2))} Mh/s
+[A${numSolutionsFound}+0:R0+0:F0] Time: ${elapsedFormatted}
+chalk
+gpu/${gpu} ${chalk.cyan(actualMhsPerGpu.toFixed(2))} 
+seed: #${generateHexString(32)}  
+target: #${generateHexString(24)}

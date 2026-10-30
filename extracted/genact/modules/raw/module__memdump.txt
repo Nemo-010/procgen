@@ -1,0 +1,6 @@
+memdump
+memdump -k -v
+{current_loc:016x}  
+ 
+{val} 
+ |{ascii_repr}|

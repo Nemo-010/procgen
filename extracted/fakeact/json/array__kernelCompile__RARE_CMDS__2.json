@@ -1,0 +1,20 @@
+{
+  "count": 2,
+  "id": "array__kernelCompile__RARE_CMDS__2",
+  "items": [
+    "HOSTCC ",
+    "AS     "
+  ],
+  "kind": "array",
+  "meta": {
+    "file": "kernelCompile",
+    "value_kind": "str"
+  },
+  "name": "RARE_CMDS",
+  "schema": 1,
+  "sha256": "ea07504221b360e9b4a776c2c515e45086bffdbffc764c570abf26ff6b34baf8",
+  "source": "src/modules/kernelCompile.ts",
+  "unique": 2,
+  "wordlist_count": 2,
+  "wordlist_sha256": "028b3ddc5466eefbc9ea0e3201ad1ac3119de4f23b307e6227234001c2b061fe"
+}

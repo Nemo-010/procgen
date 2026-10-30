@@ -1,0 +1,26 @@
+chalk
+../utils/helpers.js
+../utils/dataLoader.js
+./index.js
+
+apt-get update && apt-get install -y
+npm install --production
+pip install -r requirements.txt
+mkdir -p /app/data
+COPY . /app/
+chmod +x /entrypoint.sh
+RUN adduser --system --group app
+WORKDIR /app
+ENV NODE_ENV=production
+docker_packages
+docker_tags
+\rSending build context to Docker daemon  ${currentSize.toFixed(2)}MB
+docker
+\nStep ${currentStep}/${totalSteps} : RUN ${instruction}
+ ---> Using cache
+ ---> Running in ${stepHash}
+ ---> ${generateHexString(12)}
+\nSuccessfully built ${finalHash}
+Successfully tagged ${imageName}:${imageTag}
+Build failed:
+docker build -t image .

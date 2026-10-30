@@ -1,0 +1,36 @@
+{
+  "count": 17,
+  "id": "data__boot_hooks",
+  "items": [
+    "base",
+    "udev",
+    "usr",
+    "resume",
+    "autodetect",
+    "modconf",
+    "block",
+    "net",
+    "mdadm",
+    "mdadm_udev",
+    "keyboard",
+    "keymap",
+    "consolefont",
+    "encrypt",
+    "lvm2",
+    "fsck",
+    "filesystems"
+  ],
+  "kind": "data",
+  "meta": {
+    "bytes": 125,
+    "extension": ".txt",
+    "referenced": true
+  },
+  "name": "boot_hooks",
+  "schema": 1,
+  "sha256": "987fb2bc85ee544deeac5e89b9cd6269331224666e02cdcc73907248ba3fc109",
+  "source": "data/boot_hooks.txt",
+  "unique": 17,
+  "wordlist_count": 17,
+  "wordlist_sha256": "df69ceb1994199b61cb089d962a14f0c21b2dd00ad7f67043348cc94dd4050e3"
+}

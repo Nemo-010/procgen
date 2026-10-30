@@ -1,0 +1,24 @@
+{
+  "count": 6,
+  "id": "array__cc__FLAGS_OPT",
+  "items": [
+    "-O0",
+    "-O1",
+    "-O2",
+    "-O3",
+    "-Og",
+    "-Os"
+  ],
+  "kind": "array",
+  "meta": {
+    "file": "cc",
+    "value_kind": "str"
+  },
+  "name": "FLAGS_OPT",
+  "schema": 1,
+  "sha256": "e3ef25fa43228276b1e69f5338b9dca92593278f7ce31c0e685a56ffa5568f5a",
+  "source": "src/modules/cc.ts",
+  "unique": 6,
+  "wordlist_count": 6,
+  "wordlist_sha256": "e3ef25fa43228276b1e69f5338b9dca92593278f7ce31c0e685a56ffa5568f5a"
+}

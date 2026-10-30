@@ -1,0 +1,4 @@
+eth_getBalance
+eth_getTransactionCount
+eth_getCode
+eth_call

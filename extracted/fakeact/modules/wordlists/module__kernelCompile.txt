@@ -1,0 +1,81 @@
+  ${cmd} ${file}
+  ${special.replace(/ARCH/g, arch)}
+${cfile.slice(0, -1)}h
+${cfile.slice(0, -1)}o
+../utils/dataLoader.js
+../utils/environment.js
+../utils/helpers.js
+AR     
+AS     
+BUILD   arch/${arch}/boot/bzImage
+CC     
+CHK    
+CRC ${crc.toString(16)}
+DATAREL arch/ARCH/boot/compressed/vmlinux
+EXPORTS arch/ARCH/lib/lib-ksyms.o
+EXPORTS lib/lib-ksyms.o
+Error during kernel compilation:
+HOSTCC 
+HOSTLD  arch/ARCH/tools/relocs
+HOSTLD  scripts/mod/modpost
+Kernel: arch/${arch}/boot/bzImage is ready (#1)
+LDS     arch/ARCH/boot/compressed/vmlinux.lds
+LDS     arch/ARCH/entry/vdso/vdso32/vdso32.lds
+LDS     arch/ARCH/kernel/vmlinux.lds
+LDS     arch/ARCH/realmode/rm/realmode.lds
+MKELF   scripts/mod/elfconfig.h
+MKPIGGY arch/ARCH/boot/compressed/piggy.S
+MODPOST vmlinux.o
+OBJCOPY arch/ARCH/boot/compressed/vmlinux.bin
+OBJCOPY arch/ARCH/boot/vmlinux.bin
+OBJCOPY arch/ARCH/entry/vdso/vdso32.so
+OBJCOPY arch/ARCH/realmode/rm/realmode.bin
+PASYMS  arch/ARCH/realmode/rm/pasyms.h
+RELOCS  arch/ARCH/realmode/rm/realmode.relocs
+SORTEX  vmlinux
+SYSHDR 
+SYSMAP  System.map
+SYSTBL 
+Setup is ${bytes} bytes (padded to ${paddedBytes} bytes).
+System is ${system} kB
+UPD    
+VDSO    arch/ARCH/entry/vdso/vdso32.so.dbg
+VDSO2C  arch/ARCH/entry/vdso/vdso-image-32.c
+VOFFSET arch/ARCH/boot/compressed/../voffset.h
+WRAP   
+XZKERN  arch/ARCH/boot/compressed/vmlinux.bin.xz
+ZOFFSET arch/ARCH/boot/zoffset.h
+alpha
+arc
+arch
+arm
+arm64
+blackfin
+c6x
+cfiles
+chalk
+cris
+frv
+h8300
+hexagon
+ia64
+m32r
+m68k
+metag
+microblaze
+mips
+mn10300
+nios2
+openrisc
+parisc
+powerpc
+s390
+score
+sh
+sparc
+sudo make install
+tile
+um
+unicore32
+x86
+xtensa

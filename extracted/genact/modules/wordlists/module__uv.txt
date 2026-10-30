@@ -1,0 +1,10 @@
+Creating virtualenv at: .venv
+Installed {} packages in {:.2?}
+Prepared {} packages in {:.2?}
+Resolved {} packages in {:.2?}
+Using CPython {}
+uv
+uv sync
+wasm32
+{} Preparing packages... ({}/{})
+{} [{}/{}] Installing wheels...

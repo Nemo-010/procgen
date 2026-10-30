@@ -1,0 +1,30 @@
+{
+  "count": 12,
+  "id": "array__npm__statusMessages",
+  "items": [
+    "Generating type definitions...",
+    "Verifying tree...",
+    "Resolving peer dependencies...",
+    "Running install scripts...",
+    "Building fresh packages...",
+    "Optimizing dependencies...",
+    "Auditing package tree...",
+    "Linking dependencies...",
+    "Checking for native build requirements...",
+    "Processing source maps...",
+    "Validating package.json...",
+    "Checking compatibility..."
+  ],
+  "kind": "array",
+  "meta": {
+    "file": "npm",
+    "value_kind": "str"
+  },
+  "name": "statusMessages",
+  "schema": 1,
+  "sha256": "0dff310bbff0088c532e25d5886e8a42b9603063da9a4a449c23c18a7d476b15",
+  "source": "src/modules/npm.ts",
+  "unique": 12,
+  "wordlist_count": 12,
+  "wordlist_sha256": "b9e21e340166df6051d824a5d10efee2b6a6d92606a1b51646fdc227dccb44c5"
+}

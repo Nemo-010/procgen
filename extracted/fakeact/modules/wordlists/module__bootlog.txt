@@ -1,0 +1,8 @@
+${firstWords}${isError ? chalk.red(
+) : txt}
+../utils/dataLoader.js
+../utils/environment.js
+../utils/helpers.js
+bcdedit /set {current} bootlog Yes && shutdown /r
+bootlog
+chalk

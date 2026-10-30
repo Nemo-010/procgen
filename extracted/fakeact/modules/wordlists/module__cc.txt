@@ -1,0 +1,47 @@
+${compiler} -c ${opt} ${warnFinal} ${fFlags} ${archFlags} ${includes} ${defsFinal} -o ${outputFile}
+${compiler} -o ${package_name} ${objectFiles} ${linkerFlags}
+${defsBase} ${defsAdditional}
+${warnBase} ${warnAdditional}
+-DDEBUG
+-DMATH_LOOP
+-DMODULE_NAME=lib
+-DNAMESPACE=lib
+-DNDEBUG
+-DPIC
+-DSHARED
+-D_LIBS_REENTRANT
+-D_REENTRANT
+-I${flag}
+-O0
+-O1
+-O2
+-O3
+-Og
+-Os
+-Wall
+-Wall -Wextra
+-Wno-parentheses
+-Wno-sign-compare
+-Wno-unknown-pragmas
+-Wno-unused-variable
+-Wold-style-definition
+-Wundef
+-Wwrite-strings
+-fPIC
+-fgnu89-inline
+-fsigned-char
+-funroll-loops
+-l${lib}
+-march=x86-64
+-mtune=generic
+-pipe
+../utils/dataLoader.js
+../utils/environment.js
+../utils/helpers.js
+.c
+.o
+cfiles
+clang
+gcc
+gcc app.c
+packages

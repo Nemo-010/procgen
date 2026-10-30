@@ -1,0 +1,43 @@
+{
+  "count": 26,
+  "id": "module__claudeCode",
+  "items": [
+    "chalk",
+    "../utils/helpers.js",
+    "../utils/environment.js",
+    "src/components/Button.tsx",
+    "src/components/LoginForm.tsx",
+    "src/pages/index.tsx",
+    "src/utils/helpers.ts",
+    "src/api/users.ts",
+    "src/components/Modal.tsx",
+    "read_file",
+    "search_replace",
+    "write_file",
+    "run_terminal_cmd",
+    "Claude Code · AI coding assistant",
+    "Reading user request...",
+    "Running tool: ${tool}",
+    "  path: ${file}",
+    "run_terminal_cmd",
+    "  $ npm run build",
+    "search_replace",
+    "write_file",
+    "Applying edit...",
+    "  ✓ Edit applied",
+    "  ✓ Tool completed",
+    "Done.",
+    "claude code"
+  ],
+  "kind": "literal",
+  "meta": {
+    "declared_name": "claudeCode"
+  },
+  "name": "claudeCode",
+  "schema": 1,
+  "sha256": "e4abd98876604c5c0af8936e3c1ac7df2844894ccfbd2600d3bdca914218a7a2",
+  "source": "src/modules/claudeCode.ts",
+  "unique": 23,
+  "wordlist_count": 23,
+  "wordlist_sha256": "3800d2966a1aabd9807ad7648a6d4b498d033ff863d3161ffd8ddb29a1516d0d"
+}

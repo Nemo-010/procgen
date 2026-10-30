@@ -1,0 +1,7 @@
+Compiling
+Downloading
+Finished
+cargo
+cargo run
+{stage:>12} release [optimized] target(s) in {seconds:.2} secs
+{stage:>12} {package_name} v{package_version}

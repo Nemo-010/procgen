@@ -1,0 +1,15 @@
+\nMemory dump failed:
+#A0A0A0
+${currentLoc.toString(16).padStart(16, '0')}  
+../utils/environment.js
+../utils/helpers.js
+CC
+CD
+DD
+E5
+EC
+FD
+FE
+FF
+chalk
+memdump -k -v

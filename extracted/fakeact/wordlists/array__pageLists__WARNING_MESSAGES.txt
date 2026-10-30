@@ -1,0 +1,7 @@
+Deprecated API usage found
+Duplicate atom key detected in jotai store
+Invalid configuration in next.config.js
+Large page bundle size detected
+Missing "key" prop for element in array
+Missing meta description tag
+Potential memory leak detected in useEffect

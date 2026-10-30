@@ -1,0 +1,51 @@
+               {gu}{cr}\n   {bu}       _ {ru}{g}{mu}     |  Documentation: https://docs.julialang.org{cr}\n  {b}     | {r} {m}    |{cr}\n   _ _   _| |_  __ _   |  Type "?" for help, "]?" for Pkg help.{cr}\n  | | | | | | |/ _` |  |{cr}\n  | | |_| | | | (_| |  |  Version 1.7.3 (2022-05-06){cr}\n _/ |\\__'_|_|_|\\__'_|  |  Fedora 35 build{cr}\n|__/                   |{cr}\n
+  {num_packages} dependencies successfully precompiled in {seconds:.0} seconds ({} already precompiled)
+({project}) pkg>
++ {} v{}
+- {} v{}
+@ Pkg.Types /builddir/build/BUILD/julia-1.7.3/build/usr/share/julia/stdlib/v1.7/Pkg/src/manifest.jl:287
+@ {manifest_path}:0
+@v1.7
+Active
+Building
+Deleted
+Downloaded
+Downloading
+Installed
+Installing
+No Changes
+Precompiling
+Progress
+Resolving
+Updating
+[ Info:
+`{manifest_path}`
+`{project_path}`
+artifact files: {} found
+artifact: {}
+date
+julia
+julia --threads auto --project .
+julia>
+manifest files: {} found
+package versions...
+project...
+registry at `~/.julia/registries/General.toml`
+scratchspaces: {} found
+to `{project_path}`
+up
+{name} {empty:─>width$} v{version}
+{name} {empty:─>width$}→ `~/.julia/scratchspaces/{}-{}-{}-{}-{}/{}/build.log`
+{} The active manifest file at `{}` has an old format that is being maintained.
+{} The active manifest file is an older format with no julia version entry. Dependencies may have been resolved with a different julia version.
+{} To update to the new format run `Pkg.upgrade_manifest()` which will upgrade the format without re-resolving.
+{} We haven't cleaned this depot up for a bit, running Pkg.gc()...
+{} artifact installations ({:.3} MiB)
+{} package installations ({:.3} MiB)
+{} scratchspaces ({:.3} byte)
+~/.julia/environments/{project}/Manifest.toml
+~/.julia/environments/{project}/Project.toml
+~/Documents/code/julia/projects/{project}.jl/Manifest.toml
+~/Documents/code/julia/projects/{project}.jl/Project.toml
+↑ {} v{} ⇒ v{}
+┌ Warning:

@@ -1,0 +1,30 @@
+\nCompiling pages...\n
+\nFound errors in your application:
+\n○ Pages: ${this.totalPages}
+\n⚠ Found some non-critical issues (see above)
+\n✓ Compiled successfully in ${duration}s
+\n✗ Failed to compile in ${duration}s
+\n✨ Done!
+\n🔥 Next.js Build Simulator\n
+${chalk.red('error')} - ${getRandomItem(ERROR_MESSAGES)} in ${page}
+${chalk.underline('Page')}${' '.repeat(42)}${chalk.underline('Size')}${' '.repeat(12)}${chalk.underline('Times')}
+${chalk.yellow('warn')}  - ${getRandomItem(WARNING_MESSAGES)} in ${page}
+${line}○ ${chalk.dim(page)}${' '.repeat(Math.max(1, 40 - page.length))}
+${phase} phase starting...
+${prefix}  - ${message}
+${size} kB${' '.repeat(8)}${buildTime}s
+../utils/environment.js
+../utils/helpers.js
+../utils/pageLists.js
+Build
+Bundle
+Compile
+Creating an optimized production build...
+Optimize
+Setup
+chalk
+error
+info
+next build
+warn
+├── ○ ${chalk.dim('/')}

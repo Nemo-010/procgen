@@ -1,0 +1,33 @@
+{
+  "count": 16,
+  "id": "module__download",
+  "items": [
+    "ora",
+    "chalk",
+    "../utils/helpers.js",
+    "../utils/dataLoader.js",
+    "../utils/format.js",
+    "cfiles",
+    "Download files ${numFiles}",
+    "/",
+    ".${extension}",
+    "${formatBytes(actualSpeed)}/s",
+    "${truncatedFileName} ${percent.padStart(3)}%${progressBar} ${formattedBytes.padEnd(10)} ${formattedSpeed.padEnd(12)} eta ${formattedEta.padEnd(10)}",
+    "[",
+    "=",
+    " ",
+    "]",
+    "wget -i downloads.txt"
+  ],
+  "kind": "literal",
+  "meta": {
+    "declared_name": "download"
+  },
+  "name": "download",
+  "schema": 1,
+  "sha256": "cf25d0f75570504c3b59355089250d1be2569afc305c9386735965a98ec90938",
+  "source": "src/modules/download.ts",
+  "unique": 16,
+  "wordlist_count": 11,
+  "wordlist_sha256": "7ccd10f98c884ad7072a2f94536b10ab38961bb673935e9b38a37b6255032234"
+}

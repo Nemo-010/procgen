@@ -1,0 +1,18 @@
+  $ npm test
+  path: ${file}
+  ✓ ${tool} completed
+../utils/environment.js
+../utils/helpers.js
+Gemini CLI · Build, debug & deploy with AI
+Summary: Refactored a component to use a form library.
+Tool: ${tool}
+chalk
+gemini cli
+read_file
+run_shell_command
+src/api/auth.ts
+src/components/Button.tsx
+src/components/LoginForm.tsx
+src/pages/dashboard.tsx
+src/utils/format.ts
+write_file

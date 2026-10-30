@@ -1,0 +1,21 @@
+bruteforce
+./bruteforce.sh ./hashes.txt
+=> Hashes to decrypt
+  {hash}
+=> Extracting Rainbow Table
+=
+|
+/
+-
+\\
+ 
+{progress}{spinner}{spaces}
+\r{message} [{progress_content}]
+=> Begin matching
+\r :: {a_guesser} ::
+=> Match found
+  {hash}:{}
+{}
+{}{:02}
+
+{done}{undone}

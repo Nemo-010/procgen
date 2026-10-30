@@ -1,0 +1,4 @@
+legacy-mb-japanese
+legacy-mb-korean
+legacy-mb-schinese
+legacy-mb-tchinese

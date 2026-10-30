@@ -1,0 +1,7 @@
+bootlog
+bcdedit /set {current} bootlog Yes && shutdown /r
+
+{}
+ERROR: {choice}
+{}
+ 

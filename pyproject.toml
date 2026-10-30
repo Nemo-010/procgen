@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "actparse"
+version = "1.0.0"
+description = "Structure-agnostic, self-healing extractor for the content fakeact and genact generate"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "0BSD" }
+authors = [{ name = "Nemo" }]
+keywords = ["genact", "fakeact", "wordlist", "extraction"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: BSD License",
+  "Environment :: Console",
+]
+dependencies = []
+
+[project.scripts]
+actparse = "actparse.cli:main"
+
+[tool.setuptools]
+packages = ["actparse"]

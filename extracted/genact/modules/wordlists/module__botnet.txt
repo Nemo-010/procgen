@@ -1,0 +1,13 @@
+\rEstablishing connections: {connected:4}/{size:4}
+  Cluster #{i:02} ({nodes:3} nodes)
+  Cluster #{i:02} ({nodes:3} nodes) [{status:}]
++ {task} 
+./botnet.sh
+>> Botnet update complete.
+Sending command...
+Sending login information...
+Synchronizing clocks...
+[done]
+booting
+botnet
+online

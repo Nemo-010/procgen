@@ -1,0 +1,23 @@
+{
+  "count": 5,
+  "id": "array__geminiCli__FILES",
+  "items": [
+    "src/components/LoginForm.tsx",
+    "src/components/Button.tsx",
+    "src/pages/dashboard.tsx",
+    "src/utils/format.ts",
+    "src/api/auth.ts"
+  ],
+  "kind": "array",
+  "meta": {
+    "file": "geminiCli",
+    "value_kind": "str"
+  },
+  "name": "FILES",
+  "schema": 1,
+  "sha256": "1d5c1acc6b1ecccac23cf1c5e48fa7f8afe06ff4069257ec4764742c0bdd5c76",
+  "source": "src/modules/geminiCli.ts",
+  "unique": 5,
+  "wordlist_count": 5,
+  "wordlist_sha256": "7dce84d99b7770113687eada9e7e419b3d17f98c256bbcbc598d77d8a197ffff"
+}

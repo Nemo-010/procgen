@@ -1,0 +1,26 @@
+  Checking for {rootkit}...\r\n
+  {rootkit:<check_pad$} [ {status} ]\r\n
+%a %d %b %Y %I:%M:%S %p %Z\r\n
+Checking if the O/S has changed since last time...\r\n
+Found
+Found O/S name: Ubuntu {version}
+Info: Detected operating system is 'Linux'\r\n
+Info: Environment shell is /bin/bash; rkhunter is using dash\r\n
+Info: Installation directory is '/usr'\r\n
+Info: Locking is not being used\r\n
+Info: No mail-on-warning address configured\r\n
+Info: Nothing seems to have changed.\r\n
+Info: Start date is {date}
+Info: Using '/usr/local/sbin /usr/local/bin /usr/sbin /usr/bin /sbin /bin /usr/games /usr/local/games /snap/bin /usr/libexec' as the command directories\r\n
+Info: Using '/usr/share/rkhunter/scripts' as the support script directory\r\n
+Info: Using '/var/lib/rkhunter/db' as the database directory\r\n
+Info: Using '/var/lib/rkhunter/tmp' as the temporary directory\r\n
+Info: Using configuration file '/etc/rkhunter.conf'\r\n
+Info: Using language 'en'\r\n
+Not found
+Running Rootkit Hunter version {version} on localhost\r\n
+Skipped
+Starting system checks...\r\n
+rkhunter
+rkhunter --check
+{rk_pad}  {check:<check_pad$} [ {check_status} ]\r\n

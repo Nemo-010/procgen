@@ -1,0 +1,7 @@
+Creating an optimized production build
+Compiling files with webpack
+Collecting page data
+Generating static pages
+Processing images
+Optimizing fonts
+Compressing assets

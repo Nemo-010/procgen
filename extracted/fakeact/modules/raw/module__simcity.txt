@@ -1,0 +1,24 @@
+chalk
+../utils/dataLoader.js
+../utils/helpers.js
+../utils/environment.js
+/
+-
+\\
+|
+simcity
+
+OK
+FAIL
+YES
+SUCCESS
+[ ] 
+[o] 
+${currentSimcity}... ${spinner}
+\r
+ABORTED
+FAIL
+ABORTED
+${currentSimcity}... ${resolution}
+ALL DONE
+./start-sumcity.sh

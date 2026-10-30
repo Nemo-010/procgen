@@ -1,0 +1,24 @@
+{
+  "count": 7,
+  "id": "module__cargo",
+  "items": [
+    "cargo",
+    "cargo run",
+    "Downloading",
+    "Compiling",
+    "{stage:>12} {package_name} v{package_version}",
+    "{stage:>12} release [optimized] target(s) in {seconds:.2} secs",
+    "Finished"
+  ],
+  "kind": "literal",
+  "meta": {
+    "declared_name": "cargo"
+  },
+  "name": "cargo",
+  "schema": 1,
+  "sha256": "a353f6625dea4e755040b490fe2eaa089ef6457748c3ba4f69cf76263211b74c",
+  "source": "src/modules/cargo.rs",
+  "unique": 7,
+  "wordlist_count": 7,
+  "wordlist_sha256": "2b31b4a80d0eed6c7ac1768df8f5a5bf26bb881e1922c0fa23ec64fc4b0de651"
+}

@@ -1,0 +1,22 @@
+{
+  "count": 4,
+  "id": "array__cc__FLAGS_F",
+  "items": [
+    "-fsigned-char",
+    "-funroll-loops",
+    "-fgnu89-inline",
+    "-fPIC"
+  ],
+  "kind": "array",
+  "meta": {
+    "file": "cc",
+    "value_kind": "str"
+  },
+  "name": "FLAGS_F",
+  "schema": 1,
+  "sha256": "f2f9f2bfd94432d5700d78be036e589f0392da40093475721ae417d852a5c83e",
+  "source": "src/modules/cc.rs",
+  "unique": 4,
+  "wordlist_count": 4,
+  "wordlist_sha256": "0fc242e0e9ec36def0282e6f7b9e2739bc6a7aa83e29e93059abe20d9f18db0c"
+}

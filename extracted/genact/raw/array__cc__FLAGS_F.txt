@@ -1,0 +1,4 @@
+-fsigned-char
+-funroll-loops
+-fgnu89-inline
+-fPIC

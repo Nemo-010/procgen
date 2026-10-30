@@ -1,0 +1,54 @@
+               ${chalk.green('_')}\n   ${chalk.blue('_')}       _ ${chalk.red('_')}${chalk.green('(_)')}${chalk.magenta('_')}     |  Documentation: https://docs.julialang.org\n  ${chalk.blue('(_)')}     | ${chalk.red('(_)')} ${chalk.magenta('(_)')}    |\n   _ _   _| |_  __ _   |  Type "?" for help, "]?" for Pkg help.\n  | | | | | | |/ _` |  |\n  | | |_| | | | (_| |  |  Version 1.7.3 (2022-05-06)\n _/ |\\__'_|_|_|\\__'_|  |  Fedora 35 build\n|__/                   |\n
+  ${packages.length} dependencies successfully precompiled in ${new Date().getSeconds() - tt} seconds (${getRandomInt(10, 500)} already precompiled)
+  [${pkg.id.substring(0, 8)}] 
+${artifact.name} ${padding}→ ~/.julia/scratchspaces/${generateHexString(8)}-${generateHexString(4)}-${generateHexString(4)}-${generateHexString(4)}-${generateHexString(12)}/${generateHexString(40)}/build.log
+${chalk.cyan.bold('Downloading'.padStart(15))} ${bar}
+${chalk.cyan.bold('Progress'.padStart(15))} ${bar}
+${chalk.cyan.bold('[ Info:"')} We haven't cleaned this depot up for a bit, running Pkg.gc()...
+${chalk.green.bold(action.padStart(12))} ${message}
+${getRandomInt(2, 10)} artifact installations ${getRandomInt(10, 250)} MiB
+${getRandomInt(2, 10)} scratchspaces ${getRandomInt(10, 250)} byte
+${packageAndVersion}
+${pkg.name} ${padding} v${version}
+(${project}) pkg> 
++ ${pkg.name} ${pkg.versions[0]}
+- ${pkg.name} ${pkg.versions[0]}
+../utils/dataLoader.js
+../utils/helpers.js
+@v1.7
+Active
+Building
+Deleted
+Downloaded
+Downloading
+Installed
+Installing
+No Changes
+Precompiling
+Resolving
+Updating
+[${bar}] ${Math.floor(progress * 100)}%
+[${bar}] ${this.current}/${this.total}
+`${manifestPath}`
+`${projectPath}`
+artifact files: ${getRandomInt(10, 200)} found
+artifact: ${artifact.name}
+chalk
+date
+julia
+julia --threads auto --project .
+julia> 
+line
+manifest files: ${getRandomInt(1, 10)} found
+ora
+package versions...
+project...
+registry at `~/.julia/registries/General.toml`
+scratchspaces: ${getRandomInt(10, 20)} found
+to `${projectPath}`
+up
+~/.julia/environments/${project.slice(1)}/Manifest.toml
+~/.julia/environments/${project.slice(1)}/Project.toml
+~/Documents/code/julia/projects/${project}.jl/Manifest.toml
+~/Documents/code/julia/projects/${project}.jl/Project.toml
+↑ ${pkg.name} ${pkg.versions[0]} ⇒ ${pkg.versions[1]}

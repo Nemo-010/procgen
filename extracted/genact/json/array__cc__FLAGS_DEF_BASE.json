@@ -1,0 +1,20 @@
+{
+  "count": 2,
+  "id": "array__cc__FLAGS_DEF_BASE",
+  "items": [
+    "-DDEBUG",
+    "-DNDEBUG"
+  ],
+  "kind": "array",
+  "meta": {
+    "file": "cc",
+    "value_kind": "str"
+  },
+  "name": "FLAGS_DEF_BASE",
+  "schema": 1,
+  "sha256": "5954167383035fd8635714e9f354668f3893b5a8a02a6801e82d1fc8cf79995b",
+  "source": "src/modules/cc.rs",
+  "unique": 2,
+  "wordlist_count": 2,
+  "wordlist_sha256": "5954167383035fd8635714e9f354668f3893b5a8a02a6801e82d1fc8cf79995b"
+}

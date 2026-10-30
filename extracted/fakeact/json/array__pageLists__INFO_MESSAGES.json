@@ -1,0 +1,25 @@
+{
+  "count": 7,
+  "id": "array__pageLists__INFO_MESSAGES",
+  "items": [
+    "Creating an optimized production build",
+    "Compiling files with webpack",
+    "Collecting page data",
+    "Generating static pages",
+    "Processing images",
+    "Optimizing fonts",
+    "Compressing assets"
+  ],
+  "kind": "array",
+  "meta": {
+    "file": "pageLists",
+    "value_kind": "str"
+  },
+  "name": "INFO_MESSAGES",
+  "schema": 1,
+  "sha256": "2fbf83c9223738597e53722d1133e579bba41f040c6ff049c34f8f4b6a577446",
+  "source": "src/utils/pageLists.ts",
+  "unique": 7,
+  "wordlist_count": 7,
+  "wordlist_sha256": "c054de47782ad0f632c86646c2b0cb4214fd234b65e42a3b7f3687ebd75df090"
+}

@@ -1,0 +1,21 @@
+{
+  "count": 3,
+  "id": "array__botnet__tasks",
+  "items": [
+    "Synchronizing clocks...",
+    "Sending login information...",
+    "Sending command..."
+  ],
+  "kind": "array",
+  "meta": {
+    "file": "botnet",
+    "value_kind": "str"
+  },
+  "name": "tasks",
+  "schema": 1,
+  "sha256": "674cb5bea0b2835da311a9933869a59af69cf9e23ea39889d5ccb6280d5d6119",
+  "source": "src/modules/botnet.ts",
+  "unique": 3,
+  "wordlist_count": 3,
+  "wordlist_sha256": "e310d5b516f96c0afbfc7581995311958692d3f2fd78007a23152b8a0ffdb7c5"
+}

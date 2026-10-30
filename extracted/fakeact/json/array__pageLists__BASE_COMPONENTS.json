@@ -1,0 +1,24 @@
+{
+  "count": 6,
+  "id": "array__pageLists__BASE_COMPONENTS",
+  "items": [
+    "page",
+    "layout",
+    "template",
+    "view",
+    "screen",
+    "container"
+  ],
+  "kind": "array",
+  "meta": {
+    "file": "pageLists",
+    "value_kind": "str"
+  },
+  "name": "BASE_COMPONENTS",
+  "schema": 1,
+  "sha256": "f764b46d5bf10fc415917ad1b4f5a1964d9110f71d7b5851a917d8431f2fb8e3",
+  "source": "src/utils/pageLists.ts",
+  "unique": 6,
+  "wordlist_count": 6,
+  "wordlist_sha256": "fcadf5ba3745e3787953147b79fb5869abdb14c9156db3bbd34d0bde76d56925"
+}

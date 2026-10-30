@@ -1,0 +1,22 @@
+{
+  "count": 4,
+  "id": "array__ansible__prefixes",
+  "items": [
+    "server",
+    "host",
+    "node",
+    "web"
+  ],
+  "kind": "array",
+  "meta": {
+    "file": "ansible",
+    "value_kind": "str"
+  },
+  "name": "prefixes",
+  "schema": 1,
+  "sha256": "a5c0101abee9e6b9eb9306e2457dcff2e1de80570b984603fcfdfad9e259b0b7",
+  "source": "src/modules/ansible.ts",
+  "unique": 4,
+  "wordlist_count": 4,
+  "wordlist_sha256": "2116adc770850b7c833d6cd5118800bbe7ad2c98c7a2a5df8309c2b8aca8c534"
+}

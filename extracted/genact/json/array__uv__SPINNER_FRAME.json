@@ -1,0 +1,28 @@
+{
+  "count": 10,
+  "id": "array__uv__SPINNER_FRAME",
+  "items": [
+    "⠋",
+    "⠙",
+    "⠹",
+    "⠸",
+    "⠼",
+    "⠴",
+    "⠦",
+    "⠧",
+    "⠇",
+    "⠏"
+  ],
+  "kind": "array",
+  "meta": {
+    "file": "uv",
+    "value_kind": "str"
+  },
+  "name": "SPINNER_FRAME",
+  "schema": 1,
+  "sha256": "6f28cffb5b454bcf3d16146a531260ff0e15fa77fb05c9e7fb5a415afa034eb7",
+  "source": "src/modules/uv.rs",
+  "unique": 10,
+  "wordlist_count": 10,
+  "wordlist_sha256": "10e86d34018f81efc0261d2ae65e1ad43186d2742987db56faa63ab4c3015813"
+}
