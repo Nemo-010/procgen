@@ -803,13 +803,13 @@
       "wordlist_count": 39
     },
     "ps/legit_ps_linux": {
-      "count": 298,
+      "count": 46,
       "kind": "ps",
       "meta": {},
       "name": "legit_ps_linux",
       "source": "(derived: signatures + data)",
-      "unique": 298,
-      "wordlist_count": 298
+      "unique": 46,
+      "wordlist_count": 46
     }
   },
   "repo": {
@@ -822,8 +822,8 @@
   "stale": [],
   "summary": {
     "assets": 66,
-    "items": 53590,
-    "wordlist_items": 67381
+    "items": 53338,
+    "wordlist_items": 67129
   },
   "warnings": []
 }

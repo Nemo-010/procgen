@@ -286,11 +286,17 @@ class TestPsWordlist(Base):
         from procgen.pslist import build_ps_wordlist
 
         lines = build_ps_wordlist(result.assets, sample=10)
-        self.assertIn("cargo build --release", lines)
         self.assertIn("cargo run", lines)
         self.assertIn("tail -f /var/log/nginx/access.log", lines)
-        self.assertTrue(any(l.startswith("cargo install --locked ") for l in lines))
-        self.assertTrue(any(l.startswith("gcc ") and "-c kernel/" in l for l in lines))
+        # cc is reproduced as a real gcc compile + link invocation.
+        self.assertTrue(
+            any(l.startswith("gcc -c ") and "-o kernel/main.o" in l for l in lines),
+            lines,
+        )
+        self.assertTrue(any(l.startswith("gcc -o ") for l in lines))
+        # Nothing invented: no fabricated cargo subcommands.
+        self.assertNotIn("cargo build --release", lines)
+        self.assertFalse(any(l.startswith("cargo install") for l in lines))
 
     def test_ps_deterministic_and_idempotent(self) -> None:
         repo = self.tmp / "repo"

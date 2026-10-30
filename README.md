@@ -32,22 +32,27 @@ Four asset kinds are recovered:
 | `data`    | `include_str!`, `loadData`/`loadCsv`      | `data/packages.txt`             |
 | `array`   | `static NAME: &[&str] = &[..]`, `const N = [..]` | `FLAGS_WARN`, `HTTP_CODES` |
 | `literal` | every string literal in a module body     | `"Sending build context"`        |
-| `ps`      | module signatures + grounded expansions   | `cargo install --locked memchr`  |
+| `ps`      | module signatures + real CLI output       | `gcc -c -O2 -Wall -o kernel/x.o` |
 
 ## The `ps` wordlist
 
 `ps/legit_ps_linux.txt` is a Linux process allowlist in the style of
 [pkgforge-security/Wordlists](https://github.com/pkgforge-security/Wordlists)'s
-`Misc/legit_ps_linux.txt`: one full command line per line. It is built from two
-faithful grounds — each module's `signature()` (the exact command line it
-impersonates) and deterministic expansions that combine that signature with the
-module's own extracted vocabulary (packages, C files, compiler flags, docker
-tags, terraform resources, Julia packages, …). Modules without a matching
-profile still contribute their signature verbatim, so new upstream modules never
-vanish from the list. Windows-only invocations are dropped.
+`Misc/legit_ps_linux.txt`: one full command line per line. It is built only
+from command lines the generators really emit — nothing is invented:
 
-Expansion is deterministic: large token lists are sampled with a fixed evenly
-spaced stride (`--ps-sample N`, default 25; `0` keeps everything), so the same
+* every module's `signature()` — the exact command line it impersonates
+  (`cargo run`, `docker build -t image .`, `tail -f /var/log/nginx/access.log`,
+  `wget -i downloads.txt`, …);
+* the `cc` module's real compile and link invocations, reproduced from its own
+  `format!` template and its own flag/file/package data, e.g.
+  `gcc -c -O2 -Wall -Wextra -march=x86-64 -pipe -Idrivers/net -DDEBUG -o drivers/net/e1000.o`;
+* the `mkinitcpio` module's real `-k … -c … -g …` invocation.
+
+Modules that only print log output (cargo, terraform, julia, …) contribute
+their signature and nothing more. Windows-only invocations are dropped.
+Rendering is deterministic — large token lists are sampled with a fixed evenly
+spaced stride (`--ps-sample N`, default 25; `0` keeps everything) — so the same
 extraction always yields the same file. `--no-ps` skips it.
 
 ## The guarantees

@@ -4,27 +4,27 @@
       "assets": 94,
       "commit": "8850edea1bb8a0192847bbc60faa90cf2ee0fd1e",
       "flavor": "ts",
-      "items": 54066,
+      "items": 53735,
       "manifest": "fakeact/manifest.json",
       "warnings": 0,
-      "wordlist_items": 67827
+      "wordlist_items": 67496
     },
     "genact": {
       "assets": 66,
       "commit": "ad54eba035dcc6569333a0ad93c2486cfc2ed55a",
       "flavor": "rust",
-      "items": 53590,
+      "items": 53338,
       "manifest": "genact/manifest.json",
       "warnings": 0,
-      "wordlist_items": 67381
+      "wordlist_items": 67129
     }
   },
   "schema": 1,
   "summary": {
     "assets": 160,
-    "items": 107656,
+    "items": 107073,
     "repos": 2,
-    "wordlist_items": 135208
+    "wordlist_items": 134625
   },
   "tool": "procgen",
   "version": "1.0.0"
