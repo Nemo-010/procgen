@@ -29,7 +29,8 @@
   ],
   "kind": "literal",
   "meta": {
-    "declared_name": "simcity"
+    "declared_name": "simcity",
+    "signature": "./start-sumcity.sh"
   },
   "name": "simcity",
   "schema": 1,

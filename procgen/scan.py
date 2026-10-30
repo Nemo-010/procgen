@@ -235,3 +235,9 @@ RUST_DECL = re.compile(
 TS_DECL = re.compile(
     r"\b(?:const|let|var)\s+([A-Za-z_$][\w$]*)\s*(?::\s*[^=;\n]+)?=\s*\["
 )
+
+
+def unescape(value: str) -> str:
+    """Decode a source string literal body into its runtime text."""
+    return _unescape(value)
+

@@ -129,10 +129,16 @@ class _Collector:
 
     # -- text fragments -----------------------------------------------------
 
-    def add_fragments(self, key: str, declared: str, source: str, literals: list[str]) -> None:
-        if not literals:
+    def add_fragments(
+        self, key: str, declared: str, source: str, literals: list[str],
+        signature: str | None = None,
+    ) -> None:
+        if not literals and not signature:
             return
         asset_id = self.unique_id(f"module__{_safe(key)}")
+        meta = {"declared_name": declared}
+        if signature:
+            meta["signature"] = signature
         self.result.add(
             Asset(
                 id=asset_id,
@@ -140,7 +146,7 @@ class _Collector:
                 name=key,
                 source=source,
                 items=literals,
-                meta={"declared_name": declared},
+                meta=meta,
                 wordlist_override=[s for s in literals if _is_humanish(s)],
             )
         )
@@ -209,7 +215,10 @@ def _process_rust_file(index: RepoIndex, result: RepoResult, col: _Collector, pa
     if discovery.is_rust_module(text):
         module = discovery.rust_module_name(text, stem)
         literals = [v for v, _, _ in scan.iter_literals(text, raw_strings=True)]
-        col.add_fragments(stem, module, source, literals)
+        sig = discovery.rust_signature(text)
+        if sig is not None:
+            sig = scan.unescape(sig)
+        col.add_fragments(stem, module, source, literals, sig)
 
 
 # --- TypeScript / JavaScript -------------------------------------------------
@@ -260,7 +269,7 @@ def _process_ts_file(index: RepoIndex, result: RepoResult, col: _Collector, path
         literals = [
             v for v, _, _ in scan.iter_literals(text, single=True, backtick=True)
         ]
-        col.add_fragments(stem, module, source, literals)
+        col.add_fragments(stem, module, source, literals, discovery.ts_signature(text))
 
 def _sweep_sibling_data(index: RepoIndex, result: RepoResult, col: _Collector) -> None:
     """Catch data files upstream added but has not referenced yet.

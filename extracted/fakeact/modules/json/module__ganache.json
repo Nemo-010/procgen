@@ -55,7 +55,8 @@
   ],
   "kind": "literal",
   "meta": {
-    "declared_name": "ganache"
+    "declared_name": "ganache",
+    "signature": "ganache-cli"
   },
   "name": "ganache",
   "schema": 1,

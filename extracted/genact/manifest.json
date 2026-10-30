@@ -554,7 +554,8 @@
       "count": 18,
       "kind": "literal",
       "meta": {
-        "declared_name": "ansible"
+        "declared_name": "ansible",
+        "signature": "ansible-playbook"
       },
       "name": "ansible",
       "source": "src/modules/ansible.rs",
@@ -565,7 +566,8 @@
       "count": 7,
       "kind": "literal",
       "meta": {
-        "declared_name": "bootlog"
+        "declared_name": "bootlog",
+        "signature": "bcdedit /set {current} bootlog Yes && shutdown /r"
       },
       "name": "bootlog",
       "source": "src/modules/bootlog.rs",
@@ -576,7 +578,8 @@
       "count": 13,
       "kind": "literal",
       "meta": {
-        "declared_name": "botnet"
+        "declared_name": "botnet",
+        "signature": "./botnet.sh"
       },
       "name": "botnet",
       "source": "src/modules/botnet.rs",
@@ -587,7 +590,8 @@
       "count": 21,
       "kind": "literal",
       "meta": {
-        "declared_name": "bruteforce"
+        "declared_name": "bruteforce",
+        "signature": "./bruteforce.sh ./hashes.txt"
       },
       "name": "bruteforce",
       "source": "src/modules/bruteforce.rs",
@@ -598,7 +602,8 @@
       "count": 7,
       "kind": "literal",
       "meta": {
-        "declared_name": "cargo"
+        "declared_name": "cargo",
+        "signature": "cargo run"
       },
       "name": "cargo",
       "source": "src/modules/cargo.rs",
@@ -609,7 +614,8 @@
       "count": 46,
       "kind": "literal",
       "meta": {
-        "declared_name": "cc"
+        "declared_name": "cc",
+        "signature": "gcc app.c"
       },
       "name": "cc",
       "source": "src/modules/cc.rs",
@@ -620,7 +626,8 @@
       "count": 13,
       "kind": "literal",
       "meta": {
-        "declared_name": "composer"
+        "declared_name": "composer",
+        "signature": "composer install"
       },
       "name": "composer",
       "source": "src/modules/composer.rs",
@@ -631,7 +638,8 @@
       "count": 27,
       "kind": "literal",
       "meta": {
-        "declared_name": "cryptomining"
+        "declared_name": "cryptomining",
+        "signature": "./cryptominer.sh --gpu all --provider stratum"
       },
       "name": "cryptomining",
       "source": "src/modules/cryptomining.rs",
@@ -642,7 +650,8 @@
       "count": 12,
       "kind": "literal",
       "meta": {
-        "declared_name": "docker_build"
+        "declared_name": "docker_build",
+        "signature": "docker build -t image ."
       },
       "name": "docker_build",
       "source": "src/modules/docker_build.rs",
@@ -653,7 +662,8 @@
       "count": 5,
       "kind": "literal",
       "meta": {
-        "declared_name": "docker_image_rm"
+        "declared_name": "docker_image_rm",
+        "signature": "docker image rm 04880416f1bf"
       },
       "name": "docker_image_rm",
       "source": "src/modules/docker_image_rm.rs",
@@ -664,7 +674,8 @@
       "count": 6,
       "kind": "literal",
       "meta": {
-        "declared_name": "download"
+        "declared_name": "download",
+        "signature": "wget -i downloads.txt"
       },
       "name": "download",
       "source": "src/modules/download.rs",
@@ -675,7 +686,8 @@
       "count": 88,
       "kind": "literal",
       "meta": {
-        "declared_name": "julia"
+        "declared_name": "julia",
+        "signature": "julia --threads auto --project ."
       },
       "name": "julia",
       "source": "src/modules/julia.rs",
@@ -686,7 +698,8 @@
       "count": 90,
       "kind": "literal",
       "meta": {
-        "declared_name": "kernel_compile"
+        "declared_name": "kernel_compile",
+        "signature": "sudo make install"
       },
       "name": "kernel_compile",
       "source": "src/modules/kernel_compile.rs",
@@ -697,7 +710,8 @@
       "count": 6,
       "kind": "literal",
       "meta": {
-        "declared_name": "memdump"
+        "declared_name": "memdump",
+        "signature": "memdump -k -v"
       },
       "name": "memdump",
       "source": "src/modules/memdump.rs",
@@ -708,7 +722,8 @@
       "count": 33,
       "kind": "literal",
       "meta": {
-        "declared_name": "mkinitcpio"
+        "declared_name": "mkinitcpio",
+        "signature": "mkinitcpio --generate /boot/initramfs-custom2.img --kernel 5.7.12-arch1-1"
       },
       "name": "mkinitcpio",
       "source": "src/modules/mkinitcpio.rs",
@@ -719,7 +734,8 @@
       "count": 33,
       "kind": "literal",
       "meta": {
-        "declared_name": "rkhunter"
+        "declared_name": "rkhunter",
+        "signature": "rkhunter --check"
       },
       "name": "rkhunter",
       "source": "src/modules/rkhunter.rs",
@@ -730,7 +746,8 @@
       "count": 22,
       "kind": "literal",
       "meta": {
-        "declared_name": "mkinitcpio"
+        "declared_name": "mkinitcpio",
+        "signature": "./start-sumcity.sh"
       },
       "name": "simcity",
       "source": "src/modules/simcity.rs",
@@ -741,7 +758,8 @@
       "count": 20,
       "kind": "literal",
       "meta": {
-        "declared_name": "terraform"
+        "declared_name": "terraform",
+        "signature": "terraform --check"
       },
       "name": "terraform",
       "source": "src/modules/terraform.rs",
@@ -752,7 +770,8 @@
       "count": 34,
       "kind": "literal",
       "meta": {
-        "declared_name": "uv"
+        "declared_name": "uv",
+        "signature": "uv sync"
       },
       "name": "uv",
       "source": "src/modules/uv.rs",
@@ -763,7 +782,8 @@
       "count": 6,
       "kind": "literal",
       "meta": {
-        "declared_name": "weblog"
+        "declared_name": "weblog",
+        "signature": "tail -f /var/log/nginx/access.log"
       },
       "name": "weblog",
       "source": "src/modules/weblog.rs",
@@ -774,12 +794,22 @@
       "count": 58,
       "kind": "literal",
       "meta": {
-        "declared_name": "wpt"
+        "declared_name": "wpt",
+        "signature": "wpt run -f --browser-version=\"1.0\" --processes=16"
       },
       "name": "wpt",
       "source": "src/modules/wpt.rs",
       "unique": 47,
       "wordlist_count": 39
+    },
+    "ps/legit_ps_linux": {
+      "count": 298,
+      "kind": "ps",
+      "meta": {},
+      "name": "legit_ps_linux",
+      "source": "(derived: signatures + data)",
+      "unique": 298,
+      "wordlist_count": 298
     }
   },
   "repo": {
@@ -791,9 +821,9 @@
   "schema": 1,
   "stale": [],
   "summary": {
-    "assets": 65,
-    "items": 53292,
-    "wordlist_items": 67083
+    "assets": 66,
+    "items": 53590,
+    "wordlist_items": 67381
   },
   "warnings": []
 }

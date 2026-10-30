@@ -12,7 +12,8 @@
   ],
   "kind": "literal",
   "meta": {
-    "declared_name": "bootlog"
+    "declared_name": "bootlog",
+    "signature": "bcdedit /set {current} bootlog Yes && shutdown /r"
   },
   "name": "bootlog",
   "schema": 1,

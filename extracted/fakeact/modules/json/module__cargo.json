@@ -16,7 +16,8 @@
   ],
   "kind": "literal",
   "meta": {
-    "declared_name": "cargo"
+    "declared_name": "cargo",
+    "signature": "cargo run"
   },
   "name": "cargo",
   "schema": 1,

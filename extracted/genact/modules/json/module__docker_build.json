@@ -17,7 +17,8 @@
   ],
   "kind": "literal",
   "meta": {
-    "declared_name": "docker_build"
+    "declared_name": "docker_build",
+    "signature": "docker build -t image ."
   },
   "name": "docker_build",
   "schema": 1,

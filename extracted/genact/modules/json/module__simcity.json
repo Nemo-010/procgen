@@ -27,7 +27,8 @@
   ],
   "kind": "literal",
   "meta": {
-    "declared_name": "mkinitcpio"
+    "declared_name": "mkinitcpio",
+    "signature": "./start-sumcity.sh"
   },
   "name": "simcity",
   "schema": 1,

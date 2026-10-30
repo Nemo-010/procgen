@@ -112,6 +112,12 @@ RUST_INCLUDE = re.compile(r"include_(?:str|bytes)!\s*\(\s*\"([^\"]+)\"\s*\)")
 
 TS_SIGNATURE = re.compile(r"([A-Za-z_$][\w$]*)\s*\.\s*signature\s*=")
 TS_DEFAULT = re.compile(r"export\s+default\s+([A-Za-z_$][\w$]*)")
+RUST_SIGNATURE = re.compile(
+    r'fn\s+signature\s*\(\s*&self\s*\)\s*->\s*String\s*\{\s*"((?:[^"\\]|\\.)*)"\s*\.to_string\(\)'
+)
+TS_SIGNATURE_VALUE = re.compile(
+    r"([A-Za-z_$][\w$]*)\s*\.\s*signature\s*=\s*['\"]([^'\"]*)['\"]"
+)
 TS_LOAD = re.compile(
     r"(loadData|loadCsv|loadDataFile|loadCsvFile)\s*\(\s*['\"]([^'\"]+)['\"]\s*\)"
 )
@@ -137,3 +143,13 @@ def ts_module_name(text: str, fallback: str) -> str:
         return m.group(1)
     m = TS_DEFAULT.search(text)
     return m.group(1) if m else fallback
+
+
+def rust_signature(text: str) -> str | None:
+    m = RUST_SIGNATURE.search(text)
+    return m.group(1) if m else None
+
+
+def ts_signature(text: str) -> str | None:
+    m = TS_SIGNATURE_VALUE.search(text)
+    return m.group(2) if m else None

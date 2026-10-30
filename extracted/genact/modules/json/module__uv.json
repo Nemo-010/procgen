@@ -39,7 +39,8 @@
   ],
   "kind": "literal",
   "meta": {
-    "declared_name": "uv"
+    "declared_name": "uv",
+    "signature": "uv sync"
   },
   "name": "uv",
   "schema": 1,

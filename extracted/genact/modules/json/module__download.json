@@ -11,7 +11,8 @@
   ],
   "kind": "literal",
   "meta": {
-    "declared_name": "download"
+    "declared_name": "download",
+    "signature": "wget -i downloads.txt"
   },
   "name": "download",
   "schema": 1,

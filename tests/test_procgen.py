@@ -77,6 +77,39 @@ class Base(unittest.TestCase):
         }
 
 
+def make_ps_repo(root: Path) -> None:
+    """A tiny genact-shaped repo exposing a signature and package data."""
+    write(root / "Cargo.toml", '[package]\nname = "psgen"\n')
+    write(root / "data" / "packages.txt", "alpha\nbeta\n")
+    write(root / "data" / "cfiles.txt", "kernel/main.c\nkernel/util.c\n")
+    write(
+        root / "src" / "cargo.rs",
+        'static P: &str = include_str!("../data/packages.txt");\n'
+        'pub struct Cargo;\n'
+        "impl Module for Cargo {\n"
+        "    fn name(&self) -> &'static str { \"cargo\" }\n"
+        "    fn signature(&self) -> String { \"cargo run\".to_string() }\n"
+        "}\n",
+    )
+    write(
+        root / "src" / "cc.rs",
+        'static F: &str = include_str!("../data/cfiles.txt");\n'
+        "pub struct Cc;\n"
+        "impl Module for Cc {\n"
+        "    fn name(&self) -> &'static str { \"cc\" }\n"
+        "    fn signature(&self) -> String { \"gcc app.c\".to_string() }\n"
+        "}\n",
+    )
+    write(
+        root / "src" / "weblog.rs",
+        "pub struct Weblog;\n"
+        "impl Module for Weblog {\n"
+        "    fn name(&self) -> &'static str { \"weblog\" }\n"
+        '    fn signature(&self) -> String { "tail -f /var/log/nginx/access.log".to_string() }\n'
+        "}\n",
+    )
+
+
 class TestExtraction(Base):
     def test_rust_data_and_arrays(self) -> None:
         repo = self.tmp / "repo"
@@ -243,6 +276,63 @@ class TestSafety(Base):
         result = extract_repo(repo)
         emit_repo(result, out, Policy(dry_run=True))
         self.assertFalse(out.exists())
+
+
+class TestPsWordlist(Base):
+    def test_signature_becomes_command_line(self) -> None:
+        repo = self.tmp / "repo"
+        make_ps_repo(repo)
+        result = extract_repo(repo)
+        from procgen.pslist import build_ps_wordlist
+
+        lines = build_ps_wordlist(result.assets, sample=10)
+        self.assertIn("cargo build --release", lines)
+        self.assertIn("cargo run", lines)
+        self.assertIn("tail -f /var/log/nginx/access.log", lines)
+        self.assertTrue(any(l.startswith("cargo install --locked ") for l in lines))
+        self.assertTrue(any(l.startswith("gcc ") and "-c kernel/" in l for l in lines))
+
+    def test_ps_deterministic_and_idempotent(self) -> None:
+        repo = self.tmp / "repo"
+        make_ps_repo(repo)
+        out = self.tmp / "out"
+        from procgen.model import Asset
+        from procgen.pslist import build_ps_wordlist
+        from procgen.store import emit_asset
+
+        r1 = extract_repo(repo)
+        a1 = sorted(set(build_ps_wordlist(r1.assets)))
+        r2 = extract_repo(repo)
+        a2 = sorted(set(build_ps_wordlist(r2.assets)))
+        self.assertEqual(a1, a2)
+
+        asset = Asset(id="legit_ps_linux", kind="ps", name="legit_ps_linux",
+                      source="(test)", items=a1)
+        rep1 = emit_asset(out, asset, Policy())
+        rep2 = emit_asset(out, Asset(id="legit_ps_linux", kind="ps",
+                                     name="legit_ps_linux", source="(test)",
+                                     items=a1), Policy())
+        self.assertIn(rep1.action, ("created", "updated"))
+        self.assertEqual(rep2.action, "unchanged")
+        written = out / "ps" / "wordlists" / "legit_ps_linux.txt"
+        self.assertTrue(written.is_file())
+
+    def test_excludes_windows_signature(self) -> None:
+        repo = self.tmp / "repo"
+        write(repo / "Cargo.toml", '[package]\nname = "w"\n')
+        write(
+            repo / "src" / "bootlog.rs",
+            "pub struct B;\n"
+            "impl Module for B {\n"
+            "    fn name(&self) -> &'static str { \"bootlog\" }\n"
+            '    fn signature(&self) -> String { "bcdedit /set {current} bootlog Yes".to_string() }\n'
+            "}\n",
+        )
+        r = extract_repo(repo)
+        from procgen.pslist import build_ps_wordlist
+
+        lines = build_ps_wordlist(r.assets, sample=5)
+        self.assertFalse(any("bcdedit" in l for l in lines))
 
 
 class TestIdentity(Base):

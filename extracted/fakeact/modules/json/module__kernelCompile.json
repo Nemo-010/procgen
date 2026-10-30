@@ -88,7 +88,8 @@
   ],
   "kind": "literal",
   "meta": {
-    "declared_name": "kernelCompile"
+    "declared_name": "kernelCompile",
+    "signature": "sudo make install"
   },
   "name": "kernelCompile",
   "schema": 1,

@@ -38,7 +38,8 @@
   ],
   "kind": "literal",
   "meta": {
-    "declared_name": "rkhunter"
+    "declared_name": "rkhunter",
+    "signature": "rkhunter --check"
   },
   "name": "rkhunter",
   "schema": 1,

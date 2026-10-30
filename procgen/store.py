@@ -49,7 +49,19 @@ class AssetReport:
 
 
 def _asset_dir(out: Path, asset: Asset) -> Path:
-    return out / "modules" if asset.kind == "literal" else out
+    if asset.kind == "literal":
+        return out / "modules"
+    if asset.kind == "ps":
+        return out / "ps"
+    return out
+
+
+def _key(asset: Asset) -> str:
+    if asset.kind == "literal":
+        return "modules/" + asset.id
+    if asset.kind == "ps":
+        return "ps/" + asset.id
+    return asset.id
 
 
 def _would_change(path: Path, data: bytes) -> bool:
@@ -198,6 +210,8 @@ def existing_ids(out: Path) -> set[str]:
         ids.add(jpath.stem)
     for jpath in (out / "modules" / "json").glob("*.json"):
         ids.add("modules/" + jpath.stem)
+    for jpath in (out / "ps" / "json").glob("*.json"):
+        ids.add("ps/" + jpath.stem)
     return ids
 
 
@@ -225,7 +239,7 @@ def emit_repo(
     for asset in sorted(result.assets.values(), key=lambda a: a.id):
         report = emit_asset(out, asset, policy)
         reports.append(report)
-        produced.add(("modules/" if asset.kind == "literal" else "") + asset.id)
+        produced.add(_key(asset))
 
     # Stale assets: present on disk, no longer produced. Kept, never deleted.
     stale = sorted(
@@ -234,15 +248,12 @@ def emit_repo(
 
     assets_meta = {}
     for asset in sorted(result.assets.values(), key=lambda a: a.id):
-        if asset.kind == "literal":
-            assets_meta["modules/" + asset.id] = _manifest_asset(asset, None)
-        else:
-            assets_meta[asset.id] = _manifest_asset(asset, None)
+        assets_meta[_key(asset)] = _manifest_asset(asset, None)
 
     # Pull merged counts from reports for the manifest.
     by_id = {r.id: r for r in reports}
     for key, entry in assets_meta.items():
-        bare = key.split("/", 1)[1] if key.startswith("modules/") else key
+        bare = key.split("/", 1)[1] if "/" in key else key
         r = by_id.get(bare)
         if r is not None:
             entry["wordlist_count"] = r.merged

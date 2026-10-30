@@ -32,7 +32,8 @@
   ],
   "kind": "literal",
   "meta": {
-    "declared_name": "cryptomining"
+    "declared_name": "cryptomining",
+    "signature": "./cryptominer.sh --gpu all --provider stratum"
   },
   "name": "cryptomining",
   "schema": 1,

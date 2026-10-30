@@ -24,7 +24,8 @@
   ],
   "kind": "literal",
   "meta": {
-    "declared_name": "geminiCli"
+    "declared_name": "geminiCli",
+    "signature": "gemini cli"
   },
   "name": "geminiCli",
   "schema": 1,

@@ -47,7 +47,8 @@
   ],
   "kind": "literal",
   "meta": {
-    "declared_name": "bruteforce"
+    "declared_name": "bruteforce",
+    "signature": "./bruteforce.sh ./hashes.txt"
   },
   "name": "bruteforce",
   "schema": 1,

@@ -11,7 +11,8 @@
   ],
   "kind": "literal",
   "meta": {
-    "declared_name": "memdump"
+    "declared_name": "memdump",
+    "signature": "memdump -k -v"
   },
   "name": "memdump",
   "schema": 1,

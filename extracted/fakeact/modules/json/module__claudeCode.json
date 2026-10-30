@@ -31,7 +31,8 @@
   ],
   "kind": "literal",
   "meta": {
-    "declared_name": "claudeCode"
+    "declared_name": "claudeCode",
+    "signature": "claude code"
   },
   "name": "claudeCode",
   "schema": 1,

@@ -45,7 +45,8 @@
   ],
   "kind": "literal",
   "meta": {
-    "declared_name": "nextBuild"
+    "declared_name": "nextBuild",
+    "signature": "next build"
   },
   "name": "nextBuild",
   "schema": 1,

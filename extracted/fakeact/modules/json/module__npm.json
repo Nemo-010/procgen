@@ -106,7 +106,8 @@
   ],
   "kind": "literal",
   "meta": {
-    "declared_name": "npm"
+    "declared_name": "npm",
+    "signature": "npm install"
   },
   "name": "npm",
   "schema": 1,

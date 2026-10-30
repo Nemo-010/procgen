@@ -31,7 +31,8 @@
   ],
   "kind": "literal",
   "meta": {
-    "declared_name": "dockerBuild"
+    "declared_name": "dockerBuild",
+    "signature": "docker build -t image ."
   },
   "name": "dockerBuild",
   "schema": 1,

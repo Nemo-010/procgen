@@ -63,7 +63,8 @@
   ],
   "kind": "literal",
   "meta": {
-    "declared_name": "wpt"
+    "declared_name": "wpt",
+    "signature": "wpt run -f --browser-version=\"1.0\" --processes=16"
   },
   "name": "wpt",
   "schema": 1,

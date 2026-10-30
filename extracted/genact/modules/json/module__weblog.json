@@ -11,7 +11,8 @@
   ],
   "kind": "literal",
   "meta": {
-    "declared_name": "weblog"
+    "declared_name": "weblog",
+    "signature": "tail -f /var/log/nginx/access.log"
   },
   "name": "weblog",
   "schema": 1,

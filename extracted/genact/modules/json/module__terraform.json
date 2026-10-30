@@ -25,7 +25,8 @@
   ],
   "kind": "literal",
   "meta": {
-    "declared_name": "terraform"
+    "declared_name": "terraform",
+    "signature": "terraform --check"
   },
   "name": "terraform",
   "schema": 1,

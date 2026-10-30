@@ -10,7 +10,8 @@
   ],
   "kind": "literal",
   "meta": {
-    "declared_name": "docker_image_rm"
+    "declared_name": "docker_image_rm",
+    "signature": "docker image rm 04880416f1bf"
   },
   "name": "docker_image_rm",
   "schema": 1,

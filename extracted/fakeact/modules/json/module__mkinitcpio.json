@@ -39,7 +39,8 @@
   ],
   "kind": "literal",
   "meta": {
-    "declared_name": "mkinitcpio"
+    "declared_name": "mkinitcpio",
+    "signature": "mkinitcpio --generate /boot/initramfs-custom2.img --kernel 5.7.12-arch1-1"
   },
   "name": "mkinitcpio",
   "schema": 1,

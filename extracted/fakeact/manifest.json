@@ -840,7 +840,8 @@
       "count": 47,
       "kind": "literal",
       "meta": {
-        "declared_name": "ansible"
+        "declared_name": "ansible",
+        "signature": "ansible-playbook"
       },
       "name": "ansible",
       "source": "src/modules/ansible.ts",
@@ -851,7 +852,8 @@
       "count": 12,
       "kind": "literal",
       "meta": {
-        "declared_name": "bootlog"
+        "declared_name": "bootlog",
+        "signature": "bcdedit /set {current} bootlog Yes && shutdown /r"
       },
       "name": "bootlog",
       "source": "src/modules/bootlog.ts",
@@ -862,7 +864,8 @@
       "count": 17,
       "kind": "literal",
       "meta": {
-        "declared_name": "botnet"
+        "declared_name": "botnet",
+        "signature": "./botnet.sh"
       },
       "name": "botnet",
       "source": "src/modules/botnet.ts",
@@ -873,7 +876,8 @@
       "count": 42,
       "kind": "literal",
       "meta": {
-        "declared_name": "bruteforce"
+        "declared_name": "bruteforce",
+        "signature": "./bruteforce.sh ./hashes.txt"
       },
       "name": "bruteforce",
       "source": "src/modules/bruteforce.ts",
@@ -884,7 +888,8 @@
       "count": 11,
       "kind": "literal",
       "meta": {
-        "declared_name": "cargo"
+        "declared_name": "cargo",
+        "signature": "cargo run"
       },
       "name": "cargo",
       "source": "src/modules/cargo.ts",
@@ -895,7 +900,8 @@
       "count": 57,
       "kind": "literal",
       "meta": {
-        "declared_name": "cc"
+        "declared_name": "cc",
+        "signature": "gcc app.c"
       },
       "name": "cc",
       "source": "src/modules/cc.ts",
@@ -906,7 +912,8 @@
       "count": 26,
       "kind": "literal",
       "meta": {
-        "declared_name": "claudeCode"
+        "declared_name": "claudeCode",
+        "signature": "claude code"
       },
       "name": "claudeCode",
       "source": "src/modules/claudeCode.ts",
@@ -917,7 +924,8 @@
       "count": 13,
       "kind": "literal",
       "meta": {
-        "declared_name": "composer"
+        "declared_name": "composer",
+        "signature": "composer install"
       },
       "name": "composer",
       "source": "src/modules/composer.ts",
@@ -928,7 +936,8 @@
       "count": 25,
       "kind": "literal",
       "meta": {
-        "declared_name": "cryptomining"
+        "declared_name": "cryptomining",
+        "signature": "./cryptominer.sh --gpu all --provider stratum"
       },
       "name": "cryptomining",
       "source": "src/modules/cryptomining.ts",
@@ -939,7 +948,8 @@
       "count": 26,
       "kind": "literal",
       "meta": {
-        "declared_name": "dockerBuild"
+        "declared_name": "dockerBuild",
+        "signature": "docker build -t image ."
       },
       "name": "dockerBuild",
       "source": "src/modules/dockerBuild.ts",
@@ -950,7 +960,8 @@
       "count": 9,
       "kind": "literal",
       "meta": {
-        "declared_name": "dockerImageRm"
+        "declared_name": "dockerImageRm",
+        "signature": "docker image rm 04880416f1bf"
       },
       "name": "dockerImageRm",
       "source": "src/modules/dockerImageRm.ts",
@@ -961,7 +972,8 @@
       "count": 16,
       "kind": "literal",
       "meta": {
-        "declared_name": "download"
+        "declared_name": "download",
+        "signature": "wget -i downloads.txt"
       },
       "name": "download",
       "source": "src/modules/download.ts",
@@ -972,7 +984,8 @@
       "count": 50,
       "kind": "literal",
       "meta": {
-        "declared_name": "ganache"
+        "declared_name": "ganache",
+        "signature": "ganache-cli"
       },
       "name": "ganache",
       "source": "src/modules/ganache.ts",
@@ -983,7 +996,8 @@
       "count": 19,
       "kind": "literal",
       "meta": {
-        "declared_name": "geminiCli"
+        "declared_name": "geminiCli",
+        "signature": "gemini cli"
       },
       "name": "geminiCli",
       "source": "src/modules/geminiCli.ts",
@@ -994,7 +1008,8 @@
       "count": 78,
       "kind": "literal",
       "meta": {
-        "declared_name": "julia"
+        "declared_name": "julia",
+        "signature": "julia --threads auto --project ."
       },
       "name": "julia",
       "source": "src/modules/julia.ts",
@@ -1005,7 +1020,8 @@
       "count": 83,
       "kind": "literal",
       "meta": {
-        "declared_name": "kernelCompile"
+        "declared_name": "kernelCompile",
+        "signature": "sudo make install"
       },
       "name": "kernelCompile",
       "source": "src/modules/kernelCompile.ts",
@@ -1016,7 +1032,8 @@
       "count": 37,
       "kind": "literal",
       "meta": {
-        "declared_name": "memdump"
+        "declared_name": "memdump",
+        "signature": "memdump -k -v"
       },
       "name": "memdump",
       "source": "src/modules/memdump.ts",
@@ -1027,7 +1044,8 @@
       "count": 34,
       "kind": "literal",
       "meta": {
-        "declared_name": "mkinitcpio"
+        "declared_name": "mkinitcpio",
+        "signature": "mkinitcpio --generate /boot/initramfs-custom2.img --kernel 5.7.12-arch1-1"
       },
       "name": "mkinitcpio",
       "source": "src/modules/mkinitcpio.ts",
@@ -1038,7 +1056,8 @@
       "count": 40,
       "kind": "literal",
       "meta": {
-        "declared_name": "nextBuild"
+        "declared_name": "nextBuild",
+        "signature": "next build"
       },
       "name": "nextBuild",
       "source": "src/modules/nextBuild.ts",
@@ -1049,7 +1068,8 @@
       "count": 101,
       "kind": "literal",
       "meta": {
-        "declared_name": "npm"
+        "declared_name": "npm",
+        "signature": "npm install"
       },
       "name": "npm",
       "source": "src/modules/npm.ts",
@@ -1060,7 +1080,8 @@
       "count": 48,
       "kind": "literal",
       "meta": {
-        "declared_name": "pip"
+        "declared_name": "pip",
+        "signature": "pip install -r requirements.txt"
       },
       "name": "pip",
       "source": "src/modules/pip.ts",
@@ -1071,7 +1092,8 @@
       "count": 44,
       "kind": "literal",
       "meta": {
-        "declared_name": "rkhunter"
+        "declared_name": "rkhunter",
+        "signature": "rkhunter --check"
       },
       "name": "rkhunter",
       "source": "src/modules/rkhunter.ts",
@@ -1082,7 +1104,8 @@
       "count": 24,
       "kind": "literal",
       "meta": {
-        "declared_name": "simcity"
+        "declared_name": "simcity",
+        "signature": "./start-sumcity.sh"
       },
       "name": "simcity",
       "source": "src/modules/simcity.ts",
@@ -1093,7 +1116,8 @@
       "count": 30,
       "kind": "literal",
       "meta": {
-        "declared_name": "terraform"
+        "declared_name": "terraform",
+        "signature": "terraform --check"
       },
       "name": "terraform",
       "source": "src/modules/terraform.ts",
@@ -1104,12 +1128,22 @@
       "count": 12,
       "kind": "literal",
       "meta": {
-        "declared_name": "weblog"
+        "declared_name": "weblog",
+        "signature": "tail -f /var/log/nginx/access.log"
       },
       "name": "weblog",
       "source": "src/modules/weblog.ts",
       "unique": 12,
       "wordlist_count": 11
+    },
+    "ps/legit_ps_linux": {
+      "count": 381,
+      "kind": "ps",
+      "meta": {},
+      "name": "legit_ps_linux",
+      "source": "(derived: signatures + data)",
+      "unique": 381,
+      "wordlist_count": 381
     }
   },
   "repo": {
@@ -1121,9 +1155,9 @@
   "schema": 1,
   "stale": [],
   "summary": {
-    "assets": 93,
-    "items": 53685,
-    "wordlist_items": 67446
+    "assets": 94,
+    "items": 54066,
+    "wordlist_items": 67827
   },
   "warnings": []
 }

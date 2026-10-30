@@ -62,7 +62,8 @@
   ],
   "kind": "literal",
   "meta": {
-    "declared_name": "cc"
+    "declared_name": "cc",
+    "signature": "gcc app.c"
   },
   "name": "cc",
   "schema": 1,

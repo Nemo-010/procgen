@@ -18,7 +18,8 @@
   ],
   "kind": "literal",
   "meta": {
-    "declared_name": "composer"
+    "declared_name": "composer",
+    "signature": "composer install"
   },
   "name": "composer",
   "schema": 1,

@@ -22,7 +22,8 @@
   ],
   "kind": "literal",
   "meta": {
-    "declared_name": "botnet"
+    "declared_name": "botnet",
+    "signature": "./botnet.sh"
   },
   "name": "botnet",
   "schema": 1,

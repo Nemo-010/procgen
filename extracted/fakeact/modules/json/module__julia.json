@@ -83,7 +83,8 @@
   ],
   "kind": "literal",
   "meta": {
-    "declared_name": "julia"
+    "declared_name": "julia",
+    "signature": "julia --threads auto --project ."
   },
   "name": "julia",
   "schema": 1,

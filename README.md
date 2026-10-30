@@ -21,15 +21,34 @@ extracted/
     raw/<id>.txt              # faithful current extraction, source order
     json/<id>.json            # structured: metadata + items + hashes
     modules/                  # same three views, per generator module
+  ps/
+    legit_ps_linux.txt       # derived legit-process command-line wordlist
 ```
 
-Three asset kinds are recovered:
+Four asset kinds are recovered:
 
 | kind      | source                                   | example                         |
 |-----------|------------------------------------------|---------------------------------|
 | `data`    | `include_str!`, `loadData`/`loadCsv`      | `data/packages.txt`             |
 | `array`   | `static NAME: &[&str] = &[..]`, `const N = [..]` | `FLAGS_WARN`, `HTTP_CODES` |
 | `literal` | every string literal in a module body     | `"Sending build context"`        |
+| `ps`      | module signatures + grounded expansions   | `cargo install --locked memchr`  |
+
+## The `ps` wordlist
+
+`ps/legit_ps_linux.txt` is a Linux process allowlist in the style of
+[pkgforge-security/Wordlists](https://github.com/pkgforge-security/Wordlists)'s
+`Misc/legit_ps_linux.txt`: one full command line per line. It is built from two
+faithful grounds — each module's `signature()` (the exact command line it
+impersonates) and deterministic expansions that combine that signature with the
+module's own extracted vocabulary (packages, C files, compiler flags, docker
+tags, terraform resources, Julia packages, …). Modules without a matching
+profile still contribute their signature verbatim, so new upstream modules never
+vanish from the list. Windows-only invocations are dropped.
+
+Expansion is deterministic: large token lists are sampled with a fixed evenly
+spaced stride (`--ps-sample N`, default 25; `0` keeps everything), so the same
+extraction always yields the same file. `--no-ps` skips it.
 
 ## The guarantees
 
@@ -72,6 +91,8 @@ timestamps). A second run over unchanged input writes zero files.
 --shrink-floor N     only guard above this many prior items (default 5)
 --prune              let wordlists shrink to the current parse
 --no-literals        skip the per-module string-literal corpus
+--no-ps              skip the derived legit_ps_linux wordlist
+--ps-sample N        tokens sampled per data list for the ps wordlist (0 = all)
 --dry-run            report only, write nothing
 --quiet              print just the summary
 ```

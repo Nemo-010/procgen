@@ -23,7 +23,8 @@
   ],
   "kind": "literal",
   "meta": {
-    "declared_name": "ansible"
+    "declared_name": "ansible",
+    "signature": "ansible-playbook"
   },
   "name": "ansible",
   "schema": 1,
