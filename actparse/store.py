@@ -16,7 +16,6 @@ from pathlib import Path
 from .model import Asset, RepoResult
 from .util import (
     atomic_write,
-    escape_for_line,
     json_bytes,
     sha256_bytes,
     text_bytes,
